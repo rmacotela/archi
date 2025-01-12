@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="ArchimateToBpmnMapping" id="id-eac44a4a8ea14d4c8a45398ec233b4ec" version="5.0.0">
+  <folder name="Strategy" id="id-4c489386fe5c4e48acf28ab064b7bbca" type="strategy"/>
+  <folder name="Business" id="id-a6870cea51664a97b0ca568bde85bb31" type="business">
+    <folder name="BPMN" id="id-1c3b4f2b766e41afac0f49e3ad1a0a7b">
+      <folder name="1. SubProcesses" id="id-4e1bc086fd8943efbad184938b6c547b">
+        <element xsi:type="archimate:BusinessProcess" name="Collapsed SubProcess" id="id-6f0b45c0102a4d6ebe99720d3cd26b74" profiles="id-9ebb6460f0eb432294c0f6b67808be04"/>
+        <element xsi:type="archimate:BusinessProcess" name="SubProcess " id="id-0e64303687924c7e9086a0229f3a8821" profiles="id-a9315952e12a4be7bd94977b16ca336b">
+          <property key="Marker" value="Ad hoc"/>
+        </element>
+      </folder>
+      <folder name="2. Tasks" id="id-79c7b426038f4f378efa23b328f21fe0">
+        <element xsi:type="archimate:BusinessFunction" name="Abstract Task" id="id-ee610e76a3bc42e78d11431ab899554c" profiles="id-2c2ef20ed1cd4330bad2a6468529b6b0"/>
+        <element xsi:type="archimate:BusinessFunction" name="Business Rule Task" id="id-5f54886a23b44aada0f316950a2cf67a" profiles="id-7ed62ed0360c4d849b5a4bcd225f2820"/>
+        <element xsi:type="archimate:BusinessFunction" name="Manual Task" id="id-92f3cfc97aea42c9a04710e6f380d7b4" profiles="id-007c2dabf49a45e08f7729bf74e294c3"/>
+        <element xsi:type="archimate:BusinessFunction" name="Receive Task" id="id-8e031f79eee54f1bb5b800656930969a" profiles="id-c412f3912f75460e850e5bcde326196e"/>
+        <element xsi:type="archimate:BusinessFunction" name="Script Task" id="id-66645b7499d64a27a8b0f8c544006ec2" profiles="id-885fdb5e6c864b32a631bd37a7b2e107"/>
+        <element xsi:type="archimate:BusinessFunction" name="Send Task" id="id-caf4f41d81fd436bb875d22e26395e3a" profiles="id-e5ec4aa8b9664796884b0b1727c3a502">
+          <property/>
+        </element>
+        <element xsi:type="archimate:BusinessFunction" name="Service Task" id="id-ade2550a4e1f460398b04582e3bb667c" profiles="id-04386f53c5cf49879c3928c92a94a480"/>
+        <element xsi:type="archimate:BusinessFunction" name="User Task" id="id-c16c22853c254b6799167cac3dc0b2d0" profiles="id-8aba5d08d9ac401db805eb5542eebdce"/>
+        <element xsi:type="archimate:BusinessFunction" name="Call Activity" id="id-141eac354f324991a921c78f6a1363d2" profiles="id-2c2ef20ed1cd4330bad2a6468529b6b0"/>
+      </folder>
+      <folder name="4. Gateways" id="id-c9ec7b269cc841109134eddbab8e49db">
+        <element xsi:type="archimate:BusinessProcess" name="Gateway Abstract" id="id-62c9bfa099474910be518522ff8b8690" profiles="id-0d67a0c8b9594e598393e747852e12ab"/>
+        <element xsi:type="archimate:BusinessProcess" name="Gateway Complex" id="id-0884dc55534f48b2b6527a56a5be3607" profiles="id-76382656d8a746d2ba1812b77884fca1"/>
+        <element xsi:type="archimate:BusinessProcess" name="Gateway Event Based" id="id-d6c0a1ec221a4db68c424ccc00e9c7c1" profiles="id-45adfd51f2de4e3191362de3f8d94c4a"/>
+        <element xsi:type="archimate:BusinessProcess" name="Gateway Or" id="id-9975c10255674b3b8826b7ca43824f6c" profiles="id-0207e60d91494b41a311105771699c32"/>
+        <element xsi:type="archimate:BusinessProcess" name="Gateway Parallel" id="id-d73067e8685b4648a526676b41c846a2" profiles="id-e04dcdcd84ac4d4fb92c20d20f2362a6"/>
+        <element xsi:type="archimate:BusinessProcess" name="Gateway Xor" id="id-b6523582fdb643e3862a8f9be0b0a4f3" profiles="id-f9aacf1f63a64a0ebd83923bdc76bd38"/>
+      </folder>
+      <folder name="5. Data" id="id-b0b0c8ba1ef14b6592c110af6fffb75b">
+        <element xsi:type="archimate:BusinessObject" name="Data Input" id="id-6408fb35383245be91fa960b127ef34b" profiles="id-ba82e6992f0e46e693c067303c891741"/>
+        <element xsi:type="archimate:BusinessObject" name="Data Object" id="id-0fee4051d92a4c51b0be06e4d7a5c72e" profiles="id-60e22f9d5c2a48a6990e8b00ea21e7e3"/>
+        <element xsi:type="archimate:BusinessObject" name="Data Output" id="id-9f941f4e9cc745fa98852bb829f91465" profiles="id-228d8cc6add74291861c1857a01f3a7c"/>
+        <element xsi:type="archimate:BusinessObject" name="Data Store" id="id-a21259fd94504fa6bb693eb47dfaaaac" profiles="id-aceb132c34c5454c80be3849b362a45c"/>
+      </folder>
+      <folder name="6. Pools &amp; Lanes" id="id-b226044ef4134bc28083ca27c196faaa">
+        <element xsi:type="archimate:BusinessRole" name="Lane A" id="id-375b4aa17f77499b84223951d997ceca" profiles="id-d9353f0ad2854fceade3258cf325a3fc"/>
+        <element xsi:type="archimate:BusinessRole" name="Lane B" id="id-60456649079a4674b3e8352771d59bcf" profiles="id-d9353f0ad2854fceade3258cf325a3fc"/>
+        <element xsi:type="archimate:BusinessActor" name="Pool" id="id-75e2e64842cf4460bff90e2758a9fda3" profiles="id-19c70ac9bb8d4dda81557b395695f35d"/>
+      </folder>
+      <folder name="3. Events" id="id-558ecca6d94745bdba92e0d1abe594b8">
+        <element xsi:type="archimate:BusinessEvent" name="End Event Cancel" id="id-3a938ce4c5674f459fe03b9d6f4bbb30" profiles="id-2446882f0e4943eabc5edc1a3c106caa"/>
+        <element xsi:type="archimate:BusinessEvent" name="End Event Compensation" id="id-bcc461352d744810aa3d429514b12844" profiles="id-d89bdefdb15442e3b29f711305b35a39"/>
+        <element xsi:type="archimate:BusinessEvent" name="End Event Error" id="id-bc0dea09464946c98d9c0e6833a29c8f" profiles="id-20ffd5a69838403197c1e7d6ca0366b8"/>
+        <element xsi:type="archimate:BusinessEvent" name="End Event Escalation" id="id-7ef641c0fc004a448200af3325fd37e8" profiles="id-d7e67c2067f64c4fa2b71255a886bb6c"/>
+        <element xsi:type="archimate:BusinessEvent" name="End Event Link" id="id-6773178a67124cefaad34b37feef088c" profiles="id-c55fb4f5a3c44978977002bd33a85f52"/>
+        <element xsi:type="archimate:BusinessEvent" name="End Event Message" id="id-d069778574214f1eacd573fbf9482c83" profiles="id-5a5f978a3cd84e588a58bc8498a49bc5"/>
+        <element xsi:type="archimate:BusinessEvent" name="End Event Multiple" id="id-decd3329ecf0481d810a63aab4b07fae" profiles="id-a379edac183d4b4a8d93b0a287cb9582"/>
+        <element xsi:type="archimate:BusinessEvent" name="End Event None" id="id-34da42cb60bc43e59354848aa79b654b" profiles="id-e4ee969f501542ab9be557fffd16d071"/>
+        <element xsi:type="archimate:BusinessEvent" name="End Event Signal" id="id-13bdc8891e2d4affb2497f276ea0c359" profiles="id-f0b11e1992dd466bb5f829009b4c350b"/>
+        <element xsi:type="archimate:BusinessEvent" name="End Event Terminate" id="id-ee8166c7af3c498597d0bb0a38aadfa9" profiles="id-27f9fe0939914e0ab92a61048d01ee8e"/>
+        <element xsi:type="archimate:BusinessEvent" name="Ini Event Condition" id="id-5f50434adec64d969ef9bccf0b370c26" profiles="id-ae1dea61f403491ba8a67c8bf02eaed2"/>
+        <element xsi:type="archimate:BusinessEvent" name="Ini Event Escalation" id="id-0febf798ace74524a10f24efc2ef12ea" profiles="id-cb2ed1383ba148fca9345a106bb02c19"/>
+        <element xsi:type="archimate:BusinessEvent" name="Ini Event Message" id="id-0c19896bd20c4c27aa9a21d5fc761b46" profiles="id-278286aa95ed4604ab725e672cdcdcbe"/>
+        <element xsi:type="archimate:BusinessEvent" name="Ini Event Multiple" id="id-c1815f049b004f88b37a2c851149542b" profiles="id-0bd3890b1c7c476fa7ea32a24b868d32"/>
+        <element xsi:type="archimate:BusinessEvent" name="Ini Event Parallel" id="id-47406be35022446ea4fea3f48be44a71" profiles="id-a972d3da470f44d8a801e78fea009034"/>
+        <element xsi:type="archimate:BusinessEvent" name="Ini Event Signal" id="id-3f6d35d8292646d5863cb87f6de714f0" profiles="id-b8113f13435b40038a9ca40ba8878425"/>
+        <element xsi:type="archimate:BusinessEvent" name="Ini Event Timer" id="id-63a038baa488455cbf405055e152722a" profiles="id-a43debdd03c34cc3959223efaf321f67"/>
+        <element xsi:type="archimate:BusinessEvent" name="Int Event Cancel" id="id-119433f473fb4c37bd626e8a829e85c6" profiles="id-30e93153ead740d7871086b413814815"/>
+        <element xsi:type="archimate:BusinessEvent" name="Int Event Compensation" id="id-1dd81c1a2bed459a90456ed164f37275" profiles="id-241e5146a11d4f8fb9685640b318dfc5"/>
+        <element xsi:type="archimate:BusinessEvent" name="Int Event Condition" id="id-291429223ba54b7cabaf85b24c7140d9" profiles="id-768416e91222498d8e6c963b93635fd5"/>
+        <element xsi:type="archimate:BusinessEvent" name="Int Event Error" id="id-36bd2c57c1a34beca3ef47c3b8129f43" profiles="id-ee8d3955fc57403684f1874d98828c5d"/>
+        <element xsi:type="archimate:BusinessEvent" name="Int Event Escalation" id="id-1664b5b43b1d447ab10daca366ee6f66" profiles="id-8bd6dfd6665a47b289119c4dab30915b"/>
+        <element xsi:type="archimate:BusinessEvent" name="Int Event Link" id="id-e6dd1e063640449abe355fd57af86493" profiles="id-cf11b9a684384f56a2e0d24bd7461a9f"/>
+        <element xsi:type="archimate:BusinessEvent" name="Int Event Message" id="id-8a57e41e4211485d9cb158b1879bd5ba" profiles="id-40054a7f37204171b55d6df47224879a"/>
+        <element xsi:type="archimate:BusinessEvent" name="Int Event Multiple" id="id-55c4f8f8b6bc42b081dbe94bccf1d284" profiles="id-a61938f8d47047c39acb741c73e56409"/>
+        <element xsi:type="archimate:BusinessEvent" name="Int Event None" id="id-5c9d215d8c3f4911b351f2bd7f2446de" profiles="id-c53d40fbdf5b4f02a3e15ee38d0ff9ac"/>
+        <element xsi:type="archimate:BusinessEvent" name="Int Event Parallel" id="id-f7f48beff1c145a29feaeb18c5f562c3" profiles="id-59c39e76bfdf4361896e9329362735d5"/>
+        <element xsi:type="archimate:BusinessEvent" name="Int Event Signal" id="id-211f8c8c01fb4fd49f6cdfcb0eda0b52" profiles="id-a052fa66440a44b0bee072aa1297e9c3"/>
+        <element xsi:type="archimate:BusinessEvent" name="Int Event Timer" id="id-1087b0e368994c20baf8139494c005ba" profiles="id-bb27b816acec4aa7a5c38a0d296465dd"/>
+        <element xsi:type="archimate:BusinessEvent" name="Sni Event Condition" id="id-b012dfe130f2474fbc9d84ab9c6be6bd" profiles="id-c47d18232bed4e3d84a3c87168df4971"/>
+        <element xsi:type="archimate:BusinessEvent" name="Sni Event Escalation" id="id-3274e8c147b94ecdb9d86af023dec536" profiles="id-c9a9f470c1e84d6b9d93d3695ef58882"/>
+        <element xsi:type="archimate:BusinessEvent" name="Sni Event Message" id="id-572f0fa937504fa69a1f13bf8a92e81b" profiles="id-c23349024ad740069518db1c73817ab7"/>
+        <element xsi:type="archimate:BusinessEvent" name="Sni Event Multiple" id="id-e2c8d78e95ab40fa9d22d361d9dd3326" profiles="id-669e87b1a0e5449cbb08520a4e223ce8"/>
+        <element xsi:type="archimate:BusinessEvent" name="Sni Event Parallel" id="id-77f8dc98aa704c43a0bc77c74ed3d062" profiles="id-320d697ff50d421ba8890308ff98937e"/>
+        <element xsi:type="archimate:BusinessEvent" name="Sni Event Signal" id="id-6c4a1079dae1451cbe4b33c553df1ddb" profiles="id-c5380fe7c1724feda70ff5d9d9b26140"/>
+        <element xsi:type="archimate:BusinessEvent" name="Sni Event Timer" id="id-1b6a959512cc48339b7c063a794aa0b9" profiles="id-a191f5a34668415795da11e903e1d4ac"/>
+        <element xsi:type="archimate:BusinessEvent" name="StartEventCompensation" id="id-1b959dee02c24d46ad21c6d0752c82de" profiles="id-71fbef7eec644c5f80176847d14c977f"/>
+        <element xsi:type="archimate:BusinessEvent" name="StartEventCondition" id="id-5b57cef9d13d4b8eb994da91dddb7d72" profiles="id-3a30465f59dc4d15acc55ac247b3bfb0"/>
+        <element xsi:type="archimate:BusinessEvent" name="StartEventError" id="id-4b0ec6e0f7b64461b6f985b5ef5e2a1f" profiles="id-6046064279a14849a1626d8317e9e7a8"/>
+        <element xsi:type="archimate:BusinessEvent" name="StartEventEscalation" id="id-8971874a75a74bed99231119108b1855" profiles="id-22f9c4d8a4e447f383a782dad6a5e89c"/>
+        <element xsi:type="archimate:BusinessEvent" name="Start Event Message" id="id-02966c06dd32457186f3adcea451c7ad" profiles="id-d17fd71cdeca4a9b948d4edf30ad79fa"/>
+        <element xsi:type="archimate:BusinessEvent" name="Start Event Multiple" id="id-9ffe583155a8473aa0ccdd9a9f9bf30e" profiles="id-0ae7499b509d4c6db87bd92ca0e4fa5e"/>
+        <element xsi:type="archimate:BusinessEvent" name="StartEventNone" id="id-0cad3d0893f34b9fb5dffc46acbfc54a" profiles="id-4c62be24f6b941489bc5a5604120936b"/>
+        <element xsi:type="archimate:BusinessEvent" name="Start Event Timer" id="id-4ea898b2cd4046bdb13deb841d4ba782" profiles="id-a964d57c6b9e41d3b501a13ef74cc16e"/>
+        <element xsi:type="archimate:BusinessEvent" name="Throw Event Compensation" id="id-aa5f80683fbb4c5981b4e0b091ccfe87" profiles="id-980847346a9448e2a63d9f4410fa46b5"/>
+        <element xsi:type="archimate:BusinessEvent" name="ThrowEvent Escalation" id="id-b7634a5e8c9e4a8e9d4ba0c2f92e5b1d" profiles="id-3de3678d331142538387cecb763f1016"/>
+        <element xsi:type="archimate:BusinessEvent" name="Throw Event Link" id="id-c4eb1989fdb04fbebdd6fe95ce46f7a3" profiles="id-7ae2fc5fc9374269a67516680333b6f2"/>
+        <element xsi:type="archimate:BusinessEvent" name="Throw Event Message" id="id-01348441fb21488aa8aec3e0b4825b19" profiles="id-c36f52db36e646ba9c0091845c14dd8d"/>
+        <element xsi:type="archimate:BusinessEvent" name="Throw Event Multiple" id="id-e87385dd7be14735ad7f30929f8527eb" profiles="id-30fd602f9a8e4b0583639be93b60a9aa"/>
+        <element xsi:type="archimate:BusinessEvent" name="Throw Event Signal" id="id-1aad97feaf264dba8d5463b104a876ec" profiles="id-f4bb6eb1228242bda8386ff8473700a5"/>
+      </folder>
+    </folder>
+  </folder>
+  <folder name="Application" id="id-d2c5628e205d4214a1f91954ddcea220" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-6d75220fcd68409e8591efd997c53061" type="technology"/>
+  <folder name="Motivation" id="id-977f3bc94ad84e34be22162a6581b2c5" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-4f00fe4fc3734d658d9ec2a4b8f50702" type="implementation_migration"/>
+  <folder name="Other" id="id-84f951de77f04037991c17d7fcb0aafd" type="other">
+    <element xsi:type="archimate:Junction" name="Junction" id="id-38a780d00e2840d99ab8f06587e653cf">
+      <property key="Gateway" value="Parallel"/>
+    </element>
+    <element xsi:type="archimate:Junction" name="Junction" id="id-35be12da376d430e962e69bf1af0b0c6" type="or">
+      <property key="Gateway" value="Or"/>
+      <property key="Gateway" value="Xor"/>
+      <property key="Gateway" value="Event Based"/>
+      <property key="Gateway" value="Complex"/>
+    </element>
+  </folder>
+  <folder name="Relations" id="id-ce592ec499874c168e224014315a4258" type="relations">
+    <element xsi:type="archimate:AssignmentRelationship" id="id-dea758f1af6c4db6bf1f893fc76e5fb4" source="id-75e2e64842cf4460bff90e2758a9fda3" target="id-375b4aa17f77499b84223951d997ceca"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-55b8a615fd6044d38970eb14bb34274d" source="id-75e2e64842cf4460bff90e2758a9fda3" target="id-60456649079a4674b3e8352771d59bcf"/>
+  </folder>
+  <folder name="Views" id="id-6b57d01afdb3497cad04041d64b05ef2" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="3. Events" id="id-3192d4dd4f3d4cb291f277779766a92f">
+      <child xsi:type="archimate:DiagramObject" id="id-db42cf8553bb4838876b758556ebbacf" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-3a938ce4c5674f459fe03b9d6f4bbb30">
+        <bounds x="36" y="300" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ea4c66fa1218451fa8ae548982cb53e9" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-bcc461352d744810aa3d429514b12844">
+        <bounds x="150" y="300" width="68" height="103"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-8faaff818efe4740b08eb4f02d9e2da3" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-bc0dea09464946c98d9c0e6833a29c8f">
+        <bounds x="259" y="300" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-092eb7bba06740139583e84d3df8516d" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-7ef641c0fc004a448200af3325fd37e8">
+        <bounds x="367" y="300" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-18544c13ce6244038754969c8719b029" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-6773178a67124cefaad34b37feef088c">
+        <bounds x="36" y="415" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-49a7585bd812417581580fc266379c3d" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-d069778574214f1eacd573fbf9482c83">
+        <bounds x="150" y="415" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-2e971ea3ca2c43daa1628af492936cc8" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-decd3329ecf0481d810a63aab4b07fae">
+        <bounds x="259" y="415" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ed2c68460e3e4bb8920c7c131be23458" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-34da42cb60bc43e59354848aa79b654b">
+        <bounds x="367" y="415" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-8e471ccae0e9469d9137c5d400f3f255" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-13bdc8891e2d4affb2497f276ea0c359">
+        <bounds x="36" y="534" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-50b9e9283b9942038671c0aac22f1d24" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-ee8166c7af3c498597d0bb0a38aadfa9">
+        <bounds x="150" y="534" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-a65615c18a544a41a2f84a06944e3f6e" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-02966c06dd32457186f3adcea451c7ad">
+        <bounds x="150" y="168" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f9392273a95d49918f1753e4d7ca3c99" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-9ffe583155a8473aa0ccdd9a9f9bf30e">
+        <bounds x="259" y="168" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e87a242b196a4b7c994204f1b703703c" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-f7f48beff1c145a29feaeb18c5f562c3">
+        <bounds x="672" y="144" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-1d7111513cd344d58e3890ed7684ac14" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-119433f473fb4c37bd626e8a829e85c6">
+        <bounds x="564" y="36" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f1f10b66ad754e76b5610480ca5d811c" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-1dd81c1a2bed459a90456ed164f37275">
+        <bounds x="672" y="36" width="68" height="109"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-86dd30805cfe4935a819acec8b786e9e" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-291429223ba54b7cabaf85b24c7140d9">
+        <bounds x="564" y="144" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b71f2e46efdd4e8c8a81ddad5c35269d" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-36bd2c57c1a34beca3ef47c3b8129f43">
+        <bounds x="768" y="36" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-1912f3f07fb443a491bbf1159e194bab" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-1664b5b43b1d447ab10daca366ee6f66">
+        <bounds x="864" y="36" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f7c7978cd4bd4bc1ad785c021f99d792" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-211f8c8c01fb4fd49f6cdfcb0eda0b52">
+        <bounds x="768" y="144" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ba02b1a87d3c46f3b3e59a670b844b10" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-1087b0e368994c20baf8139494c005ba">
+        <bounds x="864" y="144" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-40dfd0de28794705b62b963c0b963c2e" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-8a57e41e4211485d9cb158b1879bd5ba">
+        <bounds x="564" y="276" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-14ed16cd9a784712905d633c13aa20b1" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-e6dd1e063640449abe355fd57af86493">
+        <bounds x="672" y="276" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-a42bc072c7d74dd1890d44fdef21c08d" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-55c4f8f8b6bc42b081dbe94bccf1d284">
+        <bounds x="768" y="276" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-aee2847066ff46c8a1d70f3df7b5cfd2" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-5c9d215d8c3f4911b351f2bd7f2446de">
+        <bounds x="864" y="276" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-6bbfae511893432a861013712e82b4cb" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-aa5f80683fbb4c5981b4e0b091ccfe87">
+        <bounds x="564" y="415" width="68" height="120"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ab8b76f697394b8a9e6d2fcb3ffed101" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-b7634a5e8c9e4a8e9d4ba0c2f92e5b1d">
+        <bounds x="672" y="415" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-58ea5946f11f45de925c7e6e0e799f16" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-c4eb1989fdb04fbebdd6fe95ce46f7a3">
+        <bounds x="768" y="415" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d57ae366bb974a48ba10a7bae3a80da7" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-01348441fb21488aa8aec3e0b4825b19">
+        <bounds x="864" y="415" width="68" height="102"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ce116c12ef2b432085f8e182abc626e6" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-e87385dd7be14735ad7f30929f8527eb">
+        <bounds x="564" y="534" width="68" height="103"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f1442394e38a43e29ead62683d2a2d8a" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-1aad97feaf264dba8d5463b104a876ec">
+        <bounds x="672" y="534" width="68" height="103"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-0f09a40539fc4157843dc4bea946ef10" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-b012dfe130f2474fbc9d84ab9c6be6bd">
+        <bounds x="1044" y="36" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-fee1772e195f4fe8ba3b4e0ba992ab85" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-3274e8c147b94ecdb9d86af023dec536">
+        <bounds x="1152" y="36" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d9f3d181c0904a98bef5b31c146f1279" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-572f0fa937504fa69a1f13bf8a92e81b">
+        <bounds x="1255" y="36" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ddabad6239e34624aa83a81dea2df857" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-e2c8d78e95ab40fa9d22d361d9dd3326">
+        <bounds x="1356" y="36" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-9a670d7ce1884c32826ca49e28e31171" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-77f8dc98aa704c43a0bc77c74ed3d062">
+        <bounds x="1044" y="144" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-81b6954df91742a385ef6b858c815e9a" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-6c4a1079dae1451cbe4b33c553df1ddb">
+        <bounds x="1152" y="144" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-1b9e2e7f432f4311aaa342505f587f70" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-1b6a959512cc48339b7c063a794aa0b9">
+        <bounds x="1255" y="144" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-676a05fd7f064739a3140514a006aaf5" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-5f50434adec64d969ef9bccf0b370c26">
+        <bounds x="1044" y="288" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-034f81073889488081e42b86bd21f67f" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-0febf798ace74524a10f24efc2ef12ea">
+        <bounds x="1152" y="288" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-2ff3a42cdd2b4e509ad6fb1645a24749" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-0c19896bd20c4c27aa9a21d5fc761b46">
+        <bounds x="1255" y="288" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-def160cd676544c78bd78369f871d409" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-c1815f049b004f88b37a2c851149542b">
+        <bounds x="1344" y="288" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c9f9649b46dc4eb89d69a60ba2086e3a" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-47406be35022446ea4fea3f48be44a71">
+        <bounds x="1044" y="429" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-23c4f5b30b4546a294bb252dd637507f" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-3f6d35d8292646d5863cb87f6de714f0">
+        <bounds x="1152" y="429" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-8b0bc97e6ba143ffa76201197a5f9e96" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-63a038baa488455cbf405055e152722a">
+        <bounds x="1255" y="429" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b0c6f67687cd431d924c6dbd89aa6a65" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-4ea898b2cd4046bdb13deb841d4ba782">
+        <bounds x="360" y="168" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-0f049155d85c46d0b54b9d60205ab094" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-0cad3d0893f34b9fb5dffc46acbfc54a">
+        <bounds x="36" y="36" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-bfeaf8cea28c4517ad2f94f2ccb402be" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-1b959dee02c24d46ad21c6d0752c82de">
+        <bounds x="150" y="36" width="68" height="109"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-be18bb32de834338a31df2da248d3036" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-4b0ec6e0f7b64461b6f985b5ef5e2a1f">
+        <bounds x="259" y="36" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f5232ee1357444ff9cca82c5ec1ab69c" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-8971874a75a74bed99231119108b1855">
+        <bounds x="360" y="36" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-8efa37f00c9b40d2a4f32e2bfc7f0990" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-5b57cef9d13d4b8eb994da91dddb7d72">
+        <bounds x="36" y="168" width="68" height="91"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="2. Tasks" id="id-8bbdee393c62423eb041548791388eca">
+      <child xsi:type="archimate:DiagramObject" id="id-1fed0ca22a3b4b85a4a4c16b5ee0bdbc" fillColor="#ffffb5" textPosition="2" archimateElement="id-8e031f79eee54f1bb5b800656930969a">
+        <bounds x="412" y="36" width="120" height="55"/>
+        <feature name="deriveElementLineColor" value="false"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e05fbcd9a22a4ca3a6097bb5142cea3b" fillColor="#ffffb5" textPosition="2" archimateElement="id-ee610e76a3bc42e78d11431ab899554c">
+        <bounds x="8" y="37" width="120" height="55"/>
+        <feature name="deriveElementLineColor" value="false"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-8d36936e43b840898a27a2685bdda635" textPosition="2" archimateElement="id-5f54886a23b44aada0f316950a2cf67a">
+        <bounds x="144" y="37" width="120" height="55"/>
+        <feature name="deriveElementLineColor" value="false"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-7f846d0efa9c4b24a8a342fdd031e6ab" textPosition="2" archimateElement="id-92f3cfc97aea42c9a04710e6f380d7b4">
+        <bounds x="276" y="37" width="120" height="55"/>
+        <feature name="deriveElementLineColor" value="false"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-38fb48532cc84ffeb46a6b8447f71247" textPosition="2" archimateElement="id-66645b7499d64a27a8b0f8c544006ec2">
+        <bounds x="8" y="156" width="120" height="55"/>
+        <feature name="deriveElementLineColor" value="false"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d335dff9adee4a0282dd4489a445b741" textPosition="2" archimateElement="id-caf4f41d81fd436bb875d22e26395e3a">
+        <bounds x="144" y="156" width="120" height="55"/>
+        <feature name="deriveElementLineColor" value="false"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f2aa143c0cb34b4fb33e9669bd8e5210" textPosition="2" archimateElement="id-ade2550a4e1f460398b04582e3bb667c">
+        <bounds x="276" y="156" width="120" height="55"/>
+        <feature name="deriveElementLineColor" value="false"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e08d149ee19b42038d88bfbf5cb01d59" textPosition="2" archimateElement="id-c16c22853c254b6799167cac3dc0b2d0">
+        <bounds x="412" y="156" width="120" height="55"/>
+        <feature name="deriveElementLineColor" value="false"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-69d3ca03772840ceac25f674410e3cb5" lineWidth="3" textPosition="2" archimateElement="id-141eac354f324991a921c78f6a1363d2">
+        <bounds x="8" y="288" width="120" height="55"/>
+        <feature name="deriveElementLineColor" value="false"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="5. Data" id="id-dbfc493287494054bf135f306979e9e0">
+      <child xsi:type="archimate:DiagramObject" id="id-9ff51fdc3de1434ead87fca2b70a9928" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-6408fb35383245be91fa960b127ef34b">
+        <bounds x="36" y="36" width="61" height="97"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-bc2373cc23cd4dfeabaa614576776b70" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-9f941f4e9cc745fa98852bb829f91465">
+        <bounds x="120" y="36" width="61" height="97"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-027f41b2c20b4ee190d313cdab6fcec8" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-0fee4051d92a4c51b0be06e4d7a5c72e">
+        <bounds x="204" y="36" width="61" height="97"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-3e1e8d5eb0b94df78ac95454131e92a2" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-a21259fd94504fa6bb693eb47dfaaaac">
+        <bounds x="288" y="36" width="61" height="97"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="4. Gateways" id="id-8faab4c7829a4320b26cc85f32456739">
+      <child xsi:type="archimate:DiagramObject" id="id-14299e3f95f944e0bac141ae9f504992" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-9975c10255674b3b8826b7ca43824f6c">
+        <bounds x="132" y="144" width="61" height="88"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-73d8d6245db84dd7817b98a8929fa0bd" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-d6c0a1ec221a4db68c424ccc00e9c7c1">
+        <bounds x="36" y="144" width="61" height="100"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-158f279b03564875bf73c585ac0a654c" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-62c9bfa099474910be518522ff8b8690">
+        <bounds x="228" y="36" width="61" height="88"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-25519d7910e54507a6f10bacc7534f09" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-0884dc55534f48b2b6527a56a5be3607">
+        <bounds x="324" y="36" width="61" height="88"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-70e3d26398824ca296b4bc244ca8be46" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-d73067e8685b4648a526676b41c846a2">
+        <bounds x="228" y="144" width="61" height="88"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-051ffbf32f0c4cc2820a1f9c5b8323aa" fillColor="#ffffff" textPosition="2" imagePosition="1" archimateElement="id-b6523582fdb643e3862a8f9be0b0a4f3">
+        <bounds x="324" y="144" width="61" height="88"/>
+        <feature name="lineAlpha" value="0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-705f6db1ada04b4ea52777ddd670f2c8" archimateElement="id-38a780d00e2840d99ab8f06587e653cf">
+        <bounds x="59" y="60" width="15" height="15"/>
+        <feature name="deriveElementLineColor" value="false"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e31d199173d34b59b7d970c58d05a61c" archimateElement="id-35be12da376d430e962e69bf1af0b0c6">
+        <bounds x="155" y="60" width="15" height="15"/>
+        <feature name="deriveElementLineColor" value="false"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="1. SubProcesses" id="id-c85823aa3ec9407a8ba51a0faefce749">
+      <child xsi:type="archimate:DiagramObject" id="id-4dd3a4ad572c4361b32ab3d518f3f427" textPosition="2" archimateElement="id-6f0b45c0102a4d6ebe99720d3cd26b74">
+        <bounds x="240" y="36" width="120" height="55"/>
+        <feature name="deriveElementLineColor" value="false"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-96a4cdff73a74d348d4cbbb8421de8ee" textPosition="2" archimateElement="id-0e64303687924c7e9086a0229f3a8821">
+        <bounds x="60" y="36" width="120" height="55"/>
+        <feature name="deriveElementLineColor" value="false"/>
+        <feature name="labelExpression" value="${name}&#xD;&#xA;&lt;&lt;${propertiesvalues}>>"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="6. Pools &amp; Lanes" id="id-d81683c008b845e6934053a4ac4404b5">
+      <child xsi:type="archimate:DiagramObject" id="id-8c5777718aa84050b0990c00c3e98af6" textAlignment="1" fillColor="#c0c0c0" textPosition="1" archimateElement="id-75e2e64842cf4460bff90e2758a9fda3">
+        <bounds x="48" y="24" width="1621" height="217"/>
+        <feature name="deriveElementLineColor" value="false"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-e1551f07ff8a4c2e8cfaaa67851cd551" source="id-8c5777718aa84050b0990c00c3e98af6" target="id-0629fd637aea4a20a5020f761b4d5ae3" archimateRelationship="id-dea758f1af6c4db6bf1f893fc76e5fb4"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-759ee5fd20b24615a186c8bd6365df8d" source="id-8c5777718aa84050b0990c00c3e98af6" target="id-3aee01ec7f7142dd8287039ded6922cc" archimateRelationship="id-55b8a615fd6044d38970eb14bb34274d"/>
+        <child xsi:type="archimate:DiagramObject" id="id-0629fd637aea4a20a5020f761b4d5ae3" targetConnections="id-e1551f07ff8a4c2e8cfaaa67851cd551" textAlignment="1" fillColor="#ffffff" archimateElement="id-375b4aa17f77499b84223951d997ceca">
+          <bounds x="48" width="1573" height="109"/>
+          <feature name="deriveElementLineColor" value="false"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-3aee01ec7f7142dd8287039ded6922cc" targetConnections="id-759ee5fd20b24615a186c8bd6365df8d" textAlignment="1" fillColor="#ffffff" archimateElement="id-60456649079a4674b3e8352771d59bcf">
+          <bounds x="48" y="108" width="1573" height="109"/>
+          <feature name="deriveElementLineColor" value="false"/>
+        </child>
+      </child>
+    </element>
+  </folder>
+  <profile name="EndEventCancel" id="id-2446882f0e4943eabc5edc1a3c106caa" imagePath="images/_sAvjwJSSEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="EndEventComponensation" id="id-d89bdefdb15442e3b29f711305b35a39" imagePath="images/_3q6PYJSTEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="EndEventError" id="id-20ffd5a69838403197c1e7d6ca0366b8" imagePath="images/_87WOQJSTEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="EndEventEscalation" id="id-d7e67c2067f64c4fa2b71255a886bb6c" imagePath="images/_A_4asJSUEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="EndEventLink" id="id-c55fb4f5a3c44978977002bd33a85f52" imagePath="images/_FAlQAJSUEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="EndEventMessage" id="id-5a5f978a3cd84e588a58bc8498a49bc5" imagePath="images/_I0F94JSUEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="EndEventMultiple" id="id-a379edac183d4b4a8d93b0a287cb9582" imagePath="images/_Ot5C0JSUEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="EndEventNone" id="id-e4ee969f501542ab9be557fffd16d071" imagePath="images/_T2cRAJSUEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="EndEventSignal" id="id-f0b11e1992dd466bb5f829009b4c350b" imagePath="images/_YPDQAJSUEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="EndEventTerminate" id="id-27f9fe0939914e0ab92a61048d01ee8e" imagePath="images/_dgLycJSUEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="StartEventMessage" id="id-d17fd71cdeca4a9b948d4edf30ad79fa" imagePath="images/_MZhuUJSmEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="StartEventMultiple" id="id-0ae7499b509d4c6db87bd92ca0e4fa5e" imagePath="images/_TyEpMJSmEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="IntEventParallel" id="id-59c39e76bfdf4361896e9329362735d5" imagePath="images/_pwYr4JSsEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="IntEventCancel" id="id-30e93153ead740d7871086b413814815" imagePath="images/_F1y5YJSXEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="IntEventCompensation" id="id-241e5146a11d4f8fb9685640b318dfc5" imagePath="images/_NKGNcJSXEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="IntEventCondition" id="id-768416e91222498d8e6c963b93635fd5" imagePath="images/_NMkQoJStEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="IntEventError" id="id-ee8d3955fc57403684f1874d98828c5d" imagePath="images/_V6YVUJStEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="IntEventEscalation" id="id-8bd6dfd6665a47b289119c4dab30915b" imagePath="images/_gEagYJStEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="IntEventSignal" id="id-a052fa66440a44b0bee072aa1297e9c3" imagePath="images/_i5BjwJSyEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="IntEventTimer" id="id-bb27b816acec4aa7a5c38a0d296465dd" imagePath="images/_fv1v0JSzEe-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="IntEventMessage" id="id-40054a7f37204171b55d6df47224879a" imagePath="images/_8iI2gJSzEe-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="IntEventLink" id="id-cf11b9a684384f56a2e0d24bd7461a9f" imagePath="images/_b-Ya8JS0Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="IntEventMultiple" id="id-a61938f8d47047c39acb741c73e56409" imagePath="images/_oKMQgJS0Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="IntEventNone" id="id-c53d40fbdf5b4f02a3e15ee38d0ff9ac" imagePath="images/_8jH4gJS0Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="ThrowEventCompensation" id="id-980847346a9448e2a63d9f4410fa46b5" imagePath="images/_zcfOsJS1Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="ThrowEventEscalation" id="id-3de3678d331142538387cecb763f1016" imagePath="images/_5hBkAJS1Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="ThrowEventLink" id="id-7ae2fc5fc9374269a67516680333b6f2" imagePath="images/__I06AJS1Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="ThrowEventMessage" id="id-c36f52db36e646ba9c0091845c14dd8d" imagePath="images/_F0cdcJS2Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="ThrowEventMultiple" id="id-30fd602f9a8e4b0583639be93b60a9aa" imagePath="images/_KdtHkJS2Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="ThrowEventSignal" id="id-f4bb6eb1228242bda8386ff8473700a5" imagePath="images/_OqMWIJS2Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="SniEventCondition" id="id-c47d18232bed4e3d84a3c87168df4971" imagePath="images/_JvEDcJS3Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="SniEventEscalation" id="id-c9a9f470c1e84d6b9d93d3695ef58882" imagePath="images/_ZjY30JS3Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="SniEventMessage" id="id-c23349024ad740069518db1c73817ab7" imagePath="images/_eKOgEJS3Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="SniEventMultiple" id="id-669e87b1a0e5449cbb08520a4e223ce8" imagePath="images/_h8AvoJS3Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="SniEventParallel" id="id-320d697ff50d421ba8890308ff98937e" imagePath="images/_mNMQ8JS3Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="SniEventSignal" id="id-c5380fe7c1724feda70ff5d9d9b26140" imagePath="images/_poWwQJS3Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="SniEventTimer" id="id-a191f5a34668415795da11e903e1d4ac" imagePath="images/_tf5CgJS3Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="IniEventCondition" id="id-ae1dea61f403491ba8a67c8bf02eaed2" imagePath="images/_WdUCQJS4Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="IniEventEscalation" id="id-cb2ed1383ba148fca9345a106bb02c19" imagePath="images/_bKEsUJS4Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="IniEventMessage" id="id-278286aa95ed4604ab725e672cdcdcbe" imagePath="images/_fZFqcJS4Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="IniEventMultiple" id="id-0bd3890b1c7c476fa7ea32a24b868d32" imagePath="images/_ilLzAJS4Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="IniEventParallel" id="id-a972d3da470f44d8a801e78fea009034" imagePath="images/_ml7roJS4Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="IniEventSignal" id="id-b8113f13435b40038a9ca40ba8878425" imagePath="images/_qLljsJS4Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="StartEventTimer" id="id-a964d57c6b9e41d3b501a13ef74cc16e" imagePath="images/_hDyC8JS-Ee-ourwKXuvafQ.png" conceptType="BusinessEvent"/>
+  <profile name="TaskBusinessRule" id="id-7ed62ed0360c4d849b5a4bcd225f2820" imagePath="images/_lnV_INCSEe-NM9oyCIfjhQ.png" conceptType="BusinessFunction"/>
+  <profile name="CallActivity" id="id-f91164dff91d48fbb70719ccb93a4fd8" imagePath="images/_FKfAoJSZEe-xL8obHTczGw.png" conceptType="BusinessFunction"/>
+  <profile name="TaskManual" id="id-007c2dabf49a45e08f7729bf74e294c3" imagePath="images/_kgmkENCTEe-NM9oyCIfjhQ.png" conceptType="BusinessFunction"/>
+  <profile name="TaskReceive" id="id-c412f3912f75460e850e5bcde326196e" imagePath="images/_L7SscJShEe-xL8obHTczGw.png" conceptType="BusinessFunction"/>
+  <profile name="TaskScript" id="id-885fdb5e6c864b32a631bd37a7b2e107" imagePath="images/_nasWANDoEe-G5_BHGsp8uQ.png" conceptType="BusinessFunction"/>
+  <profile name="TaskSend" id="id-e5ec4aa8b9664796884b0b1727c3a502" imagePath="images/_TMczsNDrEe-G5_BHGsp8uQ.png" conceptType="BusinessFunction"/>
+  <profile name="TaskService" id="id-04386f53c5cf49879c3928c92a94a480" imagePath="images/_VjgVMNDsEe-G5_BHGsp8uQ.png" conceptType="BusinessFunction"/>
+  <profile name="TaskAbstract" id="id-2c2ef20ed1cd4330bad2a6468529b6b0" conceptType="BusinessFunction"/>
+  <profile name="TaskUser" id="id-8aba5d08d9ac401db805eb5542eebdce" imagePath="images/_yUyIMNDsEe-G5_BHGsp8uQ.png" conceptType="BusinessFunction"/>
+  <profile name="DataInput" id="id-ba82e6992f0e46e693c067303c891741" imagePath="images/_1UK7IJSLEe-xL8obHTczGw.png" conceptType="BusinessObject"/>
+  <profile name="DataOutput" id="id-228d8cc6add74291861c1857a01f3a7c" imagePath="images/_NiuJ0JSMEe-xL8obHTczGw.png" conceptType="BusinessObject"/>
+  <profile name="DataObject" id="id-60e22f9d5c2a48a6990e8b00ea21e7e3" imagePath="images/_lSACkJSMEe-xL8obHTczGw.png" conceptType="BusinessObject"/>
+  <profile name="DataStore" id="id-aceb132c34c5454c80be3849b362a45c" imagePath="images/_m1nKYJSMEe-xL8obHTczGw.png" conceptType="BusinessObject"/>
+  <profile name="GatewayOr" id="id-0207e60d91494b41a311105771699c32" imagePath="images/__pFRwJSREe-xL8obHTczGw.png" conceptType="BusinessProcess"/>
+  <profile name="GatewayEventBased" id="id-45adfd51f2de4e3191362de3f8d94c4a" imagePath="images/_ws2jAJSREe-xL8obHTczGw.png" conceptType="BusinessProcess"/>
+  <profile name="GatewayAbstract" id="id-0d67a0c8b9594e598393e747852e12ab" imagePath="images/_6TJu4JSREe-xL8obHTczGw.png" conceptType="BusinessProcess"/>
+  <profile name="GatewayComplex" id="id-76382656d8a746d2ba1812b77884fca1" imagePath="images/_d80LcJSREe-xL8obHTczGw.png" conceptType="BusinessProcess"/>
+  <profile name="GatewayParallel" id="id-e04dcdcd84ac4d4fb92c20d20f2362a6" imagePath="images/_FPKJcJSSEe-xL8obHTczGw.png" conceptType="BusinessProcess"/>
+  <profile name="GatewayXor" id="id-f9aacf1f63a64a0ebd83923bdc76bd38" imagePath="images/_KHcHAJSSEe-xL8obHTczGw.png" conceptType="BusinessProcess"/>
+  <profile name="MarkerAdhoc" id="id-6d63e5cb666a4a3bb7a8db30dfb008b7" imagePath="images/_FiPO8JS9Ee-ourwKXuvafQ.png" conceptType="BusinessProcess"/>
+  <profile name="MarkerCompensation" id="id-d446c75461b54c70ac618331fe2331bc" imagePath="images/_JOYJgJS9Ee-ourwKXuvafQ.png" conceptType="BusinessProcess"/>
+  <profile name="MarkerLoop" id="id-ff7b66f67c1b4677b735201dd63a033d" imagePath="images/_NTqj4JS9Ee-ourwKXuvafQ.png" conceptType="BusinessProcess"/>
+  <profile name="MarkerParallel" id="id-847b6c0f6ac94634aee4a02f17f74be3" imagePath="images/_QYYSEJS9Ee-ourwKXuvafQ.png" conceptType="BusinessProcess"/>
+  <profile name="MarkerSequential" id="id-575e1d45bffc427791b0a13cc9012bc6" imagePath="images/_SdT-QJS9Ee-ourwKXuvafQ.png" conceptType="BusinessProcess"/>
+  <profile name="MarkerSubprocess" id="id-93e5027a84c44133bcb20d57165f2aff" imagePath="images/_U2QyoJS9Ee-ourwKXuvafQ.png" conceptType="BusinessProcess"/>
+  <profile name="BusinessRule" id="id-a2f39928d3764cb495dbced41227e3c0" imagePath="images/_lnV_INCSEe-NM9oyCIfjhQ.png" conceptType="BusinessProcess"/>
+  <profile name="Manual" id="id-aad18fa340e04ab199002b094a96dc0c" imagePath="images/_HpQ2kJShEe-xL8obHTczGw.png" conceptType="BusinessProcess"/>
+  <profile name="Receive" id="id-d4fbaeb6b7d145dd95fe27e2e07fc22d" imagePath="images/_L7SscJShEe-xL8obHTczGw.png" conceptType="BusinessProcess"/>
+  <profile name="Script" id="id-75f84d6b03ce4eaf902ba4f76d3ce91c" imagePath="images/_QGb3MJShEe-xL8obHTczGw.png" conceptType="BusinessProcess"/>
+  <profile name="Send" id="id-72e6f3e50fa442fb9f2b5f996ecae9ea" imagePath="images/_VunAoJShEe-xL8obHTczGw.png" conceptType="BusinessProcess"/>
+  <profile name="Service" id="id-ba759f9613dd4df8a0eceb832f86971a" imagePath="images/_bhu10JShEe-xL8obHTczGw.png" conceptType="BusinessProcess"/>
+  <profile name="User" id="id-202ba818319c4108b54291288fc0ce54" imagePath="images/_gZ8h8JShEe-xL8obHTczGw.png" conceptType="BusinessProcess"/>
+  <profile name="StartEventNone" id="id-4c62be24f6b941489bc5a5604120936b" imagePath="images/_8evM8JSiEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="StartEventCompensation" id="id-71fbef7eec644c5f80176847d14c977f" imagePath="images/_PgtXIJSlEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="StartEventError" id="id-6046064279a14849a1626d8317e9e7a8" imagePath="images/_XzP1EJSlEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="StartEventEscalation" id="id-22f9c4d8a4e447f383a782dad6a5e89c" imagePath="images/_dzDbYJSlEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="StartEventCondition" id="id-3a30465f59dc4d15acc55ac247b3bfb0" imagePath="images/_1NTfUJSlEe-xL8obHTczGw.png" conceptType="BusinessEvent"/>
+  <profile name="SubProcessCollapsed" id="id-9ebb6460f0eb432294c0f6b67808be04" imagePath="images/_gOJfsND8Ee-5JPfUTza7FA.png" conceptType="BusinessProcess"/>
+  <profile name="SubProcess" id="id-a9315952e12a4be7bd94977b16ca336b" conceptType="BusinessProcess"/>
+  <profile name="Pool" id="id-19c70ac9bb8d4dda81557b395695f35d" conceptType="BusinessActor"/>
+  <profile name="Lane" id="id-d9353f0ad2854fceade3258cf325a3fc" conceptType="BusinessRole"/>
+  <profile name="IniEventTimer" id="id-a43debdd03c34cc3959223efaf321f67" imagePath="images/_IT_XYNEiEe-lefaPvN8xxQ.png" conceptType="BusinessEvent"/>
+</archimate:model>
