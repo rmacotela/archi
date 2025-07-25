@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Enterprise Capability Map" id="id-model-a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d" version="5.0.0">
+  <folder name="Strategy" id="id-folder-all-capabilities-under-strategy-f1e2d3c4-b5a6-9d8e-7f6a-5b4c3d2e1f0a" type="strategy">
+    <folder name="Strategy &amp; Governance" id="id-folder-strategy-3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b" type="strategy">
+      <folder name="Strategic Planning" id="id-folder-strategic-planning-4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d" type="strategy">
+        <element xsi:type="archimate:Capability" name="Vision &amp; Mission Definition" id="id-cap-vision-6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c"/>
+        <element xsi:type="archimate:Capability" name="Goal Setting &amp; OKR Management" id="id-cap-goal-setting-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c"/>
+        <element xsi:type="archimate:Capability" name="Market Analysis &amp; Intelligence" id="id-cap-market-analysis-2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e7f"/>
+        <element xsi:type="archimate:Capability" name="Competitive Analysis" id="id-cap-competitive-analysis-5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d"/>
+        <element xsi:type="archimate:Capability" name="Portfolio Management (Strategic)" id="id-cap-strategic-portfolio-8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b"/>
+      </folder>
+      <folder name="Enterprise Architecture Management" id="id-folder-ea-management-1f2a3b4c-5d6e-7f8a-9b0c-1d2e3f4a5b6c" type="strategy">
+        <element xsi:type="archimate:Capability" name="EA Framework &amp; Standards Definition" id="id-cap-ea-framework-3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f"/>
+        <element xsi:type="archimate:Capability" name="Current State Modeling" id="id-cap-current-state-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+        <element xsi:type="archimate:Capability" name="Future State Planning" id="id-cap-future-state-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8"/>
+        <element xsi:type="archimate:Capability" name="Architecture Governance &amp; Compliance" id="id-cap-arch-governance-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+      </folder>
+      <folder name="Performance Management" id="id-folder-performance-mgmt-5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c" type="strategy">
+        <element xsi:type="archimate:Capability" name="Performance Monitoring &amp; Reporting" id="id-cap-perf-monitoring-9b0c1d2e-3f4a-5b6c-7d8e-9f0a1b2c3d4e"/>
+        <element xsi:type="archimate:Capability" name="Analytics &amp; Business Intelligence" id="id-cap-analytics-1d2e3f4a-5b6c-7d8e-9f0a-1b2c3d4e5f6a"/>
+        <element xsi:type="archimate:Capability" name="Forecasting &amp; Budgeting" id="id-cap-forecasting-3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f"/>
+      </folder>
+      <folder name="Risk Management" id="id-folder-risk-management-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d" type="strategy">
+        <element xsi:type="archimate:Capability" name="Risk Identification &amp; Assessment" id="id-cap-risk-ident-8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b"/>
+        <element xsi:type="archimate:Capability" name="Risk Mitigation &amp; Control" id="id-cap-risk-mitigation-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+        <element xsi:type="archimate:Capability" name="Business Continuity Planning" id="id-cap-bcp-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c"/>
+      </folder>
+      <folder name="Legal &amp; Compliance" id="id-folder-legal-compliance-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e" type="strategy">
+        <element xsi:type="archimate:Capability" name="Regulatory Monitoring &amp; Adaptation" id="id-cap-regulatory-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c"/>
+        <element xsi:type="archimate:Capability" name="Legal Advisory &amp; Compliance" id="id-cap-legal-advisory-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+        <element xsi:type="archimate:Capability" name="Data Privacy Management" id="id-cap-data-privacy-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8"/>
+      </folder>
+    </folder>
+    <folder name="Customer Management" id="id-folder-customer-management-6d7e8f9a-0b1c-2d3e-4f5a-6b7c8d9e0f1a" type="strategy">
+      <folder name="Customer Relationship Management (CRM)" id="id-folder-crm-8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b" type="strategy">
+        <element xsi:type="archimate:Capability" name="Customer Data Management" id="id-cap-customer-data-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+        <element xsi:type="archimate:Capability" name="Customer Segmentation" id="id-cap-customer-segmentation-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c"/>
+        <element xsi:type="archimate:Capability" name="Customer Journey Mapping" id="id-cap-customer-journey-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e"/>
+      </folder>
+      <folder name="Sales Management" id="id-folder-sales-management-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c" type="strategy">
+        <element xsi:type="archimate:Capability" name="Lead Generation &amp; Nurturing" id="id-cap-lead-gen-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+        <element xsi:type="archimate:Capability" name="Opportunity Management" id="id-cap-opportunity-mgmt-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8"/>
+        <element xsi:type="archimate:Capability" name="Quote &amp; Proposal Generation" id="id-cap-quote-gen-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+        <element xsi:type="archimate:Capability" name="Contract Management (Sales)" id="id-cap-sales-contract-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c"/>
+        <element xsi:type="archimate:Capability" name="Order Management" id="id-cap-order-mgmt-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e"/>
+      </folder>
+      <folder name="Marketing Management" id="id-folder-marketing-management-1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b" type="strategy">
+        <element xsi:type="archimate:Capability" name="Brand Management" id="id-cap-brand-mgmt-3f4a5b6c-7d8e-9f0a-1b2c-3d4e5f6a7b8c"/>
+        <element xsi:type="archimate:Capability" name="Campaign Planning &amp; Execution" id="id-cap-campaign-planning-5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d"/>
+        <element xsi:type="archimate:Capability" name="Marketing Analytics" id="id-cap-marketing-analytics-8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b"/>
+        <element xsi:type="archimate:Capability" name="Content Marketing" id="id-cap-content-marketing-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+      </folder>
+      <folder name="Customer Service" id="id-folder-customer-service-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c" type="strategy">
+        <element xsi:type="archimate:Capability" name="Inquiry &amp; Support Handling" id="id-cap-inquiry-support-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e"/>
+        <element xsi:type="archimate:Capability" name="Incident &amp; Problem Resolution" id="id-cap-incident-res-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c"/>
+        <element xsi:type="archimate:Capability" name="Customer Feedback Management" id="id-cap-customer-feedback-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+        <element xsi:type="archimate:Capability" name="Self-Service Enablement" id="id-cap-self-service-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8"/>
+      </folder>
+    </folder>
+    <folder name="Product &amp; Service Management" id="id-folder-product-service-mgmt-9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d" type="strategy">
+      <folder name="Product Portfolio Management" id="id-folder-product-portfolio-mgmt-1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f" type="strategy">
+        <element xsi:type="archimate:Capability" name="Product Strategy &amp; Roadmapping" id="id-cap-product-strategy-3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b"/>
+        <element xsi:type="archimate:Capability" name="Product Lifecycle Management" id="id-cap-product-lifecycle-4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d"/>
+        <element xsi:type="archimate:Capability" name="Product Performance Analysis" id="id-cap-product-perf-analysis-6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c"/>
+      </folder>
+      <folder name="Product Development" id="id-folder-product-development-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c" type="strategy">
+        <element xsi:type="archimate:Capability" name="Requirements Gathering" id="id-cap-requirements-2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e7f"/>
+        <element xsi:type="archimate:Capability" name="Design &amp; Prototyping" id="id-cap-design-proto-5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d"/>
+        <element xsi:type="archimate:Capability" name="Development &amp; Engineering" id="id-cap-dev-engineering-8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b"/>
+        <element xsi:type="archimate:Capability" name="Quality Assurance &amp; Testing" id="id-cap-qa-testing-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+      </folder>
+      <folder name="Service Design &amp; Delivery" id="id-folder-service-design-delivery-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c" type="strategy">
+        <element xsi:type="archimate:Capability" name="Service Definition &amp; Catalog" id="id-cap-service-def-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e"/>
+        <element xsi:type="archimate:Capability" name="Service Level Agreement (SLA) Management" id="id-cap-sla-mgmt-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c"/>
+        <element xsi:type="archimate:Capability" name="Service Operations" id="id-cap-service-ops-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+      </folder>
+    </folder>
+    <folder name="Operations &amp; Delivery" id="id-folder-operations-delivery-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8" type="strategy">
+      <folder name="Supply Chain Management" id="id-folder-supply-chain-mgmt-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a" type="strategy">
+        <element xsi:type="archimate:Capability" name="Procurement &amp; Sourcing" id="id-cap-procurement-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c"/>
+        <element xsi:type="archimate:Capability" name="Inventory Management" id="id-cap-inventory-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e"/>
+        <element xsi:type="archimate:Capability" name="Logistics &amp; Distribution" id="id-cap-logistics-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c"/>
+        <element xsi:type="archimate:Capability" name="Supplier Relationship Management" id="id-cap-supplier-rel-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+      </folder>
+      <folder name="Production / Service Fulfillment" id="id-folder-production-fulfillment-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8" type="strategy">
+        <element xsi:type="archimate:Capability" name="Production Planning &amp; Scheduling" id="id-cap-production-planning-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+        <element xsi:type="archimate:Capability" name="Manufacturing / Service Execution" id="id-cap-manufacturing-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c"/>
+        <element xsi:type="archimate:Capability" name="Quality Control" id="id-cap-quality-control-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e"/>
+      </folder>
+      <folder name="Project &amp; Program Management" id="id-folder-project-program-mgmt-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c" type="strategy">
+        <element xsi:type="archimate:Capability" name="Project Planning &amp; Initiation" id="id-cap-project-planning-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+        <element xsi:type="archimate:Capability" name="Project Execution &amp; Monitoring" id="id-cap-project-execution-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8"/>
+        <element xsi:type="archimate:Capability" name="Project Closure &amp; Review" id="id-cap-project-closure-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+      </folder>
+    </folder>
+    <folder name="Finance &amp; Administration" id="id-folder-finance-admin-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c" type="strategy">
+      <folder name="Financial Management" id="id-folder-financial-mgmt-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e" type="strategy">
+        <element xsi:type="archimate:Capability" name="General Ledger &amp; Accounting" id="id-cap-gl-accounting-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c"/>
+        <element xsi:type="archimate:Capability" name="Accounts Receivable" id="id-cap-ar-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+        <element xsi:type="archimate:Capability" name="Accounts Payable" id="id-cap-ap-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8"/>
+        <element xsi:type="archimate:Capability" name="Treasury &amp; Cash Management" id="id-cap-treasury-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+        <element xsi:type="archimate:Capability" name="Financial Reporting &amp; Analysis" id="id-cap-financial-reporting-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c"/>
+      </folder>
+      <folder name="Asset Management" id="id-folder-asset-management-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e" type="strategy">
+        <element xsi:type="archimate:Capability" name="Fixed Asset Management" id="id-cap-fixed-asset-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c"/>
+        <element xsi:type="archimate:Capability" name="IT Asset Management" id="id-cap-it-asset-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+      </folder>
+      <folder name="Facility Management" id="id-folder-facility-management-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8" type="strategy">
+        <element xsi:type="archimate:Capability" name="Property Management" id="id-cap-property-mgmt-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+        <element xsi:type="archimate:Capability" name="Workspace Management" id="id-cap-workspace-mgmt-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c"/>
+      </folder>
+    </folder>
+    <folder name="Human Resources" id="id-folder-human-resources-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e" type="strategy">
+      <folder name="Workforce Planning" id="id-folder-workforce-planning-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c" type="strategy">
+        <element xsi:type="archimate:Capability" name="Organizational Design" id="id-cap-org-design-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+        <element xsi:type="archimate:Capability" name="Talent Acquisition" id="id-cap-talent-acquisition-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8"/>
+        <element xsi:type="archimate:Capability" name="Onboarding &amp; Offboarding" id="id-cap-onboarding-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+      </folder>
+      <folder name="Talent Management" id="id-folder-talent-management-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c" type="strategy">
+        <element xsi:type="archimate:Capability" name="Performance Appraisal" id="id-cap-performance-appraisal-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e"/>
+        <element xsi:type="archimate:Capability" name="Learning &amp; Development" id="id-cap-learning-dev-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c"/>
+        <element xsi:type="archimate:Capability" name="Succession Planning" id="id-cap-succession-planning-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+      </folder>
+      <folder name="Employee Operations" id="id-folder-employee-operations-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8" type="strategy">
+        <element xsi:type="archimate:Capability" name="Payroll Processing" id="id-cap-payroll-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+        <element xsi:type="archimate:Capability" name="Benefits Administration" id="id-cap-benefits-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c"/>
+        <element xsi:type="archimate:Capability" name="Employee Relations" id="id-cap-employee-relations-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e"/>
+        <element xsi:type="archimate:Capability" name="Time &amp; Attendance Management" id="id-cap-time-attendance-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c"/>
+      </folder>
+    </folder>
+    <folder name="Technology &amp; Innovation" id="id-folder-tech-innovation-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d" type="strategy">
+      <folder name="IT Strategy &amp; Planning" id="id-folder-it-strategy-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8" type="strategy">
+        <element xsi:type="archimate:Capability" name="IT Roadmapping" id="id-cap-it-roadmapping-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+        <element xsi:type="archimate:Capability" name="Technology Trend Analysis" id="id-cap-tech-trend-analysis-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c"/>
+        <element xsi:type="archimate:Capability" name="Enterprise Architecture (IT focus)" id="id-cap-ea-it-focus-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e"/>
+      </folder>
+      <folder name="IT Operations" id="id-folder-it-operations-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c" type="strategy">
+        <element xsi:type="archimate:Capability" name="Infrastructure Management" id="id-cap-infra-mgmt-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+        <element xsi:type="archimate:Capability" name="Network Operations" id="id-cap-network-ops-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8"/>
+        <element xsi:type="archimate:Capability" name="Help Desk &amp; User Support" id="id-cap-help-desk-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a"/>
+        <element xsi:type="archimate:Capability" name="Security Operations" id="id-cap-security-ops-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c"/>
+      </folder>
+      <folder name="Application Management" id="id-folder-application-management-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e" type="strategy">
+        <element xsi:type="archimate:Capability" name="Application Development" id="id-cap-app-dev-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c"/>
+        <element xsi:type="archimate:Capability" name="Application Support &amp; Maintenance" id="id-cap-app-support-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+        <element xsi:type="archimate:Capability" name="Integration Management" id="id-cap-integration-mgmt-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8"/>
+      </folder>
+      <folder name="Data Management" id="id-folder-data-management-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a" type="strategy">
+        <element xsi:type="archimate:Capability" name="Data Governance" id="id-cap-data-governance-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c"/>
+        <element xsi:type="archimate:Capability" name="Data Quality Management" id="id-cap-data-quality-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e"/>
+        <element xsi:type="archimate:Capability" name="Data Storage &amp; Archiving" id="id-cap-data-storage-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c"/>
+        <element xsi:type="archimate:Capability" name="Data Analytics &amp; Reporting Platforms" id="id-cap-data-analytics-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d"/>
+      </folder>
+    </folder>
+  </folder>
+  <folder name="Business" id="id-folder-business-standard-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8" type="business"/>
+  <folder name="Application" id="id-folder-application-standard-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-folder-tech-physical-standard-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c" type="technology"/>
+  <folder name="Motivation" id="id-folder-motivation-standard-4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-folder-impl-mig-standard-9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c" type="implementation_migration"/>
+  <folder name="Other" id="id-folder-other-standard-7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d" type="other"/>
+  <folder name="Relations" id="id-folder-relations-standard-b3c4d5e6-f7a8-b9c0-d1e2-f3a4b5c6d7e8" type="relations"/>
+  <folder name="Views" id="id-folder-views-standard-0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-default-view-2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c"/>
+  </folder>
+</archimate:model>
