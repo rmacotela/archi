@@ -1,330 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Capabilities" id="id-6fc97ca6341443f5bae6f16da6e97707" version="5.0.0">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Business Capabilities" id="id-6fc97ca6341443f5bae6f16da6e97707" version="5.0.0">
   <folder name="Strategy" id="id-502199cb9da8435d9b0217e2cdd493bb" type="strategy">
-    <folder name="c-1 / Procurement &amp; Logistics" id="id-39a6544ebef0445c8518b55c8abf4050">
-      <element xsi:type="archimate:Capability" name="c-1 / Procurement &amp; Logistics" id="id-fd8c8c526ac445d89129478ba98a6d26"/>
-      <element xsi:type="archimate:Capability" name="c-1.1 / Logistics Management" id="id-9975569beed54274ae8b7f6952afec9e"/>
-      <element xsi:type="archimate:Capability" name="c-1.1.1 / Manage Demand Forecast" id="id-4a402a36825f4ab6b938f190d24a2f75"/>
-      <element xsi:type="archimate:Capability" name="c-1.1.2 / Manage Logistic Order" id="id-edfc36d4e3784c419f160d9e4f17b1e6"/>
-      <element xsi:type="archimate:Capability" name="c-1.1.3 / Manage Returns" id="id-856ae8f15341472eb66d3673cd100540"/>
-      <element xsi:type="archimate:Capability" name="c-1.1.4 / Manage Transportation" id="id-04f7ec14a94744c9bc5582a26ef042b5"/>
-      <element xsi:type="archimate:Capability" name="c-1.2 / Purchasing" id="id-2491f7f9f50c4ac0b001132bcea2e4c6"/>
-      <element xsi:type="archimate:Capability" name="c-1.2.1 / Approve &amp; Transmit Order" id="id-c1e2955cfef64dd69a9c29d9d335946d"/>
-      <element xsi:type="archimate:Capability" name="c-1.2.10 / Manage Purchase Requisition" id="id-d41e7e6756544a7bb4b059302e25ce5d"/>
-      <element xsi:type="archimate:Capability" name="c-1.2.11 / Manage Sourcing Tender Process" id="id-6b304c8dc33a460daeb25f7c773d3233"/>
-      <element xsi:type="archimate:Capability" name="c-1.2.12 / Tendering" id="id-5fa8696dac4b4551908ee7e387862ebf"/>
-      <element xsi:type="archimate:Capability" name="c-1.2.2 / Decide On Sourcing" id="id-7daee3ed31334b0d8446f2be6d0ad537"/>
-      <element xsi:type="archimate:Capability" name="c-1.2.3 / Define Sourcing Requirements" id="id-252d9946e517405384c96d1a354af59f"/>
-      <element xsi:type="archimate:Capability" name="c-1.2.4 / Define Sourcing Strategy" id="id-569f865b5a5849c0a9b0304e52a62e2f"/>
-      <element xsi:type="archimate:Capability" name="c-1.2.5 / Manage Category" id="id-45f1e4d57a49459796df87434d32d77f"/>
-      <element xsi:type="archimate:Capability" name="c-1.2.6 / Manage Purchase Catalogue" id="id-d2a872d3c90f4a91a7e6491f3554be97"/>
-      <element xsi:type="archimate:Capability" name="c-1.2.7 / Manage Purchase Order" id="id-280572fa05f94afca2df3c1476da7b7f"/>
-      <element xsi:type="archimate:Capability" name="c-1.2.8 / Manage Purchase Procedure" id="id-ed355bf0e2a44e6cb00e0357bc5bbef1"/>
-      <element xsi:type="archimate:Capability" name="c-1.2.9 / Manage Purchase Requirements" id="id-4dc42df00b6742f98437c4211ea0d145"/>
-      <element xsi:type="archimate:Capability" name="c-1.3 / Sourcing" id="id-49ebcf81378f496db0df246f3d8e695e"/>
-      <element xsi:type="archimate:Capability" name="c-1.4 / Supplier Contact Management" id="id-e27d7cbc408644b98963acde27ba734e"/>
-      <element xsi:type="archimate:Capability" name="c-1.4.1 / Enact Supplier Contract" id="id-9dfe6957055a445fa6a7dffb7272c2e9"/>
-      <element xsi:type="archimate:Capability" name="c-1.4.2 / Manage Supplier Contract" id="id-368d43812c7244dd9fad3ea599ad44dc"/>
-      <element xsi:type="archimate:Capability" name="c-1.4.3 / Manage Supplier Frame Contract" id="id-3177d1d02a8d4b73b659b8d2f2abb559"/>
-      <element xsi:type="archimate:Capability" name="c-1.4.4 / Negotiate Supplier Contract" id="id-1d988d49996f4c859def6640a39fd965"/>
-      <element xsi:type="archimate:Capability" name="c-1.5 / Warehouse Management" id="id-0ffa28766bba427091a46d910c539337"/>
-      <element xsi:type="archimate:Capability" name="c-1.5.1 / Commissioning" id="id-91b5fc79590e426fb7b21dc001dae17f"/>
-      <element xsi:type="archimate:Capability" name="c-1.5.2 / Goods Receipt &amp; Service Entry" id="id-bd3223988a5b496dbb5de6676fb2e444"/>
-      <element xsi:type="archimate:Capability" name="c-1.5.3 / Manage Claims" id="id-0b8795304bfc4150b8081a956e63174e"/>
-      <element xsi:type="archimate:Capability" name="c-1.5.4 / Manage Inventory" id="id-69c18dd7667545229278a4fbcbe33e31"/>
-      <element xsi:type="archimate:Capability" name="c-1.5.5 / Material Disposition" id="id-432045132e504271a6c6387fbd9ad9e5"/>
-      <element xsi:type="archimate:Capability" name="c-1.5.6 / Packaging" id="id-af3473f418a54825ba9128f3b82dc181"/>
-      <element xsi:type="archimate:Capability" name="c-1.5.7 / Restocking" id="id-12b6553201354295ab1d038cd8ab62c6"/>
-      <element xsi:type="archimate:Capability" name="c-1.5.8 / Shipping" id="id-11dc4acd1589471899487df6f6a9a4a9"/>
-    </folder>
-    <folder name="c-2 / Product &amp; Service Development" id="id-41e2a58a0a2f42e393bd77cca8e7ff81">
-      <element xsi:type="archimate:Capability" name="c-2 / Product &amp; Service Development" id="id-5ed1ed06dfe8482cb132a19c0aabf8f5"/>
-      <element xsi:type="archimate:Capability" name="c-2.1 / Engineering" id="id-7bb57b343ea34cb2b2ad27fdf240c048"/>
-      <element xsi:type="archimate:Capability" name="c-2.1.1 / Conceptualization" id="id-973d7b4df2254c90905f6b39aa2e1db8"/>
-      <element xsi:type="archimate:Capability" name="c-2.1.2 / Construction" id="id-1ccd31888c87499897a98e53e7e2ec7f"/>
-      <element xsi:type="archimate:Capability" name="c-2.1.3 / Design Products" id="id-c1bbc62b7f364280bc513f4fd5a0e799"/>
-      <element xsi:type="archimate:Capability" name="c-2.1.4 / Manage Requirements" id="id-b203f5ffbce54a1aa170ead526afab60"/>
-      <element xsi:type="archimate:Capability" name="c-2.2 / Marketing Testing" id="id-3880f8c784204aeaafcefcdf21ef89d9"/>
-      <element xsi:type="archimate:Capability" name="c-2.2.1 / Analyse Customer Intelligence" id="id-463bb88153904697bbfff8c8a515d37d"/>
-      <element xsi:type="archimate:Capability" name="c-2.2.2 / Establish Measures" id="id-d0ce45b3a964487f8150f376d7e31a3c"/>
-      <element xsi:type="archimate:Capability" name="c-2.2.3 / Evaluate Market Opportunities" id="id-47db89f6126741d79f1a09ad68dbab05"/>
-      <element xsi:type="archimate:Capability" name="c-2.2.4 / Market Survey" id="id-6f93b986fe684a01a4d31ee559709ab3"/>
-      <element xsi:type="archimate:Capability" name="c-2.3 / Method Development" id="id-20ff7a1bef3b4b7d92d2c2ff4f2e7c6f"/>
-      <element xsi:type="archimate:Capability" name="c-2.3.1 / Define Method" id="id-afde0e6f560a449f9ae3e5efa082bda3"/>
-      <element xsi:type="archimate:Capability" name="c-2.3.2 / Execute Method" id="id-7b69ca68058a4409ae2594013e49680a"/>
-      <element xsi:type="archimate:Capability" name="c-2.3.3 / Refine Method" id="id-c6fa44b9c0c34215b57fda6cbe7e6425"/>
-      <element xsi:type="archimate:Capability" name="c-2.3.4 / Validate Method" id="id-2c05195ec6f04b73885e74a86d9da5cd"/>
-      <element xsi:type="archimate:Capability" name="c-2.4 / Product &amp; Service Delivery" id="id-13304ea22e8845c89c8baed2a9679caa"/>
-      <element xsi:type="archimate:Capability" name="c-2.4.1 / Manage Product Traceability" id="id-308b7a8a0f674b51b6321c8098307606"/>
-      <element xsi:type="archimate:Capability" name="c-2.4.2 / Manage Production" id="id-52e03c0fe8234168aa9c9850c5ea0a06"/>
-      <element xsi:type="archimate:Capability" name="c-2.4.3 / Schedule Production" id="id-e54dc5fdc6cc4ab480aa0eba59be3ec5"/>
-      <element xsi:type="archimate:Capability" name="c-2.4.4 / Test Quality Performance" id="id-8e55e9bb29764e3989517b77e225188e"/>
-      <element xsi:type="archimate:Capability" name="c-2.5 / Product Preparation" id="id-39f9ac44a18a4c61a3e12f513c3a7c01"/>
-      <element xsi:type="archimate:Capability" name="c-2.5.1 / Align Resources" id="id-9804b4c2c3b74de99311e159fee4d22f"/>
-      <element xsi:type="archimate:Capability" name="c-2.5.2 / Master Production Schedule" id="id-1d82c965f04a4d1199d94c27f0a74caa"/>
-      <element xsi:type="archimate:Capability" name="c-2.5.3 / Procure Materials &amp; Services" id="id-e8a8c10f6d494dc1a039482bbe90d9b3"/>
-      <element xsi:type="archimate:Capability" name="c-2.5.4 / Select Suppliers &amp; Developers" id="id-86d94090da45445d8c3b383a2c9e4505"/>
-      <element xsi:type="archimate:Capability" name="c-2.6 / Quality Management" id="id-f894438631184ccf9efb47f15afc8c1d"/>
-      <element xsi:type="archimate:Capability" name="c-2.6.1 / Manage Debugging" id="id-faa15045b2ea43429f1cf863487ddbd0"/>
-      <element xsi:type="archimate:Capability" name="c-2.6.2 / Manage Product Document" id="id-25ea252853ca4e61ad2944828bdc0186"/>
-      <element xsi:type="archimate:Capability" name="c-2.6.3 / Test Initial Quality" id="id-67a028cea8a34d1b83116809e5b29de1"/>
-      <element xsi:type="archimate:Capability" name="c-2.6.4 / Track Quality" id="id-cdf36c21dd9042679e5a14a3d57cca80"/>
-      <element xsi:type="archimate:Capability" name="c-2.7 / R&amp;D" id="id-d8aea385610242b4ab3e62ce59591b9a"/>
-      <element xsi:type="archimate:Capability" name="c-2.7.1 / Manage Innovation" id="id-f59a4c8340124d518c023159f0065ecd"/>
-      <element xsi:type="archimate:Capability" name="c-2.7.2 / Manage Patent" id="id-d91b59aefdd244dbad2a0efb1f2c5a1e"/>
-      <element xsi:type="archimate:Capability" name="c-2.7.3 / Manage Product Portfolio" id="id-2befb5376f154d5a870f7217bf4929f0"/>
-      <element xsi:type="archimate:Capability" name="c-2.7.4 / Manage R&amp;D Process" id="id-4f56992552d64c81a28457a7f2f4e6b0"/>
-      <element xsi:type="archimate:Capability" name="c-2.8 / Requirements Definition" id="id-a95f916ad32944e1afdcb167dd6fe042"/>
-      <element xsi:type="archimate:Capability" name="c-2.8.2 / Manage Materials" id="id-b167f2d6da074df9bd7e869987b1f713"/>
-      <element xsi:type="archimate:Capability" name="c-2.8.3 / Require Distribution" id="id-683145816c87403a9116514a2e53edf4"/>
-      <element xsi:type="archimate:Capability" name="c-2.8.4 / Review Demand" id="id-b63ef86cf5e44e4aaadb165d8d302177"/>
-    </folder>
-    <folder name="c-3 / Production" id="id-5cb3477aff2149f9bd1e76e528c725d3">
-      <element xsi:type="archimate:Capability" name="c-3 / Production" id="id-dc1d8df52f1f484eb3aa49736f02ee5a"/>
-      <element xsi:type="archimate:Capability" name="c-3.1 / Change Management" id="id-205c26d70920447dafd4bee99ca175bf"/>
-      <element xsi:type="archimate:Capability" name="c-3.1.1 / Access Deviations" id="id-88825c3444e144a1b53d5daafecadb3d"/>
-      <element xsi:type="archimate:Capability" name="c-3.1.2 / Analyze Deviations" id="id-879a125c47554329aa686ea6654825e2"/>
-      <element xsi:type="archimate:Capability" name="c-3.1.3 / Manage Deviation Allowance" id="id-b987d47f170c4a8d8bf847e73dad1848"/>
-      <element xsi:type="archimate:Capability" name="c-3.1.4 / Plan &amp; Execute Deviations" id="id-caa32787919a4dacb6629a466ee78ba1"/>
-      <element xsi:type="archimate:Capability" name="c-3.1.5 / Trace Deviations" id="id-4f10afd78b5d47f7af6aea55febe682e"/>
-      <element xsi:type="archimate:Capability" name="c-3.2 / Infrastructure Management" id="id-49c93be6a26a4888879acc279ca76dd8"/>
-      <element xsi:type="archimate:Capability" name="c-3.2.1 / Build Site Infrastructure" id="id-e6b4470da44e439a9d1c56369ad42c25"/>
-      <element xsi:type="archimate:Capability" name="c-3.2.2 / Manage Location Restrictions" id="id-22b7b8b37cd84021951821638cfcad2c"/>
-      <element xsi:type="archimate:Capability" name="c-3.2.3 / Operate Site Infrastructure" id="id-76c1b50117cd4a00852d5c8c52013bbd"/>
-      <element xsi:type="archimate:Capability" name="c-3.2.4 / Plan &amp; Control Construction" id="id-f3edf7a8e6fb4037af6717de8220982e"/>
-      <element xsi:type="archimate:Capability" name="c-3.3 / Machine Management" id="id-519c8708c3c94eb590a27d7ee5043cad"/>
-      <element xsi:type="archimate:Capability" name="c-3.3.1 / Build Machine" id="id-3118e6bf5df84b609b34b00340d53328"/>
-      <element xsi:type="archimate:Capability" name="c-3.3.2 / Calibrate Machine" id="id-02ce31aad25345bc8b0cebb8ea98f70f"/>
-      <element xsi:type="archimate:Capability" name="c-3.3.3 / Manage Machine Information" id="id-1d13d5245c2046f5a1f9f841ddf8df36"/>
-      <element xsi:type="archimate:Capability" name="c-3.3.4 / Operate Machine" id="id-b944200ecef14daca1a3ea188301cb8f"/>
-      <element xsi:type="archimate:Capability" name="c-3.3.5 / Optimize Machine" id="id-f378cc9701934c2f974c284d08868d4e"/>
-      <element xsi:type="archimate:Capability" name="c-3.4 / Maintenance" id="id-e06e543822134af8895cd676a50be92e"/>
-      <element xsi:type="archimate:Capability" name="c-3.4.1 / Handle Spare Parts" id="id-6835fd91f528420f967f176edb75ebd9"/>
-      <element xsi:type="archimate:Capability" name="c-3.4.2 / Manage Maintenance Plan" id="id-41b0f80d24aa40e7bd7cc44370281a90"/>
-      <element xsi:type="archimate:Capability" name="c-3.4.3 / Recognize &amp; Recover Failure" id="id-38ba81eab0cc4c3f9b32c5329e61dbf9"/>
-      <element xsi:type="archimate:Capability" name="c-3.5 / Materials Management" id="id-f05977968b244b6c96b17530ec813eab"/>
-      <element xsi:type="archimate:Capability" name="c-3.5.1 / Fetch Material" id="id-731de742908a41e7a0fad59d8311fcb0"/>
-      <element xsi:type="archimate:Capability" name="c-3.5.2 / Handle Dangerous Goods" id="id-58681f0890424102bee49e1c943fd82a"/>
-      <element xsi:type="archimate:Capability" name="c-3.5.3 / Manage Containers" id="id-5dbf04cdfb3d444082649b5e4f0e589e"/>
-      <element xsi:type="archimate:Capability" name="c-3.5.4 / Manage Incoming Materials" id="id-c7bd4c4e3fcb48eba03c115adf1f42c2"/>
-      <element xsi:type="archimate:Capability" name="c-3.5.5 / Manage Material Requirements" id="id-a091916417c4499cbf73b4a35dfa558d"/>
-      <element xsi:type="archimate:Capability" name="c-3.6 / Product Design &amp; Planning" id="id-d41cb1c6c7594359b4dc91faad282163"/>
-      <element xsi:type="archimate:Capability" name="c-3.6.1 / Define Production Process" id="id-760aaf7b56ae4317a3242939bec7d25d"/>
-      <element xsi:type="archimate:Capability" name="c-3.6.2 / Define Production Site" id="id-97b67a5ea84c47e2ad03443cb76e1b6b"/>
-      <element xsi:type="archimate:Capability" name="c-3.6.3 / Manage Production Requirements" id="id-efd4fbb960d84fc4ada18bd5f33601e3"/>
-      <element xsi:type="archimate:Capability" name="c-3.6.4 / Manage Waste Disposal" id="id-7b841263388d4ab0ba0463ce28ded79e"/>
-      <element xsi:type="archimate:Capability" name="c-3.6.5 / Plan Material Requirements" id="id-a93afdacbacb4b69b43821d54328b360"/>
-      <element xsi:type="archimate:Capability" name="c-3.7 / Production Order Management" id="id-765ff6298aa940d798a4c471ddbaf5d6"/>
-      <element xsi:type="archimate:Capability" name="c-3.7.1 / Manage Order Validity" id="id-08a824561fca40579a42c3345c445169"/>
-      <element xsi:type="archimate:Capability" name="c-3.7.2 / Plan Production Orders" id="id-619f0c58564e4bf58fa4a02b871ab958"/>
-      <element xsi:type="archimate:Capability" name="c-3.7.3 / Plan Production Program" id="id-b3577a22c953420c997aea1c9e6f1c36"/>
-      <element xsi:type="archimate:Capability" name="c-3.7.4 / Plan Supply Quantity" id="id-727ec8d5b9554268893f6653394fbf40"/>
-      <element xsi:type="archimate:Capability" name="c-3.7.5 / Pre-production Planning" id="id-743639ca48c0485fa859801a1cc6ce46"/>
-      <element xsi:type="archimate:Capability" name="c-3.8 / Production Steering" id="id-626f8b6da75641e393ba5e46f4970996"/>
-      <element xsi:type="archimate:Capability" name="c-3.8.1 / Bill of Material Management" id="id-1677748f6080446d8775044a0484258c"/>
-      <element xsi:type="archimate:Capability" name="c-3.8.2 / Deliver Product" id="id-bbf7cb09dc624cf0aa2f392bc1a01022"/>
-      <element xsi:type="archimate:Capability" name="c-3.8.3 / Localize Product" id="id-342020988a0244049dbfa1790536e63c"/>
-      <element xsi:type="archimate:Capability" name="c-3.8.4 / Monitor Production Process" id="id-059841dccf0042dfa9932c9375f053c5"/>
-      <element xsi:type="archimate:Capability" name="c-3.8.5 / Retrieve Product Information" id="id-b34c2ce3ae314c70b09ea75138862331"/>
-    </folder>
-    <folder name="c-4 / Marketing &amp; Sales" id="id-1e7441a65672469796830c29ad2185f9">
-      <element xsi:type="archimate:Capability" name="c-4 / Marketing &amp; Sales" id="id-5abeadd0879a48ffbf37dce158a4d98d"/>
-      <element xsi:type="archimate:Capability" name="c-4.1 / Customer Success Management" id="id-cc58daf39767424a98926f0ef245f3e2"/>
-      <element xsi:type="archimate:Capability" name="c-4.1.1 / Avoid Customer Churn" id="id-0f1486446e8540e8ba6c92243dc4bd33"/>
-      <element xsi:type="archimate:Capability" name="c-4.1.2 / Define Plans for Customer Upsell" id="id-d554a32911474837b78b3b531c44c8ed"/>
-      <element xsi:type="archimate:Capability" name="c-4.1.3 / Increase Customer Lifetime Value" id="id-36c8aa26820049ea8b64a65ed2abae9c"/>
-      <element xsi:type="archimate:Capability" name="c-4.1.4 / Manage Customer Onboarding" id="id-96ef9e1d9ccd413facb0d554c832cc87"/>
-      <element xsi:type="archimate:Capability" name="c-4.1.5 / Manage Upsells" id="id-1bff0244b2d2426180a4fb109af9dee0"/>
-      <element xsi:type="archimate:Capability" name="c-4.2 / Demand &amp; Offer Management" id="id-8bb25769d2c04080a7350c93335267b1"/>
-      <element xsi:type="archimate:Capability" name="c-4.2.1 / Identify Customer" id="id-6afe88a977994eb89a168d17510c12ea"/>
-      <element xsi:type="archimate:Capability" name="c-4.2.1 / Identify Customer" id="id-085eabc2245f4e2c83bab9479a6e9d96"/>
-      <element xsi:type="archimate:Capability" name="c-4.2.2 / Identify New Channels" id="id-45762688a05748849f8882654eb3df22"/>
-      <element xsi:type="archimate:Capability" name="c-4.2.3 / Manage Community" id="id-bff2f02651124747bb27dc9ad8454108"/>
-      <element xsi:type="archimate:Capability" name="c-4.2.3 / Manage Community" id="id-50a4fc57486c48debc04932b16c577a2"/>
-      <element xsi:type="archimate:Capability" name="c-4.2.4 / Manage Customer" id="id-bb022824acfd4d99bb12491da737feef"/>
-      <element xsi:type="archimate:Capability" name="c-4.2.4 / Manage Customer" id="id-b0ef88acda7a44709b46b4e03dd267c4"/>
-      <element xsi:type="archimate:Capability" name="c-4.2.5 / Manage Customer Hierarchy" id="id-9c12ae3a759849329c832a5235760da9"/>
-      <element xsi:type="archimate:Capability" name="c-4.2.5 / Manage Customer Hierarchy" id="id-77c23cc1abcb43a8ace29570d05b6d21"/>
-      <element xsi:type="archimate:Capability" name="c-4.2.6 / Manage Customer Profile" id="id-eca10698402648f5b4d32d5b0fbe92e6"/>
-      <element xsi:type="archimate:Capability" name="c-4.2.7 / Manage Org. Context" id="id-aa035ca984424607ae86399dad2ce686"/>
-      <element xsi:type="archimate:Capability" name="c-4.2.7 / Manage Org. Context" id="id-9de3ad6a11fd4c6d9a19bdc10f36b8f6"/>
-      <element xsi:type="archimate:Capability" name="c-4.3 / Marketing &amp; Sales Development" id="id-ae1720d9558c4eecb4d06b692e7f1dfc"/>
-      <element xsi:type="archimate:Capability" name="c-4.3.1 / Define Customer Value Proposition" id="id-2fbce88957544280b9eeff53f9978612"/>
-      <element xsi:type="archimate:Capability" name="c-4.3.2 / Define M&amp;S Requirements" id="id-f261a746a6ed486591217bf331946972"/>
-      <element xsi:type="archimate:Capability" name="c-4.3.3 / Define Marketing Budget" id="id-df02c5cd863b4e49b0e9697140088c95"/>
-      <element xsi:type="archimate:Capability" name="c-4.3.4 / Develop M&amp;S Channels" id="id-940f702b6394436a99e2dc362543008a"/>
-      <element xsi:type="archimate:Capability" name="c-4.3.5 / Develop M&amp;S Messages" id="id-adccd17a66374ff1904c571f983b7ebf"/>
-      <element xsi:type="archimate:Capability" name="c-4.3.6 / Monitor Channels" id="id-89989255bde243b8b2d1b6fb049f0227"/>
-      <element xsi:type="archimate:Capability" name="c-4.4 / Sales" id="id-0b7f15d557234c4f93287429e9b230ab"/>
-      <element xsi:type="archimate:Capability" name="c-4.4.1 / Advise Client" id="id-20b487c56a9a4a1db093ca719133b2c4"/>
-      <element xsi:type="archimate:Capability" name="c-4.4.2 / Create ERP" id="id-6b448255362f4f4f9cd4912aa3bf719d"/>
-      <element xsi:type="archimate:Capability" name="c-4.4.3 / Create Specific Offer" id="id-b2134ab952fa48afb3a0254c6476537d"/>
-      <element xsi:type="archimate:Capability" name="c-4.4.4 / Manage Client" id="id-76027f6c553f43d6bab2402dbcb895d5"/>
-      <element xsi:type="archimate:Capability" name="c-4.4.5 / Manage Trials" id="id-388ba42fb9454fe6bf8fc7865b9e9cdd"/>
-      <element xsi:type="archimate:Capability" name="c-4.4.6 / Negotiate Offer" id="id-84774a3988784818ae7dc201918ba5ac"/>
-      <element xsi:type="archimate:Capability" name="c-4.4.7 / Qualify Opportunity" id="id-a70bcafa10eb42578757805e5a9c0267"/>
-    </folder>
-    <folder name="c-5 / Customer Relationship" id="id-e5090325f8074812844673b6c9a36d44">
-      <element xsi:type="archimate:Capability" name="c-5 / Customer Relationship" id="id-7880e1876bcf4814904eb6d087f3b0d0"/>
-      <element xsi:type="archimate:Capability" name="c-5.1 / Contact Management" id="id-f74e090fe72c418a8aa0b3a3ba5dd6f6"/>
-      <element xsi:type="archimate:Capability" name="c-5.1.1 / Classify Demand" id="id-e151f38196804166a018bffdfb38448d"/>
-      <element xsi:type="archimate:Capability" name="c-5.1.2 / Contact Interaction" id="id-48ba08fdc3904f7c8106e2232311702c"/>
-      <element xsi:type="archimate:Capability" name="c-5.1.3 / Inbound Contact" id="id-f6e87ff4332f44fe856577405c1c1f8a"/>
-      <element xsi:type="archimate:Capability" name="c-5.1.4 / Manage Interaction" id="id-99288e9a418e4c1f9923cd656d0c52d6"/>
-      <element xsi:type="archimate:Capability" name="c-5.1.5 / Outbound Contact" id="id-1e6e05d8dbb248cb91236d4e3c15f2df"/>
-      <element xsi:type="archimate:Capability" name="c-5.1.6 / Route Contact" id="id-9b89f0862a5a40c9b0676a379ef7ffda"/>
-      <element xsi:type="archimate:Capability" name="c-5.2 / Contract Management" id="id-5ea7d47fa1d74e04b1236bd1b14bbfe0"/>
-      <element xsi:type="archimate:Capability" name="c-5.2.1 / Manage Contract" id="id-5ca27a199fbe4dcb809fe18b10705ca1"/>
-      <element xsi:type="archimate:Capability" name="c-5.2.2 / Manage Frame-Contract" id="id-0adbf2039f034c4682607cd8a5612b67"/>
-      <element xsi:type="archimate:Capability" name="c-5.2.3 / Manage Product Usage" id="id-5a100596dfbd41149c3f51806f90d8dd"/>
-      <element xsi:type="archimate:Capability" name="c-5.2.4 / Negotiate Contract" id="id-74d098f554ae49f9af168faab0cb86c3"/>
-      <element xsi:type="archimate:Capability" name="c-5.3 / Customer Management" id="id-c2243e7f3ed84e20b5f4b82b43940a46"/>
-      <element xsi:type="archimate:Capability" name="c-5.4 / Customer Scoring" id="id-65e52b1f1de844f7b674e6ffb8135f56"/>
-      <element xsi:type="archimate:Capability" name="c-5.4.1 / Check Credit-Worthiness" id="id-0b1f638ba933411c8cbce80f8d31d74c"/>
-      <element xsi:type="archimate:Capability" name="c-5.4.2 / Define Customer Risks" id="id-63fead346add4489b3a1850e0d81c113"/>
-      <element xsi:type="archimate:Capability" name="c-5.4.3 / Manage Customer Risks" id="id-1aec8c927c16436eacbe6ea85be1f5bb"/>
-      <element xsi:type="archimate:Capability" name="c-5.5 / Order Management" id="id-e888cbb135334d54a764c005772a2bfd"/>
-      <element xsi:type="archimate:Capability" name="c-5.5.1 / Bundle Order" id="id-ee5c690d322c4a76998c28792cce7bf7"/>
-      <element xsi:type="archimate:Capability" name="c-5.5.2 / Cancel Order" id="id-0079e7e6483846a09b2c0ba5a48fa36f"/>
-      <element xsi:type="archimate:Capability" name="c-5.5.3 / Steer Order" id="id-9f2dd7bccd834bfebb965af45eeb1bf1"/>
-      <element xsi:type="archimate:Capability" name="c-5.5.4 / Track Order" id="id-0b1f2a96f48d42c4b1f200349868ef8c"/>
-      <element xsi:type="archimate:Capability" name="c-5.5.5 / Validate Order" id="id-2fa39529cdb846599cabc7a597591457"/>
-      <element xsi:type="archimate:Capability" name="c-5.6 / SLA Management" id="id-aa38d84aeee648fa96e1b5ec1dc38a0f"/>
-      <element xsi:type="archimate:Capability" name="c-5.6.1 / Manage SLA Violations" id="id-62d06082aa664ec491ecef6992be63bb"/>
-      <element xsi:type="archimate:Capability" name="c-5.6.2 / Track &amp; Report SLA Breaches" id="id-6271a261ca774babbd842611d2f9bbe2"/>
-    </folder>
-    <folder name="c-6 / Strategic Management" id="id-653a71bc0edf497ca43ad05114b0bc63">
-      <element xsi:type="archimate:Capability" name="c-6 / Strategic Management" id="id-78b2814212bf41faa05fb11ea69f511d"/>
-      <element xsi:type="archimate:Capability" name="c-6.1 / Business Concept" id="id-8c1e8be2a8554c24801a253e7efe1836"/>
-      <element xsi:type="archimate:Capability" name="c-6.1.1 / Concept Establishment" id="id-e1c548020e38452d88e4a3250a949308"/>
-      <element xsi:type="archimate:Capability" name="c-6.1.2 / External Assessment" id="id-9134f5f20cae4724ab87effa439012a7"/>
-      <element xsi:type="archimate:Capability" name="c-6.1.3 / Internal Analysis" id="id-efc030baa8ad40af886e0003dacb4398"/>
-      <element xsi:type="archimate:Capability" name="c-6.1.4 / Market Surveys" id="id-60643e28038947f6b51e50c84f1b4ffd"/>
-      <element xsi:type="archimate:Capability" name="c-6.1.5 / Restructure Organization" id="id-9b3b3ca0459348e099de73ca4f619660"/>
-      <element xsi:type="archimate:Capability" name="c-6.2 / Externals Management" id="id-24f4578ca117450fbe39d3c3800367dc"/>
-      <element xsi:type="archimate:Capability" name="c-6.2.1 / Evaluate &amp; Select" id="id-69f4881528d1491dbd2c8fee3aa08aa0"/>
-      <element xsi:type="archimate:Capability" name="c-6.2.2 / Maintain Contracts" id="id-eb5a341f3b7641ec8d8012ac3aa7ff97"/>
-      <element xsi:type="archimate:Capability" name="c-6.2.3 / Manage Payments" id="id-c1661a4d469e4ecc9a01e5914f790eb5"/>
-      <element xsi:type="archimate:Capability" name="c-6.2.4 / Monitor Performance" id="id-870e1b79b8574fcb8bcd1c750ae2debe"/>
-      <element xsi:type="archimate:Capability" name="c-6.2.5 / Terminate Contracts" id="id-b842ed96feae4f0a8a064c79be98cc87"/>
-      <element xsi:type="archimate:Capability" name="c-6.2.5 / Terminate Contracts" id="id-1eab675136bc4a568e7d93e07a522460"/>
-      <element xsi:type="archimate:Capability" name="c-6.3 / Innovation &amp; Technology Management" id="id-371ffff991b948429677219e7cb2fc84"/>
-      <element xsi:type="archimate:Capability" name="c-6.3.1 / Manage External Innovation" id="id-f69af13e76584f57946f113cd4b53533"/>
-      <element xsi:type="archimate:Capability" name="c-6.3.2 / Manage Innovation Process" id="id-35ecfbd9215842b9b4e74c3c20aad3de"/>
-      <element xsi:type="archimate:Capability" name="c-6.3.3 / Manage Internal Innovation" id="id-906eff48883e4e4c88c38c95ac147d89"/>
-      <element xsi:type="archimate:Capability" name="c-6.3.4 / Scout Trends" id="id-81a6b45a549b4f4093cc4d85cff850b0"/>
-      <element xsi:type="archimate:Capability" name="c-6.3.5 / Track Innovation" id="id-01f70ab409fd42f5b34f572f4905c4dd"/>
-      <element xsi:type="archimate:Capability" name="c-6.4 / Manage Core Business" id="id-2f9f9f11f1d04fbdbec53fa3fc531d7c"/>
-      <element xsi:type="archimate:Capability" name="c-6.4.1 / Coordinate Projects" id="id-5ff5059d71db44d4aef444fa20fdb50f"/>
-      <element xsi:type="archimate:Capability" name="c-6.4.2 / Evaluate Existing Products" id="id-4e02371d9bd64edf98558be6af678d51"/>
-      <element xsi:type="archimate:Capability" name="c-6.4.2 / Evaluate Existing Products" id="id-26aa843846e84a288f35dde8ad72b11c"/>
-      <element xsi:type="archimate:Capability" name="c-6.4.3 / Manage Bus. Performance &amp; Ops" id="id-6fb4ddc6ba4241fbaebdb8d09d8dcf94"/>
-      <element xsi:type="archimate:Capability" name="c-6.4.4 / Manage Projects" id="id-89b1aab1551c42f7bc60c19e629d31ae"/>
-      <element xsi:type="archimate:Capability" name="c-6.5 / Mergers &amp; Acquisitions" id="id-8c0c52dec524421d87ed33f8e6f0e74f"/>
-      <element xsi:type="archimate:Capability" name="c-6.5.1 / Manage M&amp;A" id="id-91911583fe834bbfb6bf1149780c1955"/>
-      <element xsi:type="archimate:Capability" name="c-6.5.2 / Manage M&amp;A Integration" id="id-4ed280cde38e4318b9a14eae6c6286b6"/>
-      <element xsi:type="archimate:Capability" name="c-6.5.3 / Manage M&amp;A Strategy" id="id-51e9875707d94016bd27b11a274164cd"/>
-      <element xsi:type="archimate:Capability" name="c-6.5.4 / Track Acquisitions" id="id-a29fc407605b44a489a02977a94f9040"/>
-      <element xsi:type="archimate:Capability" name="c-6.6 / Organization Development" id="id-ef9826f878054091a133b5cced33a0ed"/>
-      <element xsi:type="archimate:Capability" name="c-6.6.1 / Coordinate Process Strategy" id="id-7337f89df1584b278ec957eda03b5fa1"/>
-      <element xsi:type="archimate:Capability" name="c-6.6.2 / Develop Organization Goals" id="id-ed6c7ef82e9c43b7a648a1ea206e1abb"/>
-      <element xsi:type="archimate:Capability" name="c-6.6.3 / Plan Long Term" id="id-925cd31b486a4a0589976f6729f60f1a"/>
-      <element xsi:type="archimate:Capability" name="c-6.6.4 / Strategize Business Units" id="id-72d654a302554c00998de9f8fe833875"/>
-      <element xsi:type="archimate:Capability" name="c-6.7 / Strategic Business Initiatives" id="id-7b87678b98524f6aa69f7bda26fa3819"/>
-      <element xsi:type="archimate:Capability" name="c-6.7.1 / Develop Strategic Initiatives" id="id-8e2a97fb0067473ba8789ed8fd225e4a"/>
-      <element xsi:type="archimate:Capability" name="c-6.7.2 / Establish High-Level Measures" id="id-9447b8a4aae9449f9880009d98ffa427"/>
-      <element xsi:type="archimate:Capability" name="c-6.7.3 / Evaluate Strategic Initiatives" id="id-31ff79b618904886ad6a8b6e175a0017"/>
-      <element xsi:type="archimate:Capability" name="c-6.7.4 / Select Strategy" id="id-536884521d2240d88348c025fcba288d"/>
-      <element xsi:type="archimate:Capability" name="c-6.8 / Strategy Development" id="id-8ab67106ef534ee7bb385db3e805b2c6"/>
-      <element xsi:type="archimate:Capability" name="c-6.8.1 / Adapt Strategy" id="id-ce7c58c0660243fab315642d63c45601"/>
-      <element xsi:type="archimate:Capability" name="c-6.8.2 / Define Strategy" id="id-58f548dea24b4b1b90638a66dea4da35"/>
-      <element xsi:type="archimate:Capability" name="c-6.8.3 / Develop Vision/Mission" id="id-0eac560d57e44167ac9c3b7291dda005"/>
-      <element xsi:type="archimate:Capability" name="c-6.8.4 / Manage Strategy" id="id-3557a01c818d49f6ab9eede39df99f2b"/>
-      <element xsi:type="archimate:Capability" name="c-6.8.5 / Track Strategy" id="id-c14fad7e91124b4cbb204bedd722b31b"/>
-    </folder>
-    <folder name="c-7 / Finance" id="id-b3c0ae73d00446928e7f0ef140d29bab">
-      <element xsi:type="archimate:Capability" name="c-7 / Finance" id="id-93ed1effb5924c9ca0ef7983dae0797f"/>
-      <element xsi:type="archimate:Capability" name="c-7.1 / Accounting" id="id-f40d03b6801d47e38c2a3ddc0edeb001"/>
-      <element xsi:type="archimate:Capability" name="c-7.1.2 / Enterprise Consolidation" id="id-1485b7221c724d8889cc3c9b971f0b00"/>
-      <element xsi:type="archimate:Capability" name="c-7.1.3 / External Reporting" id="id-46b0eb7438164779aeecd3888a8c1fcd"/>
-      <element xsi:type="archimate:Capability" name="c-7.1.4 / Inventory Valuation" id="id-282d44a55fac4d03ad21c2b3a28c69e7"/>
-      <element xsi:type="archimate:Capability" name="c-7.1.5 / Investor Relations" id="id-f6299b1f32b34031b04ed493eb7eba69"/>
-      <element xsi:type="archimate:Capability" name="c-7.1.6 / Manage General Ledger" id="id-c82351fa1f48454991fe8bedb96a2e18"/>
-      <element xsi:type="archimate:Capability" name="c-7.1.7 / Performance Reporting" id="id-39b66a6f625449309314aeb97ac0852a"/>
-      <element xsi:type="archimate:Capability" name="c-7.2 / Asset Management" id="id-57a7720a1fca41aeb6b8f8947354915d"/>
-      <element xsi:type="archimate:Capability" name="c-7.2.1 / Asset Performance Mgmt" id="id-2230d93656cb4e6c84f5e39b4f22bab7"/>
-      <element xsi:type="archimate:Capability" name="c-7.2.2 / Decommissioning" id="id-843c4a4d19064d328e3c2940968d73ea"/>
-      <element xsi:type="archimate:Capability" name="c-7.2.3 / Investment Planning" id="id-7b17caa5c3d945ebafacfeb31ce1cdc1"/>
-      <element xsi:type="archimate:Capability" name="c-7.2.4 / Manage Asset Lifecycle" id="id-f4d8c8e34bd749aba003777e46bf8837"/>
-      <element xsi:type="archimate:Capability" name="c-7.3 / Financial Planning &amp; Analysis" id="id-3d3e53043d0545b591cd8eadafc41f8e"/>
-      <element xsi:type="archimate:Capability" name="c-7.3.1 / Business Planning" id="id-be966bd3536e4153b428c9982e24e54f"/>
-      <element xsi:type="archimate:Capability" name="c-7.3.2 / Cost Accounting" id="id-47bbd781de8644a287756dd3e92fdd13"/>
-      <element xsi:type="archimate:Capability" name="c-7.3.2 / Cost Accounting" id="id-485f0cb7e29249e8ba52c2ea72555ffa"/>
-      <element xsi:type="archimate:Capability" name="c-7.3.3 / Forecasting" id="id-149ae365aa8b4460bc535d276f89e5ed"/>
-      <element xsi:type="archimate:Capability" name="c-7.4 / Payroll" id="id-78602df56ac549a98d3e44904f844d3e"/>
-      <element xsi:type="archimate:Capability" name="c-7.4.1 / Manage Payment" id="id-d3bc76ea90bb463a93e07417cd21dd0d"/>
-      <element xsi:type="archimate:Capability" name="c-7.4.2 / Process Taxes" id="id-aaf1b1a29e8c4415ba8d2f082f3481ea"/>
-      <element xsi:type="archimate:Capability" name="c-7.4.3 / Time Stamp Report" id="id-fd32c7e516624f8d8ce9a8097e075e2d"/>
-      <element xsi:type="archimate:Capability" name="c-7.5 / Settlements &amp; Payments" id="id-a49065ba2b4d4f90b3ad13d3b3dc6998"/>
-      <element xsi:type="archimate:Capability" name="c-7.5.1 / Account Payables" id="id-f95d2012e5a54a3c8ab82954b2622113"/>
-      <element xsi:type="archimate:Capability" name="c-7.5.2 / Billing" id="id-dd9f72d6b6304952a9b1309228d9ef37"/>
-      <element xsi:type="archimate:Capability" name="c-7.5.3 / Revenue Cycle Management" id="id-e2e9f897cef644278bc1dfa874e4e639"/>
-      <element xsi:type="archimate:Capability" name="c-7.5.4 / Travel &amp; Expense Management" id="id-b1187a5c8aa94c98aebb585ed4d43151"/>
-      <element xsi:type="archimate:Capability" name="c-7.6 / Tax Management" id="id-6b9951df46654a8ca91f28cbb90883e3"/>
-      <element xsi:type="archimate:Capability" name="c-7.6.1 / Handle Trading" id="id-610d585b789a4972a9c74a95e4b1772e"/>
-      <element xsi:type="archimate:Capability" name="c-7.6.2 / Manage Tax Questionnarie" id="id-52125bb1db284e958d297ae3b46619e7"/>
-      <element xsi:type="archimate:Capability" name="c-7.6.3 / Tax Determination" id="id-efc630f367fd48b6b8bfea2d31ed34d9"/>
-      <element xsi:type="archimate:Capability" name="c-7.6.4 / Tax Planning Strategies" id="id-a4a135e035de43e9b80c7744acbc02fa"/>
-      <element xsi:type="archimate:Capability" name="c-7.6.5 / Tax Returns Mgmt." id="id-69e32ba3f05149b283ad3b5b2418e8d4"/>
-      <element xsi:type="archimate:Capability" name="c-7.6.6 / Tax Settlements" id="id-015b6a973bae4a3faec8e8e38f89c742"/>
-      <element xsi:type="archimate:Capability" name="c-7.7 / Treasury" id="id-c887c058535d48ba916f97658e9ad095"/>
-      <element xsi:type="archimate:Capability" name="c-7.7.1 / Cash Management" id="id-d27ddd0dc8444bb68b344cf06e142710"/>
-      <element xsi:type="archimate:Capability" name="c-7.7.2 / Financial Risk Management" id="id-ca67244f0627452ab49686875c36dc8c"/>
-      <element xsi:type="archimate:Capability" name="c-7.7.3 / Foreign Exchange Management" id="id-6d030fcc488e41359e8e6776f48eaca1"/>
-    </folder>
-    <folder name="c-8 / Enterprise Support" id="id-b1ca4342552e48d68dc682a56cb6b175">
-      <element xsi:type="archimate:Capability" name="c-8 / Enterprise Support" id="id-5d945328c1e143c296739847065e5821"/>
-      <element xsi:type="archimate:Capability" name="c-8.1 / Enterprise Effectiveness &amp; Project Management" id="id-85c575b995c04760ae9e30647514bc1c"/>
-      <element xsi:type="archimate:Capability" name="c-8.1.1 / Develop Projects" id="id-30d7c8e90a0246469d8af50621d713c0"/>
-      <element xsi:type="archimate:Capability" name="c-8.1.2 / Manage Portfolio" id="id-eac533b30f2148c0bc5e690ba05cb4f8"/>
-      <element xsi:type="archimate:Capability" name="c-8.1.3 / Manage Programs" id="id-4a595513c34c49b3ac3d2cea88be73ba"/>
-      <element xsi:type="archimate:Capability" name="c-8.2 / Enterprise Risk Management" id="id-9d71673dc61541b591ff3ba1ab5f7a3d"/>
-      <element xsi:type="archimate:Capability" name="c-8.2.1 / Business Continuity" id="id-4dbfc6b532904dfa997069449de4dd57"/>
-      <element xsi:type="archimate:Capability" name="c-8.2.2 / Manage Compliance" id="id-5139dbeb2c154085aa7896a0fd34ca85"/>
-      <element xsi:type="archimate:Capability" name="c-8.2.3 / Manage Fraud" id="id-ddc3781b28d84331949ecd755046e084"/>
-      <element xsi:type="archimate:Capability" name="c-8.2.4 / Manage Insurance" id="id-6fab15d3693649a0bda1b07e831bc628"/>
-      <element xsi:type="archimate:Capability" name="c-8.2.5 / Manage Security" id="id-2e6a1f1443d14e32a16111ebc682eebf"/>
-      <element xsi:type="archimate:Capability" name="c-8.3 / Human Resources Management" id="id-05a07b3b2cf44eb3bd86d113539cd69e"/>
-      <element xsi:type="archimate:Capability" name="c-8.3.1 / HR Policies &amp; Processes" id="id-89f40454aa884bde979ecf5c801ca819"/>
-      <element xsi:type="archimate:Capability" name="c-8.3.2 / Manage Employee" id="id-e6f2a0e8e1954512a861590e7c290f4c"/>
-      <element xsi:type="archimate:Capability" name="c-8.3.3 / Manage Payroll" id="id-6dd494c5cf3f4122ae83a9f727205243"/>
-      <element xsi:type="archimate:Capability" name="c-8.3.4 / Manage Talents" id="id-136a7c81048b4339a7915fb5997f8e77"/>
-      <element xsi:type="archimate:Capability" name="c-8.3.5 / Recruiting" id="id-e03f92f0d51c4ce6acb37e300e4a56c1"/>
-      <element xsi:type="archimate:Capability" name="c-8.4 / Information Management" id="id-caa37b811df6472580c99f3fdf2111d8"/>
-      <element xsi:type="archimate:Capability" name="c-8.4.1 / Define Reports and KPIs" id="id-d5cd514015d54388af64fa4b70e31571"/>
-      <element xsi:type="archimate:Capability" name="c-8.4.2 / Gather Data" id="id-01298a0c786041658e520bbb6b790461"/>
-      <element xsi:type="archimate:Capability" name="c-8.4.3 / Govern Data" id="id-b25faece5d934ac4b84bac752c62d3ce"/>
-      <element xsi:type="archimate:Capability" name="c-8.4.4 / Illustrate Data" id="id-10ecc15eea774391ba220a4c291f0022"/>
-      <element xsi:type="archimate:Capability" name="c-8.4.5 / Process Data" id="id-2e827e6d1280422fbb597c59c99c1229"/>
-      <element xsi:type="archimate:Capability" name="c-8.5 / IT Management" id="id-018b76e0586141d18525b4d0ff0e751d"/>
-      <element xsi:type="archimate:Capability" name="c-8.5.1 / Application Management" id="id-06c1488a30ef417483c4cf49b792e7e2"/>
-      <element xsi:type="archimate:Capability" name="c-8.5.2 / EA Management" id="id-d6a82235bd1b46699ccafde124bdafc7"/>
-      <element xsi:type="archimate:Capability" name="c-8.5.3 / IT Project Management" id="id-e5d60ff426a84c57ad86292a98450ec8"/>
-      <element xsi:type="archimate:Capability" name="c-8.5.4 / IT Service Management" id="id-66029e15912441ac979706b8f80cffe1"/>
-      <element xsi:type="archimate:Capability" name="c-8.5.5 / IT Strategy Management" id="id-51eef367dd8b4b81874aeded6da0a8f5"/>
-      <element xsi:type="archimate:Capability" name="c-8.5.6 / Technology Management" id="id-38235141de844c24891ce3e3001f3b74"/>
-      <element xsi:type="archimate:Capability" name="c-8.6 / Knowledge &amp; Research Management" id="id-c55abfa35abd4d07968d44f53d8119ef"/>
-      <element xsi:type="archimate:Capability" name="c-8.6.1 / Manage Knowledge" id="id-6dfac876334744a2951a2adb27d6dc21"/>
-      <element xsi:type="archimate:Capability" name="c-8.6.2 / Manage Research" id="id-a830bbd77395410c9cd1f74fad506a5f"/>
-      <element xsi:type="archimate:Capability" name="c-8.6.3 / Manage Tech Scanning" id="id-0e4b5877059f4c9dbbb1cb9d58200b84"/>
-      <element xsi:type="archimate:Capability" name="c-8.7 / Legal" id="id-9fe74a128015438a894d052a57468a93"/>
-      <element xsi:type="archimate:Capability" name="c-8.7.1 / Corporate Governance Policies" id="id-3ac2603d14bf450e9dc453dbbb7bf34b"/>
-      <element xsi:type="archimate:Capability" name="c-8.7.2 / Ensure Compliance" id="id-370adfeffe8143c48f8be0b1d50f17ca"/>
-      <element xsi:type="archimate:Capability" name="c-8.7.3 / Preventive Law Program Dev." id="id-fe134083792f4e049025afcc6cb9a68e"/>
-      <element xsi:type="archimate:Capability" name="c-8.8 / Workforce Management" id="id-92a014e03a9348459c52e21489d0f84b"/>
-      <element xsi:type="archimate:Capability" name="c-8.8.1 / Deploy Workforce" id="id-da5a1d95f7b54f418035527f7d6cb6a1"/>
-      <element xsi:type="archimate:Capability" name="c-8.8.2 / Manage Work Order" id="id-cf5887da32284665b23600290d137308"/>
-      <element xsi:type="archimate:Capability" name="c-8.8.3 / Workforce Planning" id="id-dddf90a5f6474235b83e94ab25c1f20a"/>
+    <folder name="Business Capabilities" id="id-068e9456fe3e48dd94dfc417ec8a441f">
+      <folder name="c-1 / Procurement &amp; Logistics" id="id-39a6544ebef0445c8518b55c8abf4050">
+        <element xsi:type="archimate:Capability" name="c-1 / Procurement &amp; Logistics" id="id-fd8c8c526ac445d89129478ba98a6d26"/>
+        <element xsi:type="archimate:Capability" name="c-1.1 / Logistics Management" id="id-9975569beed54274ae8b7f6952afec9e"/>
+        <element xsi:type="archimate:Capability" name="c-1.1.1 / Manage Demand Forecast" id="id-4a402a36825f4ab6b938f190d24a2f75"/>
+        <element xsi:type="archimate:Capability" name="c-1.1.2 / Manage Logistic Order" id="id-edfc36d4e3784c419f160d9e4f17b1e6"/>
+        <element xsi:type="archimate:Capability" name="c-1.1.3 / Manage Returns" id="id-856ae8f15341472eb66d3673cd100540"/>
+        <element xsi:type="archimate:Capability" name="c-1.1.4 / Manage Transportation" id="id-04f7ec14a94744c9bc5582a26ef042b5"/>
+        <element xsi:type="archimate:Capability" name="c-1.2 / Purchasing" id="id-2491f7f9f50c4ac0b001132bcea2e4c6"/>
+        <element xsi:type="archimate:Capability" name="c-1.2.1 / Approve &amp; Transmit Order" id="id-c1e2955cfef64dd69a9c29d9d335946d"/>
+        <element xsi:type="archimate:Capability" name="c-1.2.10 / Manage Purchase Requisition" id="id-d41e7e6756544a7bb4b059302e25ce5d"/>
+        <element xsi:type="archimate:Capability" name="c-1.2.11 / Manage Sourcing Tender Process" id="id-6b304c8dc33a460daeb25f7c773d3233"/>
+        <element xsi:type="archimate:Capability" name="c-1.2.12 / Tendering" id="id-5fa8696dac4b4551908ee7e387862ebf"/>
+        <element xsi:type="archimate:Capability" name="c-1.2.2 / Decide On Sourcing" id="id-7daee3ed31334b0d8446f2be6d0ad537"/>
+        <element xsi:type="archimate:Capability" name="c-1.2.3 / Define Sourcing Requirements" id="id-252d9946e517405384c96d1a354af59f"/>
+        <element xsi:type="archimate:Capability" name="c-1.2.4 / Define Sourcing Strategy" id="id-569f865b5a5849c0a9b0304e52a62e2f"/>
+        <element xsi:type="archimate:Capability" name="c-1.2.5 / Manage Category" id="id-45f1e4d57a49459796df87434d32d77f"/>
+        <element xsi:type="archimate:Capability" name="c-1.2.6 / Manage Purchase Catalogue" id="id-d2a872d3c90f4a91a7e6491f3554be97"/>
+        <element xsi:type="archimate:Capability" name="c-1.2.7 / Manage Purchase Order" id="id-280572fa05f94afca2df3c1476da7b7f"/>
+        <element xsi:type="archimate:Capability" name="c-1.2.8 / Manage Purchase Procedure" id="id-ed355bf0e2a44e6cb00e0357bc5bbef1"/>
+        <element xsi:type="archimate:Capability" name="c-1.2.9 / Manage Purchase Requirements" id="id-4dc42df00b6742f98437c4211ea0d145"/>
+        <element xsi:type="archimate:Capability" name="c-1.3 / Sourcing" id="id-49ebcf81378f496db0df246f3d8e695e"/>
+        <element xsi:type="archimate:Capability" name="c-1.4 / Supplier Contact Management" id="id-e27d7cbc408644b98963acde27ba734e"/>
+        <element xsi:type="archimate:Capability" name="c-1.4.1 / Enact Supplier Contract" id="id-9dfe6957055a445fa6a7dffb7272c2e9"/>
+        <element xsi:type="archimate:Capability" name="c-1.4.2 / Manage Supplier Contract" id="id-368d43812c7244dd9fad3ea599ad44dc"/>
+        <element xsi:type="archimate:Capability" name="c-1.4.3 / Manage Supplier Frame Contract" id="id-3177d1d02a8d4b73b659b8d2f2abb559"/>
+        <element xsi:type="archimate:Capability" name="c-1.4.4 / Negotiate Supplier Contract" id="id-1d988d49996f4c859def6640a39fd965"/>
+        <element xsi:type="archimate:Capability" name="c-1.5 / Warehouse Management" id="id-0ffa28766bba427091a46d910c539337"/>
+        <element xsi:type="archimate:Capability" name="c-1.5.1 / Commissioning" id="id-91b5fc79590e426fb7b21dc001dae17f"/>
+        <element xsi:type="archimate:Capability" name="c-1.5.2 / Goods Receipt &amp; Service Entry" id="id-bd3223988a5b496dbb5de6676fb2e444"/>
+        <element xsi:type="archimate:Capability" name="c-1.5.3 / Manage Claims" id="id-0b8795304bfc4150b8081a956e63174e"/>
+        <element xsi:type="archimate:Capability" name="c-1.5.4 / Manage Inventory" id="id-69c18dd7667545229278a4fbcbe33e31"/>
+        <element xsi:type="archimate:Capability" name="c-1.5.5 / Material Disposition" id="id-432045132e504271a6c6387fbd9ad9e5"/>
+        <element xsi:type="archimate:Capability" name="c-1.5.6 / Packaging" id="id-af3473f418a54825ba9128f3b82dc181"/>
+        <element xsi:type="archimate:Capability" name="c-1.5.7 / Restocking" id="id-12b6553201354295ab1d038cd8ab62c6"/>
+        <element xsi:type="archimate:Capability" name="c-1.5.8 / Shipping" id="id-11dc4acd1589471899487df6f6a9a4a9"/>
+      </folder>
+      <folder name="c-2 / Product &amp; Service Development" id="id-41e2a58a0a2f42e393bd77cca8e7ff81">
+        <element xsi:type="archimate:Capability" name="c-2 / Product &amp; Service Development" id="id-5ed1ed06dfe8482cb132a19c0aabf8f5"/>
+        <element xsi:type="archimate:Capability" name="c-2.1 / Engineering" id="id-7bb57b343ea34cb2b2ad27fdf240c048"/>
+        <element xsi:type="archimate:Capability" name="c-2.1.1 / Conceptualization" id="id-973d7b4df2254c90905f6b39aa2e1db8"/>
+        <element xsi:type="archimate:Capability" name="c-2.1.2 / Construction" id="id-1ccd31888c87499897a98e53e7e2ec7f"/>
+        <element xsi:type="archimate:Capability" name="c-2.1.3 / Design Products" id="id-c1bbc62b7f364280bc513f4fd5a0e799"/>
+        <element xsi:type="archimate:Capability" name="c-2.1.4 / Manage Requirements" id="id-b203f5ffbce54a1aa170ead526afab60"/>
+        <element xsi:type="archimate:Capability" name="c-2.2 / Marketing Testing" id="id-3880f8c784204aeaafcefcdf21ef89d9"/>
+        <element xsi:type="archimate:Capability" name="c-2.2.1 / Analyse Customer Intelligence" id="id-463bb88153904697bbfff8c8a515d37d"/>
+        <element xsi:type="archimate:Capability" name="c-2.2.2 / Establish Measures" id="id-d0ce45b3a964487f8150f376d7e31a3c"/>
+        <element xsi:type="archimate:Capability" name="c-2.2.3 / Evaluate Market Opportunities" id="id-47db89f6126741d79f1a09ad68dbab05"/>
+        <element xsi:type="archimate:Capability" name="c-2.2.4 / Market Survey" id="id-6f93b986fe684a01a4d31ee559709ab3"/>
+        <element xsi:type="archimate:Capability" name="c-2.3 / Method Development" id="id-20ff7a1bef3b4b7d92d2c2ff4f2e7c6f"/>
+        <element xsi:type="archimate:Capability" name="c-2.3.1 / Define Method" id="id-afde0e6f560a449f9ae3e5efa082bda3"/>
+        <element xsi:type="archimate:Capability" name="c-2.3.2 / Execute Method" id="id-7b69ca68058a4409ae2594013e49680a"/>
+        <element xsi:type="archimate:Capability" name="c-2.3.3 / Refine Method" id="id-c6fa44b9c0c34215b57fda6cbe7e6425"/>
+        <element xsi:type="archimate:Capability" name="c-2.3.4 / Validate Method" id="id-2c05195ec6f04b73885e74a86d9da5cd"/>
+        <element xsi:type="archimate:Capability" name="c-2.4 / Product &amp; Service Delivery" id="id-13304ea22e8845c89c8baed2a9679caa"/>
+        <element xsi:type="archimate:Capability" name="c-2.4.1 / Manage Product Traceability" id="id-308b7a8a0f674b51b6321c8098307606"/>
+        <element xsi:type="archimate:Capability" name="c-2.4.2 / Manage Production" id="id-52e03c0fe8234168aa9c9850c5ea0a06"/>
+        <element xsi:type="archimate:Capability" name="c-2.4.3 / Schedule Production" id="id-e54dc5fdc6cc4ab480aa0eba59be3ec5"/>
+        <element xsi:type="archimate:Capability" name="c-2.4.4 / Test Quality Performance" id="id-8e55e9bb29764e3989517b77e225188e"/>
+        <element xsi:type="archimate:Capability" name="c-2.5 / Product Preparation" id="id-39f9ac44a18a4c61a3e12f513c3a7c01"/>
+        <element xsi:type="archimate:Capability" name="c-2.5.1 / Align Resources" id="id-9804b4c2c3b74de99311e159fee4d22f"/>
+        <element xsi:type="archimate:Capability" name="c-2.5.2 / Master Production Schedule" id="id-1d82c965f04a4d1199d94c27f0a74caa"/>
+        <element xsi:type="archimate:Capability" name="c-2.5.3 / Procure Materials &amp; Services" id="id-e8a8c10f6d494dc1a039482bbe90d9b3"/>
+        <element xsi:type="archimate:Capability" name="c-2.5.4 / Select Suppliers &amp; Developers" id="id-86d94090da45445d8c3b383a2c9e4505"/>
+        <element xsi:type="archimate:Capability" name="c-2.6 / Quality Management" id="id-f894438631184ccf9efb47f15afc8c1d"/>
+        <element xsi:type="archimate:Capability" name="c-2.6.1 / Manage Debugging" id="id-faa15045b2ea43429f1cf863487ddbd0"/>
+        <element xsi:type="archimate:Capability" name="c-2.6.2 / Manage Product Document" id="id-25ea252853ca4e61ad2944828bdc0186"/>
+        <element xsi:type="archimate:Capability" name="c-2.6.3 / Test Initial Quality" id="id-67a028cea8a34d1b83116809e5b29de1"/>
+        <element xsi:type="archimate:Capability" name="c-2.6.4 / Track Quality" id="id-cdf36c21dd9042679e5a14a3d57cca80"/>
+        <element xsi:type="archimate:Capability" name="c-2.7 / R&amp;D" id="id-d8aea385610242b4ab3e62ce59591b9a"/>
+        <element xsi:type="archimate:Capability" name="c-2.7.1 / Manage Innovation" id="id-f59a4c8340124d518c023159f0065ecd"/>
+        <element xsi:type="archimate:Capability" name="c-2.7.2 / Manage Patent" id="id-d91b59aefdd244dbad2a0efb1f2c5a1e"/>
+        <element xsi:type="archimate:Capability" name="c-2.7.3 / Manage Product Portfolio" id="id-2befb5376f154d5a870f7217bf4929f0"/>
+        <element xsi:type="archimate:Capability" name="c-2.7.4 / Manage R&amp;D Process" id="id-4f56992552d64c81a28457a7f2f4e6b0"/>
+        <element xsi:type="archimate:Capability" name="c-2.8 / Requirements Definition" id="id-a95f916ad32944e1afdcb167dd6fe042"/>
+        <element xsi:type="archimate:Capability" name="c-2.8.2 / Manage Materials" id="id-b167f2d6da074df9bd7e869987b1f713"/>
+        <element xsi:type="archimate:Capability" name="c-2.8.3 / Require Distribution" id="id-683145816c87403a9116514a2e53edf4"/>
+        <element xsi:type="archimate:Capability" name="c-2.8.4 / Review Demand" id="id-b63ef86cf5e44e4aaadb165d8d302177"/>
+      </folder>
+      <folder name="c-3 / Production" id="id-5cb3477aff2149f9bd1e76e528c725d3">
+        <element xsi:type="archimate:Capability" name="c-3 / Production" id="id-dc1d8df52f1f484eb3aa49736f02ee5a"/>
+        <element xsi:type="archimate:Capability" name="c-3.1 / Change Management" id="id-205c26d70920447dafd4bee99ca175bf"/>
+        <element xsi:type="archimate:Capability" name="c-3.1.1 / Access Deviations" id="id-88825c3444e144a1b53d5daafecadb3d"/>
+        <element xsi:type="archimate:Capability" name="c-3.1.2 / Analyze Deviations" id="id-879a125c47554329aa686ea6654825e2"/>
+        <element xsi:type="archimate:Capability" name="c-3.1.3 / Manage Deviation Allowance" id="id-b987d47f170c4a8d8bf847e73dad1848"/>
+        <element xsi:type="archimate:Capability" name="c-3.1.4 / Plan &amp; Execute Deviations" id="id-caa32787919a4dacb6629a466ee78ba1"/>
+        <element xsi:type="archimate:Capability" name="c-3.1.5 / Trace Deviations" id="id-4f10afd78b5d47f7af6aea55febe682e"/>
+        <element xsi:type="archimate:Capability" name="c-3.2 / Infrastructure Management" id="id-49c93be6a26a4888879acc279ca76dd8"/>
+        <element xsi:type="archimate:Capability" name="c-3.2.1 / Build Site Infrastructure" id="id-e6b4470da44e439a9d1c56369ad42c25"/>
+        <element xsi:type="archimate:Capability" name="c-3.2.2 / Manage Location Restrictions" id="id-22b7b8b37cd84021951821638cfcad2c"/>
+        <element xsi:type="archimate:Capability" name="c-3.2.3 / Operate Site Infrastructure" id="id-76c1b50117cd4a00852d5c8c52013bbd"/>
+        <element xsi:type="archimate:Capability" name="c-3.2.4 / Plan &amp; Control Construction" id="id-f3edf7a8e6fb4037af6717de8220982e"/>
+        <element xsi:type="archimate:Capability" name="c-3.3 / Machine Management" id="id-519c8708c3c94eb590a27d7ee5043cad"/>
+        <element xsi:type="archimate:Capability" name="c-3.3.1 / Build Machine" id="id-3118e6bf5df84b609b34b00340d53328"/>
+        <element xsi:type="archimate:Capability" name="c-3.3.2 / Calibrate Machine" id="id-02ce31aad25345bc8b0cebb8ea98f70f"/>
+        <element xsi:type="archimate:Capability" name="c-3.3.3 / Manage Machine Information" id="id-1d13d5245c2046f5a1f9f841ddf8df36"/>
+        <element xsi:type="archimate:Capability" name="c-3.3.4 / Operate Machine" id="id-b944200ecef14daca1a3ea188301cb8f"/>
+        <element xsi:type="archimate:Capability" name="c-3.3.5 / Optimize Machine" id="id-f378cc9701934c2f974c284d08868d4e"/>
+        <element xsi:type="archimate:Capability" name="c-3.4 / Maintenance" id="id-e06e543822134af8895cd676a50be92e"/>
+        <element xsi:type="archimate:Capability" name="c-3.4.1 / Handle Spare Parts" id="id-6835fd91f528420f967f176edb75ebd9"/>
+        <element xsi:type="archimate:Capability" name="c-3.4.2 / Manage Maintenance Plan" id="id-41b0f80d24aa40e7bd7cc44370281a90"/>
+        <element xsi:type="archimate:Capability" name="c-3.4.3 / Recognize &amp; Recover Failure" id="id-38ba81eab0cc4c3f9b32c5329e61dbf9"/>
+        <element xsi:type="archimate:Capability" name="c-3.5 / Materials Management" id="id-f05977968b244b6c96b17530ec813eab"/>
+        <element xsi:type="archimate:Capability" name="c-3.5.1 / Fetch Material" id="id-731de742908a41e7a0fad59d8311fcb0"/>
+        <element xsi:type="archimate:Capability" name="c-3.5.2 / Handle Dangerous Goods" id="id-58681f0890424102bee49e1c943fd82a"/>
+        <element xsi:type="archimate:Capability" name="c-3.5.3 / Manage Containers" id="id-5dbf04cdfb3d444082649b5e4f0e589e"/>
+        <element xsi:type="archimate:Capability" name="c-3.5.4 / Manage Incoming Materials" id="id-c7bd4c4e3fcb48eba03c115adf1f42c2"/>
+        <element xsi:type="archimate:Capability" name="c-3.5.5 / Manage Material Requirements" id="id-a091916417c4499cbf73b4a35dfa558d"/>
+        <element xsi:type="archimate:Capability" name="c-3.6 / Product Design &amp; Planning" id="id-d41cb1c6c7594359b4dc91faad282163"/>
+        <element xsi:type="archimate:Capability" name="c-3.6.1 / Define Production Process" id="id-760aaf7b56ae4317a3242939bec7d25d"/>
+        <element xsi:type="archimate:Capability" name="c-3.6.2 / Define Production Site" id="id-97b67a5ea84c47e2ad03443cb76e1b6b"/>
+        <element xsi:type="archimate:Capability" name="c-3.6.3 / Manage Production Requirements" id="id-efd4fbb960d84fc4ada18bd5f33601e3"/>
+        <element xsi:type="archimate:Capability" name="c-3.6.4 / Manage Waste Disposal" id="id-7b841263388d4ab0ba0463ce28ded79e"/>
+        <element xsi:type="archimate:Capability" name="c-3.6.5 / Plan Material Requirements" id="id-a93afdacbacb4b69b43821d54328b360"/>
+        <element xsi:type="archimate:Capability" name="c-3.7 / Production Order Management" id="id-765ff6298aa940d798a4c471ddbaf5d6"/>
+        <element xsi:type="archimate:Capability" name="c-3.7.1 / Manage Order Validity" id="id-08a824561fca40579a42c3345c445169"/>
+        <element xsi:type="archimate:Capability" name="c-3.7.2 / Plan Production Orders" id="id-619f0c58564e4bf58fa4a02b871ab958"/>
+        <element xsi:type="archimate:Capability" name="c-3.7.3 / Plan Production Program" id="id-b3577a22c953420c997aea1c9e6f1c36"/>
+        <element xsi:type="archimate:Capability" name="c-3.7.4 / Plan Supply Quantity" id="id-727ec8d5b9554268893f6653394fbf40"/>
+        <element xsi:type="archimate:Capability" name="c-3.7.5 / Pre-production Planning" id="id-743639ca48c0485fa859801a1cc6ce46"/>
+        <element xsi:type="archimate:Capability" name="c-3.8 / Production Steering" id="id-626f8b6da75641e393ba5e46f4970996"/>
+        <element xsi:type="archimate:Capability" name="c-3.8.1 / Bill of Material Management" id="id-1677748f6080446d8775044a0484258c"/>
+        <element xsi:type="archimate:Capability" name="c-3.8.2 / Deliver Product" id="id-bbf7cb09dc624cf0aa2f392bc1a01022"/>
+        <element xsi:type="archimate:Capability" name="c-3.8.3 / Localize Product" id="id-342020988a0244049dbfa1790536e63c"/>
+        <element xsi:type="archimate:Capability" name="c-3.8.4 / Monitor Production Process" id="id-059841dccf0042dfa9932c9375f053c5"/>
+        <element xsi:type="archimate:Capability" name="c-3.8.5 / Retrieve Product Information" id="id-b34c2ce3ae314c70b09ea75138862331"/>
+      </folder>
+      <folder name="c-4 / Marketing &amp; Sales" id="id-1e7441a65672469796830c29ad2185f9">
+        <element xsi:type="archimate:Capability" name="c-4 / Marketing &amp; Sales" id="id-5abeadd0879a48ffbf37dce158a4d98d"/>
+        <element xsi:type="archimate:Capability" name="c-4.1 / Customer Success Management" id="id-cc58daf39767424a98926f0ef245f3e2"/>
+        <element xsi:type="archimate:Capability" name="c-4.1.1 / Avoid Customer Churn" id="id-0f1486446e8540e8ba6c92243dc4bd33"/>
+        <element xsi:type="archimate:Capability" name="c-4.1.2 / Define Plans for Customer Upsell" id="id-d554a32911474837b78b3b531c44c8ed"/>
+        <element xsi:type="archimate:Capability" name="c-4.1.3 / Increase Customer Lifetime Value" id="id-36c8aa26820049ea8b64a65ed2abae9c"/>
+        <element xsi:type="archimate:Capability" name="c-4.1.4 / Manage Customer Onboarding" id="id-96ef9e1d9ccd413facb0d554c832cc87"/>
+        <element xsi:type="archimate:Capability" name="c-4.1.5 / Manage Upsells" id="id-1bff0244b2d2426180a4fb109af9dee0"/>
+        <element xsi:type="archimate:Capability" name="c-4.2 / Demand &amp; Offer Management" id="id-8bb25769d2c04080a7350c93335267b1"/>
+        <element xsi:type="archimate:Capability" name="c-4.2.1 / Identify Customer" id="id-6afe88a977994eb89a168d17510c12ea"/>
+        <element xsi:type="archimate:Capability" name="c-4.2.1 / Identify Customer" id="id-085eabc2245f4e2c83bab9479a6e9d96"/>
+        <element xsi:type="archimate:Capability" name="c-4.2.2 / Identify New Channels" id="id-45762688a05748849f8882654eb3df22"/>
+        <element xsi:type="archimate:Capability" name="c-4.2.3 / Manage Community" id="id-bff2f02651124747bb27dc9ad8454108"/>
+        <element xsi:type="archimate:Capability" name="c-4.2.3 / Manage Community" id="id-50a4fc57486c48debc04932b16c577a2"/>
+        <element xsi:type="archimate:Capability" name="c-4.2.4 / Manage Customer" id="id-bb022824acfd4d99bb12491da737feef"/>
+        <element xsi:type="archimate:Capability" name="c-4.2.4 / Manage Customer" id="id-b0ef88acda7a44709b46b4e03dd267c4"/>
+        <element xsi:type="archimate:Capability" name="c-4.2.5 / Manage Customer Hierarchy" id="id-9c12ae3a759849329c832a5235760da9"/>
+        <element xsi:type="archimate:Capability" name="c-4.2.5 / Manage Customer Hierarchy" id="id-77c23cc1abcb43a8ace29570d05b6d21"/>
+        <element xsi:type="archimate:Capability" name="c-4.2.6 / Manage Customer Profile" id="id-eca10698402648f5b4d32d5b0fbe92e6"/>
+        <element xsi:type="archimate:Capability" name="c-4.2.7 / Manage Org. Context" id="id-aa035ca984424607ae86399dad2ce686"/>
+        <element xsi:type="archimate:Capability" name="c-4.2.7 / Manage Org. Context" id="id-9de3ad6a11fd4c6d9a19bdc10f36b8f6"/>
+        <element xsi:type="archimate:Capability" name="c-4.3 / Marketing &amp; Sales Development" id="id-ae1720d9558c4eecb4d06b692e7f1dfc"/>
+        <element xsi:type="archimate:Capability" name="c-4.3.1 / Define Customer Value Proposition" id="id-2fbce88957544280b9eeff53f9978612"/>
+        <element xsi:type="archimate:Capability" name="c-4.3.2 / Define M&amp;S Requirements" id="id-f261a746a6ed486591217bf331946972"/>
+        <element xsi:type="archimate:Capability" name="c-4.3.3 / Define Marketing Budget" id="id-df02c5cd863b4e49b0e9697140088c95"/>
+        <element xsi:type="archimate:Capability" name="c-4.3.4 / Develop M&amp;S Channels" id="id-940f702b6394436a99e2dc362543008a"/>
+        <element xsi:type="archimate:Capability" name="c-4.3.5 / Develop M&amp;S Messages" id="id-adccd17a66374ff1904c571f983b7ebf"/>
+        <element xsi:type="archimate:Capability" name="c-4.3.6 / Monitor Channels" id="id-89989255bde243b8b2d1b6fb049f0227"/>
+        <element xsi:type="archimate:Capability" name="c-4.4 / Sales" id="id-0b7f15d557234c4f93287429e9b230ab"/>
+        <element xsi:type="archimate:Capability" name="c-4.4.1 / Advise Client" id="id-20b487c56a9a4a1db093ca719133b2c4"/>
+        <element xsi:type="archimate:Capability" name="c-4.4.2 / Create ERP" id="id-6b448255362f4f4f9cd4912aa3bf719d"/>
+        <element xsi:type="archimate:Capability" name="c-4.4.3 / Create Specific Offer" id="id-b2134ab952fa48afb3a0254c6476537d"/>
+        <element xsi:type="archimate:Capability" name="c-4.4.4 / Manage Client" id="id-76027f6c553f43d6bab2402dbcb895d5"/>
+        <element xsi:type="archimate:Capability" name="c-4.4.5 / Manage Trials" id="id-388ba42fb9454fe6bf8fc7865b9e9cdd"/>
+        <element xsi:type="archimate:Capability" name="c-4.4.6 / Negotiate Offer" id="id-84774a3988784818ae7dc201918ba5ac"/>
+        <element xsi:type="archimate:Capability" name="c-4.4.7 / Qualify Opportunity" id="id-a70bcafa10eb42578757805e5a9c0267"/>
+      </folder>
+      <folder name="c-5 / Customer Relationship" id="id-e5090325f8074812844673b6c9a36d44">
+        <element xsi:type="archimate:Capability" name="c-5 / Customer Relationship" id="id-7880e1876bcf4814904eb6d087f3b0d0"/>
+        <element xsi:type="archimate:Capability" name="c-5.1 / Contact Management" id="id-f74e090fe72c418a8aa0b3a3ba5dd6f6"/>
+        <element xsi:type="archimate:Capability" name="c-5.1.1 / Classify Demand" id="id-e151f38196804166a018bffdfb38448d"/>
+        <element xsi:type="archimate:Capability" name="c-5.1.2 / Contact Interaction" id="id-48ba08fdc3904f7c8106e2232311702c"/>
+        <element xsi:type="archimate:Capability" name="c-5.1.3 / Inbound Contact" id="id-f6e87ff4332f44fe856577405c1c1f8a"/>
+        <element xsi:type="archimate:Capability" name="c-5.1.4 / Manage Interaction" id="id-99288e9a418e4c1f9923cd656d0c52d6"/>
+        <element xsi:type="archimate:Capability" name="c-5.1.5 / Outbound Contact" id="id-1e6e05d8dbb248cb91236d4e3c15f2df"/>
+        <element xsi:type="archimate:Capability" name="c-5.1.6 / Route Contact" id="id-9b89f0862a5a40c9b0676a379ef7ffda"/>
+        <element xsi:type="archimate:Capability" name="c-5.2 / Contract Management" id="id-5ea7d47fa1d74e04b1236bd1b14bbfe0"/>
+        <element xsi:type="archimate:Capability" name="c-5.2.1 / Manage Contract" id="id-5ca27a199fbe4dcb809fe18b10705ca1"/>
+        <element xsi:type="archimate:Capability" name="c-5.2.2 / Manage Frame-Contract" id="id-0adbf2039f034c4682607cd8a5612b67"/>
+        <element xsi:type="archimate:Capability" name="c-5.2.3 / Manage Product Usage" id="id-5a100596dfbd41149c3f51806f90d8dd"/>
+        <element xsi:type="archimate:Capability" name="c-5.2.4 / Negotiate Contract" id="id-74d098f554ae49f9af168faab0cb86c3"/>
+        <element xsi:type="archimate:Capability" name="c-5.3 / Customer Management" id="id-c2243e7f3ed84e20b5f4b82b43940a46"/>
+        <element xsi:type="archimate:Capability" name="c-5.4 / Customer Scoring" id="id-65e52b1f1de844f7b674e6ffb8135f56"/>
+        <element xsi:type="archimate:Capability" name="c-5.4.1 / Check Credit-Worthiness" id="id-0b1f638ba933411c8cbce80f8d31d74c"/>
+        <element xsi:type="archimate:Capability" name="c-5.4.2 / Define Customer Risks" id="id-63fead346add4489b3a1850e0d81c113"/>
+        <element xsi:type="archimate:Capability" name="c-5.4.3 / Manage Customer Risks" id="id-1aec8c927c16436eacbe6ea85be1f5bb"/>
+        <element xsi:type="archimate:Capability" name="c-5.5 / Order Management" id="id-e888cbb135334d54a764c005772a2bfd"/>
+        <element xsi:type="archimate:Capability" name="c-5.5.1 / Bundle Order" id="id-ee5c690d322c4a76998c28792cce7bf7"/>
+        <element xsi:type="archimate:Capability" name="c-5.5.2 / Cancel Order" id="id-0079e7e6483846a09b2c0ba5a48fa36f"/>
+        <element xsi:type="archimate:Capability" name="c-5.5.3 / Steer Order" id="id-9f2dd7bccd834bfebb965af45eeb1bf1"/>
+        <element xsi:type="archimate:Capability" name="c-5.5.4 / Track Order" id="id-0b1f2a96f48d42c4b1f200349868ef8c"/>
+        <element xsi:type="archimate:Capability" name="c-5.5.5 / Validate Order" id="id-2fa39529cdb846599cabc7a597591457"/>
+        <element xsi:type="archimate:Capability" name="c-5.6 / SLA Management" id="id-aa38d84aeee648fa96e1b5ec1dc38a0f"/>
+        <element xsi:type="archimate:Capability" name="c-5.6.1 / Manage SLA Violations" id="id-62d06082aa664ec491ecef6992be63bb"/>
+        <element xsi:type="archimate:Capability" name="c-5.6.2 / Track &amp; Report SLA Breaches" id="id-6271a261ca774babbd842611d2f9bbe2"/>
+      </folder>
+      <folder name="c-6 / Strategic Management" id="id-653a71bc0edf497ca43ad05114b0bc63">
+        <element xsi:type="archimate:Capability" name="c-6 / Strategic Management" id="id-78b2814212bf41faa05fb11ea69f511d"/>
+        <element xsi:type="archimate:Capability" name="c-6.1 / Business Concept" id="id-8c1e8be2a8554c24801a253e7efe1836"/>
+        <element xsi:type="archimate:Capability" name="c-6.1.1 / Concept Establishment" id="id-e1c548020e38452d88e4a3250a949308"/>
+        <element xsi:type="archimate:Capability" name="c-6.1.2 / External Assessment" id="id-9134f5f20cae4724ab87effa439012a7"/>
+        <element xsi:type="archimate:Capability" name="c-6.1.3 / Internal Analysis" id="id-efc030baa8ad40af886e0003dacb4398"/>
+        <element xsi:type="archimate:Capability" name="c-6.1.4 / Market Surveys" id="id-60643e28038947f6b51e50c84f1b4ffd"/>
+        <element xsi:type="archimate:Capability" name="c-6.1.5 / Restructure Organization" id="id-9b3b3ca0459348e099de73ca4f619660"/>
+        <element xsi:type="archimate:Capability" name="c-6.2 / Externals Management" id="id-24f4578ca117450fbe39d3c3800367dc"/>
+        <element xsi:type="archimate:Capability" name="c-6.2.1 / Evaluate &amp; Select" id="id-69f4881528d1491dbd2c8fee3aa08aa0"/>
+        <element xsi:type="archimate:Capability" name="c-6.2.2 / Maintain Contracts" id="id-eb5a341f3b7641ec8d8012ac3aa7ff97"/>
+        <element xsi:type="archimate:Capability" name="c-6.2.3 / Manage Payments" id="id-c1661a4d469e4ecc9a01e5914f790eb5"/>
+        <element xsi:type="archimate:Capability" name="c-6.2.4 / Monitor Performance" id="id-870e1b79b8574fcb8bcd1c750ae2debe"/>
+        <element xsi:type="archimate:Capability" name="c-6.2.5 / Terminate Contracts" id="id-b842ed96feae4f0a8a064c79be98cc87"/>
+        <element xsi:type="archimate:Capability" name="c-6.3 / Innovation &amp; Technology Management" id="id-371ffff991b948429677219e7cb2fc84"/>
+        <element xsi:type="archimate:Capability" name="c-6.3.1 / Manage External Innovation" id="id-f69af13e76584f57946f113cd4b53533"/>
+        <element xsi:type="archimate:Capability" name="c-6.3.2 / Manage Innovation Process" id="id-35ecfbd9215842b9b4e74c3c20aad3de"/>
+        <element xsi:type="archimate:Capability" name="c-6.3.3 / Manage Internal Innovation" id="id-906eff48883e4e4c88c38c95ac147d89"/>
+        <element xsi:type="archimate:Capability" name="c-6.3.4 / Scout Trends" id="id-81a6b45a549b4f4093cc4d85cff850b0"/>
+        <element xsi:type="archimate:Capability" name="c-6.3.5 / Track Innovation" id="id-01f70ab409fd42f5b34f572f4905c4dd"/>
+        <element xsi:type="archimate:Capability" name="c-6.4 / Manage Core Business" id="id-2f9f9f11f1d04fbdbec53fa3fc531d7c"/>
+        <element xsi:type="archimate:Capability" name="c-6.4.1 / Coordinate Projects" id="id-5ff5059d71db44d4aef444fa20fdb50f"/>
+        <element xsi:type="archimate:Capability" name="c-6.4.2 / Evaluate Existing Products" id="id-4e02371d9bd64edf98558be6af678d51"/>
+        <element xsi:type="archimate:Capability" name="c-6.4.3 / Manage Bus. Performance &amp; Ops" id="id-6fb4ddc6ba4241fbaebdb8d09d8dcf94"/>
+        <element xsi:type="archimate:Capability" name="c-6.4.4 / Manage Projects" id="id-89b1aab1551c42f7bc60c19e629d31ae"/>
+        <element xsi:type="archimate:Capability" name="c-6.5 / Mergers &amp; Acquisitions" id="id-8c0c52dec524421d87ed33f8e6f0e74f"/>
+        <element xsi:type="archimate:Capability" name="c-6.5.1 / Manage M&amp;A" id="id-91911583fe834bbfb6bf1149780c1955"/>
+        <element xsi:type="archimate:Capability" name="c-6.5.2 / Manage M&amp;A Integration" id="id-4ed280cde38e4318b9a14eae6c6286b6"/>
+        <element xsi:type="archimate:Capability" name="c-6.5.3 / Manage M&amp;A Strategy" id="id-51e9875707d94016bd27b11a274164cd"/>
+        <element xsi:type="archimate:Capability" name="c-6.5.4 / Track Acquisitions" id="id-a29fc407605b44a489a02977a94f9040"/>
+        <element xsi:type="archimate:Capability" name="c-6.6 / Organization Development" id="id-ef9826f878054091a133b5cced33a0ed"/>
+        <element xsi:type="archimate:Capability" name="c-6.6.1 / Coordinate Process Strategy" id="id-7337f89df1584b278ec957eda03b5fa1"/>
+        <element xsi:type="archimate:Capability" name="c-6.6.2 / Develop Organization Goals" id="id-ed6c7ef82e9c43b7a648a1ea206e1abb"/>
+        <element xsi:type="archimate:Capability" name="c-6.6.3 / Plan Long Term" id="id-925cd31b486a4a0589976f6729f60f1a"/>
+        <element xsi:type="archimate:Capability" name="c-6.6.4 / Strategize Business Units" id="id-72d654a302554c00998de9f8fe833875"/>
+        <element xsi:type="archimate:Capability" name="c-6.7 / Strategic Business Initiatives" id="id-7b87678b98524f6aa69f7bda26fa3819"/>
+        <element xsi:type="archimate:Capability" name="c-6.7.1 / Develop Strategic Initiatives" id="id-8e2a97fb0067473ba8789ed8fd225e4a"/>
+        <element xsi:type="archimate:Capability" name="c-6.7.2 / Establish High-Level Measures" id="id-9447b8a4aae9449f9880009d98ffa427"/>
+        <element xsi:type="archimate:Capability" name="c-6.7.3 / Evaluate Strategic Initiatives" id="id-31ff79b618904886ad6a8b6e175a0017"/>
+        <element xsi:type="archimate:Capability" name="c-6.7.4 / Select Strategy" id="id-536884521d2240d88348c025fcba288d"/>
+        <element xsi:type="archimate:Capability" name="c-6.8 / Strategy Development" id="id-8ab67106ef534ee7bb385db3e805b2c6"/>
+        <element xsi:type="archimate:Capability" name="c-6.8.1 / Adapt Strategy" id="id-ce7c58c0660243fab315642d63c45601"/>
+        <element xsi:type="archimate:Capability" name="c-6.8.2 / Define Strategy" id="id-58f548dea24b4b1b90638a66dea4da35"/>
+        <element xsi:type="archimate:Capability" name="c-6.8.3 / Develop Vision/Mission" id="id-0eac560d57e44167ac9c3b7291dda005"/>
+        <element xsi:type="archimate:Capability" name="c-6.8.4 / Manage Strategy" id="id-3557a01c818d49f6ab9eede39df99f2b"/>
+        <element xsi:type="archimate:Capability" name="c-6.8.5 / Track Strategy" id="id-c14fad7e91124b4cbb204bedd722b31b"/>
+      </folder>
+      <folder name="c-7 / Finance" id="id-b3c0ae73d00446928e7f0ef140d29bab">
+        <element xsi:type="archimate:Capability" name="c-7 / Finance" id="id-93ed1effb5924c9ca0ef7983dae0797f"/>
+        <element xsi:type="archimate:Capability" name="c-7.1 / Accounting" id="id-f40d03b6801d47e38c2a3ddc0edeb001"/>
+        <element xsi:type="archimate:Capability" name="c-7.1.2 / Enterprise Consolidation" id="id-1485b7221c724d8889cc3c9b971f0b00"/>
+        <element xsi:type="archimate:Capability" name="c-7.1.3 / External Reporting" id="id-46b0eb7438164779aeecd3888a8c1fcd"/>
+        <element xsi:type="archimate:Capability" name="c-7.1.4 / Inventory Valuation" id="id-282d44a55fac4d03ad21c2b3a28c69e7"/>
+        <element xsi:type="archimate:Capability" name="c-7.1.5 / Investor Relations" id="id-f6299b1f32b34031b04ed493eb7eba69"/>
+        <element xsi:type="archimate:Capability" name="c-7.1.6 / Manage General Ledger" id="id-c82351fa1f48454991fe8bedb96a2e18"/>
+        <element xsi:type="archimate:Capability" name="c-7.1.7 / Performance Reporting" id="id-39b66a6f625449309314aeb97ac0852a"/>
+        <element xsi:type="archimate:Capability" name="c-7.2 / Asset Management" id="id-57a7720a1fca41aeb6b8f8947354915d"/>
+        <element xsi:type="archimate:Capability" name="c-7.2.1 / Asset Performance Mgmt" id="id-2230d93656cb4e6c84f5e39b4f22bab7"/>
+        <element xsi:type="archimate:Capability" name="c-7.2.2 / Decommissioning" id="id-843c4a4d19064d328e3c2940968d73ea"/>
+        <element xsi:type="archimate:Capability" name="c-7.2.3 / Investment Planning" id="id-7b17caa5c3d945ebafacfeb31ce1cdc1"/>
+        <element xsi:type="archimate:Capability" name="c-7.2.4 / Manage Asset Lifecycle" id="id-f4d8c8e34bd749aba003777e46bf8837"/>
+        <element xsi:type="archimate:Capability" name="c-7.3 / Financial Planning &amp; Analysis" id="id-3d3e53043d0545b591cd8eadafc41f8e"/>
+        <element xsi:type="archimate:Capability" name="c-7.3.1 / Business Planning" id="id-be966bd3536e4153b428c9982e24e54f"/>
+        <element xsi:type="archimate:Capability" name="c-7.3.2 / Cost Accounting" id="id-47bbd781de8644a287756dd3e92fdd13"/>
+        <element xsi:type="archimate:Capability" name="c-7.3.3 / Forecasting" id="id-149ae365aa8b4460bc535d276f89e5ed"/>
+        <element xsi:type="archimate:Capability" name="c-7.4 / Payroll" id="id-78602df56ac549a98d3e44904f844d3e"/>
+        <element xsi:type="archimate:Capability" name="c-7.4.1 / Manage Payment" id="id-d3bc76ea90bb463a93e07417cd21dd0d"/>
+        <element xsi:type="archimate:Capability" name="c-7.4.2 / Process Taxes" id="id-aaf1b1a29e8c4415ba8d2f082f3481ea"/>
+        <element xsi:type="archimate:Capability" name="c-7.4.3 / Time Stamp Report" id="id-fd32c7e516624f8d8ce9a8097e075e2d"/>
+        <element xsi:type="archimate:Capability" name="c-7.5 / Settlements &amp; Payments" id="id-a49065ba2b4d4f90b3ad13d3b3dc6998"/>
+        <element xsi:type="archimate:Capability" name="c-7.5.1 / Account Payables" id="id-f95d2012e5a54a3c8ab82954b2622113"/>
+        <element xsi:type="archimate:Capability" name="c-7.5.2 / Billing" id="id-dd9f72d6b6304952a9b1309228d9ef37"/>
+        <element xsi:type="archimate:Capability" name="c-7.5.3 / Revenue Cycle Management" id="id-e2e9f897cef644278bc1dfa874e4e639"/>
+        <element xsi:type="archimate:Capability" name="c-7.5.4 / Travel &amp; Expense Management" id="id-b1187a5c8aa94c98aebb585ed4d43151"/>
+        <element xsi:type="archimate:Capability" name="c-7.6 / Tax Management" id="id-6b9951df46654a8ca91f28cbb90883e3"/>
+        <element xsi:type="archimate:Capability" name="c-7.6.1 / Handle Trading" id="id-610d585b789a4972a9c74a95e4b1772e"/>
+        <element xsi:type="archimate:Capability" name="c-7.6.2 / Manage Tax Questionnarie" id="id-52125bb1db284e958d297ae3b46619e7"/>
+        <element xsi:type="archimate:Capability" name="c-7.6.3 / Tax Determination" id="id-efc630f367fd48b6b8bfea2d31ed34d9"/>
+        <element xsi:type="archimate:Capability" name="c-7.6.4 / Tax Planning Strategies" id="id-a4a135e035de43e9b80c7744acbc02fa"/>
+        <element xsi:type="archimate:Capability" name="c-7.6.5 / Tax Returns Mgmt." id="id-69e32ba3f05149b283ad3b5b2418e8d4"/>
+        <element xsi:type="archimate:Capability" name="c-7.6.6 / Tax Settlements" id="id-015b6a973bae4a3faec8e8e38f89c742"/>
+        <element xsi:type="archimate:Capability" name="c-7.7 / Treasury" id="id-c887c058535d48ba916f97658e9ad095"/>
+        <element xsi:type="archimate:Capability" name="c-7.7.1 / Cash Management" id="id-d27ddd0dc8444bb68b344cf06e142710"/>
+        <element xsi:type="archimate:Capability" name="c-7.7.2 / Financial Risk Management" id="id-ca67244f0627452ab49686875c36dc8c"/>
+        <element xsi:type="archimate:Capability" name="c-7.7.3 / Foreign Exchange Management" id="id-6d030fcc488e41359e8e6776f48eaca1"/>
+      </folder>
+      <folder name="c-8 / Enterprise Support" id="id-b1ca4342552e48d68dc682a56cb6b175">
+        <element xsi:type="archimate:Capability" name="c-8 / Enterprise Support" id="id-5d945328c1e143c296739847065e5821"/>
+        <element xsi:type="archimate:Capability" name="c-8.1 / Enterprise Effectiveness &amp; Project Management" id="id-85c575b995c04760ae9e30647514bc1c"/>
+        <element xsi:type="archimate:Capability" name="c-8.1.1 / Develop Projects" id="id-30d7c8e90a0246469d8af50621d713c0"/>
+        <element xsi:type="archimate:Capability" name="c-8.1.2 / Manage Portfolio" id="id-eac533b30f2148c0bc5e690ba05cb4f8"/>
+        <element xsi:type="archimate:Capability" name="c-8.1.3 / Manage Programs" id="id-4a595513c34c49b3ac3d2cea88be73ba"/>
+        <element xsi:type="archimate:Capability" name="c-8.2 / Enterprise Risk Management" id="id-9d71673dc61541b591ff3ba1ab5f7a3d"/>
+        <element xsi:type="archimate:Capability" name="c-8.2.1 / Business Continuity" id="id-4dbfc6b532904dfa997069449de4dd57"/>
+        <element xsi:type="archimate:Capability" name="c-8.2.2 / Manage Compliance" id="id-5139dbeb2c154085aa7896a0fd34ca85"/>
+        <element xsi:type="archimate:Capability" name="c-8.2.3 / Manage Fraud" id="id-ddc3781b28d84331949ecd755046e084"/>
+        <element xsi:type="archimate:Capability" name="c-8.2.4 / Manage Insurance" id="id-6fab15d3693649a0bda1b07e831bc628"/>
+        <element xsi:type="archimate:Capability" name="c-8.2.5 / Manage Security" id="id-2e6a1f1443d14e32a16111ebc682eebf"/>
+        <element xsi:type="archimate:Capability" name="c-8.3 / Human Resources Management" id="id-05a07b3b2cf44eb3bd86d113539cd69e"/>
+        <element xsi:type="archimate:Capability" name="c-8.3.1 / HR Policies &amp; Processes" id="id-89f40454aa884bde979ecf5c801ca819"/>
+        <element xsi:type="archimate:Capability" name="c-8.3.2 / Manage Employee" id="id-e6f2a0e8e1954512a861590e7c290f4c"/>
+        <element xsi:type="archimate:Capability" name="c-8.3.3 / Manage Payroll" id="id-6dd494c5cf3f4122ae83a9f727205243"/>
+        <element xsi:type="archimate:Capability" name="c-8.3.4 / Manage Talents" id="id-136a7c81048b4339a7915fb5997f8e77"/>
+        <element xsi:type="archimate:Capability" name="c-8.3.5 / Recruiting" id="id-e03f92f0d51c4ce6acb37e300e4a56c1"/>
+        <element xsi:type="archimate:Capability" name="c-8.4 / Information Management" id="id-caa37b811df6472580c99f3fdf2111d8"/>
+        <element xsi:type="archimate:Capability" name="c-8.4.1 / Define Reports and KPIs" id="id-d5cd514015d54388af64fa4b70e31571"/>
+        <element xsi:type="archimate:Capability" name="c-8.4.2 / Gather Data" id="id-01298a0c786041658e520bbb6b790461"/>
+        <element xsi:type="archimate:Capability" name="c-8.4.3 / Govern Data" id="id-b25faece5d934ac4b84bac752c62d3ce"/>
+        <element xsi:type="archimate:Capability" name="c-8.4.4 / Illustrate Data" id="id-10ecc15eea774391ba220a4c291f0022"/>
+        <element xsi:type="archimate:Capability" name="c-8.4.5 / Process Data" id="id-2e827e6d1280422fbb597c59c99c1229"/>
+        <element xsi:type="archimate:Capability" name="c-8.5 / IT Management" id="id-018b76e0586141d18525b4d0ff0e751d"/>
+        <element xsi:type="archimate:Capability" name="c-8.5.1 / Application Management" id="id-06c1488a30ef417483c4cf49b792e7e2"/>
+        <element xsi:type="archimate:Capability" name="c-8.5.2 / EA Management" id="id-d6a82235bd1b46699ccafde124bdafc7"/>
+        <element xsi:type="archimate:Capability" name="c-8.5.3 / IT Project Management" id="id-e5d60ff426a84c57ad86292a98450ec8"/>
+        <element xsi:type="archimate:Capability" name="c-8.5.4 / IT Service Management" id="id-66029e15912441ac979706b8f80cffe1"/>
+        <element xsi:type="archimate:Capability" name="c-8.5.5 / IT Strategy Management" id="id-51eef367dd8b4b81874aeded6da0a8f5"/>
+        <element xsi:type="archimate:Capability" name="c-8.5.6 / Technology Management" id="id-38235141de844c24891ce3e3001f3b74"/>
+        <element xsi:type="archimate:Capability" name="c-8.6 / Knowledge &amp; Research Management" id="id-c55abfa35abd4d07968d44f53d8119ef"/>
+        <element xsi:type="archimate:Capability" name="c-8.6.1 / Manage Knowledge" id="id-6dfac876334744a2951a2adb27d6dc21"/>
+        <element xsi:type="archimate:Capability" name="c-8.6.2 / Manage Research" id="id-a830bbd77395410c9cd1f74fad506a5f"/>
+        <element xsi:type="archimate:Capability" name="c-8.6.3 / Manage Tech Scanning" id="id-0e4b5877059f4c9dbbb1cb9d58200b84"/>
+        <element xsi:type="archimate:Capability" name="c-8.7 / Legal" id="id-9fe74a128015438a894d052a57468a93"/>
+        <element xsi:type="archimate:Capability" name="c-8.7.1 / Corporate Governance Policies" id="id-3ac2603d14bf450e9dc453dbbb7bf34b"/>
+        <element xsi:type="archimate:Capability" name="c-8.7.2 / Ensure Compliance" id="id-370adfeffe8143c48f8be0b1d50f17ca"/>
+        <element xsi:type="archimate:Capability" name="c-8.7.3 / Preventive Law Program Dev." id="id-fe134083792f4e049025afcc6cb9a68e"/>
+        <element xsi:type="archimate:Capability" name="c-8.8 / Workforce Management" id="id-92a014e03a9348459c52e21489d0f84b"/>
+        <element xsi:type="archimate:Capability" name="c-8.8.1 / Deploy Workforce" id="id-da5a1d95f7b54f418035527f7d6cb6a1"/>
+        <element xsi:type="archimate:Capability" name="c-8.8.2 / Manage Work Order" id="id-cf5887da32284665b23600290d137308"/>
+        <element xsi:type="archimate:Capability" name="c-8.8.3 / Workforce Planning" id="id-dddf90a5f6474235b83e94ab25c1f20a"/>
+      </folder>
     </folder>
   </folder>
   <folder name="Business" id="id-60867711f35f4b90b7bb65e1122a0d2c" type="business"/>
@@ -333,9 +332,309 @@
   <folder name="Motivation" id="id-1922fe93fb604882925e8831703514ab" type="motivation"/>
   <folder name="Implementation &amp; Migration" id="id-7c09b87835b543fdaa650b44552bedd3" type="implementation_migration"/>
   <folder name="Other" id="id-4141b3f044d542c485e9d5d7336d1da9" type="other"/>
-  <folder name="Relations" id="id-285ad0dae6a54aeda1c883d27aff114c" type="relations"/>
+  <folder name="Relations" id="id-285ad0dae6a54aeda1c883d27aff114c" type="relations">
+    <folder name="Business Capabilities" id="id-a6cd2fa5df784ba7a7d0e9bd0b74b41e">
+      <element xsi:type="archimate:CompositionRelationship" id="id-a11f363e56cd49f4b84415e36f8373f6" source="id-fd8c8c526ac445d89129478ba98a6d26" target="id-9975569beed54274ae8b7f6952afec9e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-00d03845d0c644279f4efcb5bba224dc" source="id-9975569beed54274ae8b7f6952afec9e" target="id-4a402a36825f4ab6b938f190d24a2f75"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-c7c53a2a1b4c471cbf2dc21d55c3d1cd" source="id-9975569beed54274ae8b7f6952afec9e" target="id-edfc36d4e3784c419f160d9e4f17b1e6"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-6d8e36c63bab4589a0aaac31c36b60d6" source="id-9975569beed54274ae8b7f6952afec9e" target="id-856ae8f15341472eb66d3673cd100540"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-5d2bc7942dd7455a8548e7c1afb4ae6e" source="id-9975569beed54274ae8b7f6952afec9e" target="id-04f7ec14a94744c9bc5582a26ef042b5"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-8bb0e33fd02a44e39843cf280caf492f" source="id-fd8c8c526ac445d89129478ba98a6d26" target="id-2491f7f9f50c4ac0b001132bcea2e4c6"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0dc08d1575b343e39463d5dc81095b53" source="id-2491f7f9f50c4ac0b001132bcea2e4c6" target="id-c1e2955cfef64dd69a9c29d9d335946d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a191c47bd0b348c28e33742e1fb0f10f" source="id-2491f7f9f50c4ac0b001132bcea2e4c6" target="id-d41e7e6756544a7bb4b059302e25ce5d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-8a1531d5d6b044a995138a64b9a4459b" source="id-2491f7f9f50c4ac0b001132bcea2e4c6" target="id-6b304c8dc33a460daeb25f7c773d3233"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-4b8288d775d64354a5b76b471a94fb0a" source="id-2491f7f9f50c4ac0b001132bcea2e4c6" target="id-5fa8696dac4b4551908ee7e387862ebf"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-5348aff83473468e819f878e3cad715b" source="id-2491f7f9f50c4ac0b001132bcea2e4c6" target="id-7daee3ed31334b0d8446f2be6d0ad537"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a4def015fce84a058036dc2ddb655297" source="id-2491f7f9f50c4ac0b001132bcea2e4c6" target="id-252d9946e517405384c96d1a354af59f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a856e5abfa6540bc8e6549a7f9edef44" source="id-2491f7f9f50c4ac0b001132bcea2e4c6" target="id-569f865b5a5849c0a9b0304e52a62e2f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-7adb42b047494c6291bc34c5d3518ba3" source="id-2491f7f9f50c4ac0b001132bcea2e4c6" target="id-45f1e4d57a49459796df87434d32d77f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-da0955170ffe4be58149a6248dab5ec2" source="id-2491f7f9f50c4ac0b001132bcea2e4c6" target="id-d2a872d3c90f4a91a7e6491f3554be97"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-b4552e5fbc984b97b2cd21167c1fa42a" source="id-2491f7f9f50c4ac0b001132bcea2e4c6" target="id-280572fa05f94afca2df3c1476da7b7f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-facfc715987040f9aeb158913cbcd655" source="id-2491f7f9f50c4ac0b001132bcea2e4c6" target="id-ed355bf0e2a44e6cb00e0357bc5bbef1"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-3922dc69e9464d7aac29b43692b057f7" source="id-2491f7f9f50c4ac0b001132bcea2e4c6" target="id-4dc42df00b6742f98437c4211ea0d145"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-05d46904218c4b31b7e21189c30beef6" source="id-fd8c8c526ac445d89129478ba98a6d26" target="id-49ebcf81378f496db0df246f3d8e695e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-7ce04cc21f774349b1a96bb3e917dee7" source="id-fd8c8c526ac445d89129478ba98a6d26" target="id-e27d7cbc408644b98963acde27ba734e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0bb738b0f0844b0ebcccc97e71c5a5ee" source="id-e27d7cbc408644b98963acde27ba734e" target="id-9dfe6957055a445fa6a7dffb7272c2e9"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-dc5d041b37214b3fa5a22da1caf56a1d" source="id-e27d7cbc408644b98963acde27ba734e" target="id-368d43812c7244dd9fad3ea599ad44dc"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-129cded9114d4db78ae282907e1a581b" source="id-e27d7cbc408644b98963acde27ba734e" target="id-3177d1d02a8d4b73b659b8d2f2abb559"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-20fa6ba4718f4fb88cb46e51be136a4f" source="id-e27d7cbc408644b98963acde27ba734e" target="id-1d988d49996f4c859def6640a39fd965"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-e1f2c88e1ce145a0b46aad6fc07b73b0" source="id-fd8c8c526ac445d89129478ba98a6d26" target="id-0ffa28766bba427091a46d910c539337"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-fb5a047eecf5410ca733d6c1dd366c65" source="id-0ffa28766bba427091a46d910c539337" target="id-91b5fc79590e426fb7b21dc001dae17f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-87c7c248e165467da05c7ae350b5755c" source="id-0ffa28766bba427091a46d910c539337" target="id-bd3223988a5b496dbb5de6676fb2e444"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-6467da8aabfb41489a64fa069b3fc5c2" source="id-0ffa28766bba427091a46d910c539337" target="id-0b8795304bfc4150b8081a956e63174e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-e0884e40175749b6a6fe4d40cebb2edd" source="id-0ffa28766bba427091a46d910c539337" target="id-69c18dd7667545229278a4fbcbe33e31"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-9b4f24ff057e4dd693a42584748a9c78" source="id-0ffa28766bba427091a46d910c539337" target="id-432045132e504271a6c6387fbd9ad9e5"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0c869b0d7ad843919197f42792eacb73" source="id-0ffa28766bba427091a46d910c539337" target="id-af3473f418a54825ba9128f3b82dc181"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d4bd5142859f46a7b8529c57a523b0f1" source="id-0ffa28766bba427091a46d910c539337" target="id-12b6553201354295ab1d038cd8ab62c6"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-bb718923eb0c4df19403b5cb7a0a99b3" source="id-0ffa28766bba427091a46d910c539337" target="id-11dc4acd1589471899487df6f6a9a4a9"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0999903d205e484f99c11fad15121579" source="id-5ed1ed06dfe8482cb132a19c0aabf8f5" target="id-7bb57b343ea34cb2b2ad27fdf240c048"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-09caa0c4c3e143b89300d2d394dcf21f" source="id-7bb57b343ea34cb2b2ad27fdf240c048" target="id-973d7b4df2254c90905f6b39aa2e1db8"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-6410a9d1532749b1847310445b0e0184" source="id-7bb57b343ea34cb2b2ad27fdf240c048" target="id-1ccd31888c87499897a98e53e7e2ec7f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-5ac4d36a0a6a47748eab47ec3c40bc5a" source="id-7bb57b343ea34cb2b2ad27fdf240c048" target="id-c1bbc62b7f364280bc513f4fd5a0e799"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-16c1c29a267d4bc5b436bd910da030d3" source="id-7bb57b343ea34cb2b2ad27fdf240c048" target="id-b203f5ffbce54a1aa170ead526afab60"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-38801d5b394a4960878cb77ceac04ad7" source="id-5ed1ed06dfe8482cb132a19c0aabf8f5" target="id-3880f8c784204aeaafcefcdf21ef89d9"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-39a7fdbb693f4ef7826a633895967765" source="id-3880f8c784204aeaafcefcdf21ef89d9" target="id-463bb88153904697bbfff8c8a515d37d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0797b76219a143b287fe479724b62133" source="id-3880f8c784204aeaafcefcdf21ef89d9" target="id-d0ce45b3a964487f8150f376d7e31a3c"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-07bf9486048441bca72d83559d24e85b" source="id-3880f8c784204aeaafcefcdf21ef89d9" target="id-47db89f6126741d79f1a09ad68dbab05"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-6085d29e2a4349dba351ed8bf9de2b4d" source="id-3880f8c784204aeaafcefcdf21ef89d9" target="id-6f93b986fe684a01a4d31ee559709ab3"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a95408c7d48044ebb9a8902d3e8cfece" source="id-5ed1ed06dfe8482cb132a19c0aabf8f5" target="id-20ff7a1bef3b4b7d92d2c2ff4f2e7c6f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-928a614db6d64cdeb7ba2a55cad99a61" source="id-20ff7a1bef3b4b7d92d2c2ff4f2e7c6f" target="id-afde0e6f560a449f9ae3e5efa082bda3"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-bbbe28ebdef1491d98c1005a14abb9d6" source="id-20ff7a1bef3b4b7d92d2c2ff4f2e7c6f" target="id-7b69ca68058a4409ae2594013e49680a"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f78df4e9db1d44a78c6ae43e299c0abb" source="id-20ff7a1bef3b4b7d92d2c2ff4f2e7c6f" target="id-c6fa44b9c0c34215b57fda6cbe7e6425"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d16eafc0abe64eeb9fbd13d346344abe" source="id-20ff7a1bef3b4b7d92d2c2ff4f2e7c6f" target="id-2c05195ec6f04b73885e74a86d9da5cd"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-b27e51da34724125b410b9bbdf0cdc50" source="id-5ed1ed06dfe8482cb132a19c0aabf8f5" target="id-13304ea22e8845c89c8baed2a9679caa"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-afd79bad3370401f96a3eab8b51a33ed" source="id-13304ea22e8845c89c8baed2a9679caa" target="id-308b7a8a0f674b51b6321c8098307606"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-e46d2f227c5c47099b2b3c2f2db4b496" source="id-13304ea22e8845c89c8baed2a9679caa" target="id-52e03c0fe8234168aa9c9850c5ea0a06"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0e557147ccaa4f40aba5f47839bfb37e" source="id-13304ea22e8845c89c8baed2a9679caa" target="id-e54dc5fdc6cc4ab480aa0eba59be3ec5"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f46353ecd72d49bd89e882aa985e2689" source="id-13304ea22e8845c89c8baed2a9679caa" target="id-8e55e9bb29764e3989517b77e225188e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a0179b3d376e46fe8b124fbc21610c70" source="id-5ed1ed06dfe8482cb132a19c0aabf8f5" target="id-39f9ac44a18a4c61a3e12f513c3a7c01"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-956c0e8717fd4467aa69c0e5904cb49f" source="id-39f9ac44a18a4c61a3e12f513c3a7c01" target="id-9804b4c2c3b74de99311e159fee4d22f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-ee4bd159e5e149f5af6ce8304b2e1fda" source="id-39f9ac44a18a4c61a3e12f513c3a7c01" target="id-1d82c965f04a4d1199d94c27f0a74caa"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-5d45ea3193154ea2b38ce4722bf8903b" source="id-39f9ac44a18a4c61a3e12f513c3a7c01" target="id-e8a8c10f6d494dc1a039482bbe90d9b3"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-06069e4e331f4e53afdfea1d058c0848" source="id-39f9ac44a18a4c61a3e12f513c3a7c01" target="id-86d94090da45445d8c3b383a2c9e4505"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-dc4dfcbf132a4f83be6997a7db79ac0d" source="id-5ed1ed06dfe8482cb132a19c0aabf8f5" target="id-f894438631184ccf9efb47f15afc8c1d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-3ddba3d98fa94808bb23cdf5d2e1cf6e" source="id-f894438631184ccf9efb47f15afc8c1d" target="id-faa15045b2ea43429f1cf863487ddbd0"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-89661def9c2145859ca2564c2c07f997" source="id-f894438631184ccf9efb47f15afc8c1d" target="id-25ea252853ca4e61ad2944828bdc0186"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-b91b9ecfa53f4f0894ef19fe42d79d64" source="id-f894438631184ccf9efb47f15afc8c1d" target="id-67a028cea8a34d1b83116809e5b29de1"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-1b318231c51143d587a0cfbd08ae437c" source="id-f894438631184ccf9efb47f15afc8c1d" target="id-cdf36c21dd9042679e5a14a3d57cca80"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-9d0b315f67024f6bb09c42eb33242733" source="id-5ed1ed06dfe8482cb132a19c0aabf8f5" target="id-d8aea385610242b4ab3e62ce59591b9a"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-73c28491d4714fb38ca6f1ff7b2a445d" source="id-d8aea385610242b4ab3e62ce59591b9a" target="id-f59a4c8340124d518c023159f0065ecd"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-7300fd0be32b4a33a01bf01e80818b27" source="id-d8aea385610242b4ab3e62ce59591b9a" target="id-d91b59aefdd244dbad2a0efb1f2c5a1e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-6ed970cea083400bac02df2a97f38ea0" source="id-d8aea385610242b4ab3e62ce59591b9a" target="id-2befb5376f154d5a870f7217bf4929f0"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-62b103a5205e45a99acebdf7ac04e69f" source="id-d8aea385610242b4ab3e62ce59591b9a" target="id-4f56992552d64c81a28457a7f2f4e6b0"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-9cb0f35287d14e4a976f950774c2c1ad" source="id-5ed1ed06dfe8482cb132a19c0aabf8f5" target="id-a95f916ad32944e1afdcb167dd6fe042"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-cb8cb13805a24382ba7d901ddf061f13" source="id-a95f916ad32944e1afdcb167dd6fe042" target="id-b167f2d6da074df9bd7e869987b1f713"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-acb6f5704a8741ce9ac830f01f807d78" source="id-a95f916ad32944e1afdcb167dd6fe042" target="id-683145816c87403a9116514a2e53edf4"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-7b537a8302004d10810bfa8127d18f1e" source="id-a95f916ad32944e1afdcb167dd6fe042" target="id-b63ef86cf5e44e4aaadb165d8d302177"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-730ec641608740a9a1b1b81b878bca8a" source="id-dc1d8df52f1f484eb3aa49736f02ee5a" target="id-205c26d70920447dafd4bee99ca175bf"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-159c49cffeaa4682a79c85ea05087871" source="id-205c26d70920447dafd4bee99ca175bf" target="id-88825c3444e144a1b53d5daafecadb3d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0779bb53e3fa45f092d25c08ca02cea4" source="id-205c26d70920447dafd4bee99ca175bf" target="id-879a125c47554329aa686ea6654825e2"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-59da0422e947415eb909bd04c2af2ef2" source="id-205c26d70920447dafd4bee99ca175bf" target="id-b987d47f170c4a8d8bf847e73dad1848"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-7fdf53bd55aa4eeabbb19e408817874c" source="id-205c26d70920447dafd4bee99ca175bf" target="id-caa32787919a4dacb6629a466ee78ba1"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-da04f35270ba44f2995b910a39b1d5ae" source="id-205c26d70920447dafd4bee99ca175bf" target="id-4f10afd78b5d47f7af6aea55febe682e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f75ca25c86ee4f39b021873d06453bda" source="id-dc1d8df52f1f484eb3aa49736f02ee5a" target="id-49c93be6a26a4888879acc279ca76dd8"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-ff188f6a7b134e03baf92cf379d07b47" source="id-49c93be6a26a4888879acc279ca76dd8" target="id-e6b4470da44e439a9d1c56369ad42c25"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-480b114e2ce445dfb8bb20b3e36ead71" source="id-49c93be6a26a4888879acc279ca76dd8" target="id-22b7b8b37cd84021951821638cfcad2c"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-3243a15652a44bf6b406ab09bcba5cfc" source="id-49c93be6a26a4888879acc279ca76dd8" target="id-76c1b50117cd4a00852d5c8c52013bbd"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0d54dd8e177944218dcb31c7485938bf" source="id-49c93be6a26a4888879acc279ca76dd8" target="id-f3edf7a8e6fb4037af6717de8220982e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-2ec884fc67464dcc977debac42dcf0a0" source="id-dc1d8df52f1f484eb3aa49736f02ee5a" target="id-519c8708c3c94eb590a27d7ee5043cad"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a128a97ea5db49af8d69820d4f0fc239" source="id-519c8708c3c94eb590a27d7ee5043cad" target="id-3118e6bf5df84b609b34b00340d53328"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-39b0fa33f8534d2e9d18985f3093d43b" source="id-519c8708c3c94eb590a27d7ee5043cad" target="id-02ce31aad25345bc8b0cebb8ea98f70f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-58fab67583904bf599fed6d27d32fd43" source="id-519c8708c3c94eb590a27d7ee5043cad" target="id-1d13d5245c2046f5a1f9f841ddf8df36"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-4c513358f6b94c0d8fbaee5b8b896605" source="id-519c8708c3c94eb590a27d7ee5043cad" target="id-b944200ecef14daca1a3ea188301cb8f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-fb4ebd40ece44faa840bec23efadfe2d" source="id-519c8708c3c94eb590a27d7ee5043cad" target="id-f378cc9701934c2f974c284d08868d4e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-49a310996fc3411ca1f99990440de80d" source="id-dc1d8df52f1f484eb3aa49736f02ee5a" target="id-e06e543822134af8895cd676a50be92e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-dcf8c77a75234df88656aa2e12357a30" source="id-e06e543822134af8895cd676a50be92e" target="id-6835fd91f528420f967f176edb75ebd9"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-ae4b73de4a564deaabf8c6857de1d592" source="id-e06e543822134af8895cd676a50be92e" target="id-41b0f80d24aa40e7bd7cc44370281a90"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-61f1488e3d6847df87ea1414bdc1af3e" source="id-e06e543822134af8895cd676a50be92e" target="id-38ba81eab0cc4c3f9b32c5329e61dbf9"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-467e8baab364490090bea2e99c6f0de6" source="id-dc1d8df52f1f484eb3aa49736f02ee5a" target="id-f05977968b244b6c96b17530ec813eab"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0bb16d43eaf64a899ece6722139fa577" source="id-f05977968b244b6c96b17530ec813eab" target="id-731de742908a41e7a0fad59d8311fcb0"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-bab9595a232d449e9e58b91fd8685667" source="id-f05977968b244b6c96b17530ec813eab" target="id-58681f0890424102bee49e1c943fd82a"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-9f209c10d6c746d6867495081092fee5" source="id-f05977968b244b6c96b17530ec813eab" target="id-5dbf04cdfb3d444082649b5e4f0e589e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d750a4d2e86f45e988353af37949134f" source="id-f05977968b244b6c96b17530ec813eab" target="id-c7bd4c4e3fcb48eba03c115adf1f42c2"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-8c055c4a71624830849029e035f8842b" source="id-f05977968b244b6c96b17530ec813eab" target="id-a091916417c4499cbf73b4a35dfa558d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-eec56feef8e24c6daa242f21a732a219" source="id-dc1d8df52f1f484eb3aa49736f02ee5a" target="id-d41cb1c6c7594359b4dc91faad282163"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-af827be3b13444b39e063e3aacbafe89" source="id-d41cb1c6c7594359b4dc91faad282163" target="id-760aaf7b56ae4317a3242939bec7d25d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-79b83d5dcf6944b9b2ce59caf7aeef33" source="id-d41cb1c6c7594359b4dc91faad282163" target="id-97b67a5ea84c47e2ad03443cb76e1b6b"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f0a42acea56b4c90adb359fb0adde501" source="id-d41cb1c6c7594359b4dc91faad282163" target="id-efd4fbb960d84fc4ada18bd5f33601e3"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f49d9cc89f0d43f68a7968b5c30193ff" source="id-d41cb1c6c7594359b4dc91faad282163" target="id-7b841263388d4ab0ba0463ce28ded79e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0dca330ee9a945248af5ab82cd57633c" source="id-d41cb1c6c7594359b4dc91faad282163" target="id-a93afdacbacb4b69b43821d54328b360"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-7a363ee9c77c4c1380e9f1255c6db2ca" source="id-dc1d8df52f1f484eb3aa49736f02ee5a" target="id-765ff6298aa940d798a4c471ddbaf5d6"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-b9b0b554b7d5488da5e0f99e4c32fc90" source="id-765ff6298aa940d798a4c471ddbaf5d6" target="id-08a824561fca40579a42c3345c445169"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f61056121c6249bbbd64d13076f33b9c" source="id-765ff6298aa940d798a4c471ddbaf5d6" target="id-619f0c58564e4bf58fa4a02b871ab958"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-c24f2425c625469ca7039cf03a409812" source="id-765ff6298aa940d798a4c471ddbaf5d6" target="id-b3577a22c953420c997aea1c9e6f1c36"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a1bd929200a84715ab3f0294000777f7" source="id-765ff6298aa940d798a4c471ddbaf5d6" target="id-727ec8d5b9554268893f6653394fbf40"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-90bb7915263240dc9a30faad63d7e748" source="id-765ff6298aa940d798a4c471ddbaf5d6" target="id-743639ca48c0485fa859801a1cc6ce46"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0034390740684916b892a15f60a3040c" source="id-dc1d8df52f1f484eb3aa49736f02ee5a" target="id-626f8b6da75641e393ba5e46f4970996"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-1a40d2abe5ad40099ea8a2bd36a6681c" source="id-626f8b6da75641e393ba5e46f4970996" target="id-1677748f6080446d8775044a0484258c"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-9c303d7a04d34653a8464c0bcedc3fca" source="id-626f8b6da75641e393ba5e46f4970996" target="id-bbf7cb09dc624cf0aa2f392bc1a01022"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-eed540227be044a2a075d0238dffd0be" source="id-626f8b6da75641e393ba5e46f4970996" target="id-342020988a0244049dbfa1790536e63c"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-ff23e782b6124d7e827ffe6f1fbfacd9" source="id-626f8b6da75641e393ba5e46f4970996" target="id-059841dccf0042dfa9932c9375f053c5"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-bc54a21dd1f44c4bb6313e53a09211ff" source="id-626f8b6da75641e393ba5e46f4970996" target="id-b34c2ce3ae314c70b09ea75138862331"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0a7de3858f544f8fbabd3ebadf0252a4" source="id-5abeadd0879a48ffbf37dce158a4d98d" target="id-cc58daf39767424a98926f0ef245f3e2"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-3f298a6d8018413c93316b8c45c0f456" source="id-cc58daf39767424a98926f0ef245f3e2" target="id-0f1486446e8540e8ba6c92243dc4bd33"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-41df8dcce88e48a196d3dcc0d50e65f5" source="id-cc58daf39767424a98926f0ef245f3e2" target="id-d554a32911474837b78b3b531c44c8ed"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d2f4112329d2421b8e91a728c700bc87" source="id-cc58daf39767424a98926f0ef245f3e2" target="id-36c8aa26820049ea8b64a65ed2abae9c"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-38373494608d4fbe9568e6ff497fe342" source="id-cc58daf39767424a98926f0ef245f3e2" target="id-96ef9e1d9ccd413facb0d554c832cc87"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-69f5ec40bfc340a796270f30b2c8ed68" source="id-cc58daf39767424a98926f0ef245f3e2" target="id-1bff0244b2d2426180a4fb109af9dee0"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-25331cfe4e5643c98ffb53d98291f514" source="id-5abeadd0879a48ffbf37dce158a4d98d" target="id-8bb25769d2c04080a7350c93335267b1"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-b9e7ae559df448b59092dc51d3dd8dbc" source="id-8bb25769d2c04080a7350c93335267b1" target="id-6afe88a977994eb89a168d17510c12ea"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f178bf4ab5824cbaafa99eebf0648998" source="id-8bb25769d2c04080a7350c93335267b1" target="id-085eabc2245f4e2c83bab9479a6e9d96"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-fdae21c3e2c04b67bec7b7718c9f2c5c" source="id-8bb25769d2c04080a7350c93335267b1" target="id-45762688a05748849f8882654eb3df22"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f442e2ff95ce437eb903fefa9393d64c" source="id-8bb25769d2c04080a7350c93335267b1" target="id-bff2f02651124747bb27dc9ad8454108"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-c64cc330917f475abb57f7af72428d0f" source="id-8bb25769d2c04080a7350c93335267b1" target="id-50a4fc57486c48debc04932b16c577a2"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a2e80f76287f4c2e9c0bebd54257e320" source="id-8bb25769d2c04080a7350c93335267b1" target="id-bb022824acfd4d99bb12491da737feef"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-7402b6caad3e4eadbd8d8678091afd39" source="id-8bb25769d2c04080a7350c93335267b1" target="id-b0ef88acda7a44709b46b4e03dd267c4"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d5b1a4bb11804d2f9703e558d376fe40" source="id-8bb25769d2c04080a7350c93335267b1" target="id-9c12ae3a759849329c832a5235760da9"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-36dfc9c690b64cd6b1ce41fe8366d2e0" source="id-8bb25769d2c04080a7350c93335267b1" target="id-77c23cc1abcb43a8ace29570d05b6d21"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-510396fe4d684e899c207b2e34cd1ff5" source="id-8bb25769d2c04080a7350c93335267b1" target="id-eca10698402648f5b4d32d5b0fbe92e6"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-3ac2cc2ee3164755a0b5b1f46145f6a5" source="id-8bb25769d2c04080a7350c93335267b1" target="id-aa035ca984424607ae86399dad2ce686"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-7596158a57ce441b9de1df80c57e3088" source="id-8bb25769d2c04080a7350c93335267b1" target="id-9de3ad6a11fd4c6d9a19bdc10f36b8f6"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-3f283fff37d84054ad97959eecd2331d" source="id-5abeadd0879a48ffbf37dce158a4d98d" target="id-ae1720d9558c4eecb4d06b692e7f1dfc"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d86d5c1d73384053a58b866c6716ccfe" source="id-ae1720d9558c4eecb4d06b692e7f1dfc" target="id-2fbce88957544280b9eeff53f9978612"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-e96e446f410d47b3a6069a3ac7aba74b" source="id-ae1720d9558c4eecb4d06b692e7f1dfc" target="id-f261a746a6ed486591217bf331946972"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-dae30ed238d943d59c3e474143512ad8" source="id-ae1720d9558c4eecb4d06b692e7f1dfc" target="id-df02c5cd863b4e49b0e9697140088c95"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-774528e55cc3466ebf1d253863a41d8d" source="id-ae1720d9558c4eecb4d06b692e7f1dfc" target="id-940f702b6394436a99e2dc362543008a"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-efcdf65f5f204457a8ed96a0827c9542" source="id-ae1720d9558c4eecb4d06b692e7f1dfc" target="id-adccd17a66374ff1904c571f983b7ebf"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-12ca9aee9b9e4412a2802cc997bf3618" source="id-ae1720d9558c4eecb4d06b692e7f1dfc" target="id-89989255bde243b8b2d1b6fb049f0227"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-7ac3c0e76653444887b1afc8213209e1" source="id-5abeadd0879a48ffbf37dce158a4d98d" target="id-0b7f15d557234c4f93287429e9b230ab"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-cb0176afddc842d1bc921a4855caad01" source="id-0b7f15d557234c4f93287429e9b230ab" target="id-20b487c56a9a4a1db093ca719133b2c4"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-bffbe56cde3646118d509d6d8523f305" source="id-0b7f15d557234c4f93287429e9b230ab" target="id-6b448255362f4f4f9cd4912aa3bf719d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-dce00f4fd42f4aa9b387c52088e319bf" source="id-0b7f15d557234c4f93287429e9b230ab" target="id-b2134ab952fa48afb3a0254c6476537d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a225f04635ed4a4a9e7cf0d9d7aebee6" source="id-0b7f15d557234c4f93287429e9b230ab" target="id-76027f6c553f43d6bab2402dbcb895d5"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-be01ca5428084de4946bb9f8271980ed" source="id-0b7f15d557234c4f93287429e9b230ab" target="id-388ba42fb9454fe6bf8fc7865b9e9cdd"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-029643a879e2427d94cde35d327558ff" source="id-0b7f15d557234c4f93287429e9b230ab" target="id-84774a3988784818ae7dc201918ba5ac"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-3c7a35fcd5894745bc169266aaf837d4" source="id-0b7f15d557234c4f93287429e9b230ab" target="id-a70bcafa10eb42578757805e5a9c0267"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d81ee620f39a4461a6bc0769cb0c5449" source="id-7880e1876bcf4814904eb6d087f3b0d0" target="id-f74e090fe72c418a8aa0b3a3ba5dd6f6"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a8728b99503e470981867a102e16f381" source="id-f74e090fe72c418a8aa0b3a3ba5dd6f6" target="id-e151f38196804166a018bffdfb38448d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-52ede09ebb7145b6a63d4cc8995d8aaf" source="id-f74e090fe72c418a8aa0b3a3ba5dd6f6" target="id-48ba08fdc3904f7c8106e2232311702c"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-2b8097e4bb074ccbbeb73462e384b52f" source="id-f74e090fe72c418a8aa0b3a3ba5dd6f6" target="id-f6e87ff4332f44fe856577405c1c1f8a"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-151cb9feebcd416f8e2b163eace9d82a" source="id-f74e090fe72c418a8aa0b3a3ba5dd6f6" target="id-99288e9a418e4c1f9923cd656d0c52d6"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-87698fdb11154ef9996a208708d930c8" source="id-f74e090fe72c418a8aa0b3a3ba5dd6f6" target="id-1e6e05d8dbb248cb91236d4e3c15f2df"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0424495ae7c842ed9c50e462dc1ab1ef" source="id-f74e090fe72c418a8aa0b3a3ba5dd6f6" target="id-9b89f0862a5a40c9b0676a379ef7ffda"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0bd5bbfb9b574cca957ab0aa202d3b24" source="id-7880e1876bcf4814904eb6d087f3b0d0" target="id-5ea7d47fa1d74e04b1236bd1b14bbfe0"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a64bb1ba96a64b7d9433884ce6dc75c1" source="id-5ea7d47fa1d74e04b1236bd1b14bbfe0" target="id-5ca27a199fbe4dcb809fe18b10705ca1"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-9f36ea5dfb364aa1a9a3c5fa35633600" source="id-5ea7d47fa1d74e04b1236bd1b14bbfe0" target="id-0adbf2039f034c4682607cd8a5612b67"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-773c45e0f6204136a4407585a9c6eade" source="id-5ea7d47fa1d74e04b1236bd1b14bbfe0" target="id-5a100596dfbd41149c3f51806f90d8dd"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-24d08718b9e94f73b1ca9709301fcae7" source="id-5ea7d47fa1d74e04b1236bd1b14bbfe0" target="id-74d098f554ae49f9af168faab0cb86c3"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-33e8cb734dfc48579c20726056045a44" source="id-7880e1876bcf4814904eb6d087f3b0d0" target="id-c2243e7f3ed84e20b5f4b82b43940a46"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-830e34a024274965acb166b49f245bb7" source="id-7880e1876bcf4814904eb6d087f3b0d0" target="id-65e52b1f1de844f7b674e6ffb8135f56"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-612901f66389439f87553e54f18d1e1a" source="id-65e52b1f1de844f7b674e6ffb8135f56" target="id-0b1f638ba933411c8cbce80f8d31d74c"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-7ea7c6e1e92f481bb639dfa47e40cebe" source="id-65e52b1f1de844f7b674e6ffb8135f56" target="id-63fead346add4489b3a1850e0d81c113"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d52ddf8b57e34cd48903e40e8db91b6f" source="id-65e52b1f1de844f7b674e6ffb8135f56" target="id-1aec8c927c16436eacbe6ea85be1f5bb"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-8bbfd90389b94f6f990a2c2f1d7d9a36" source="id-7880e1876bcf4814904eb6d087f3b0d0" target="id-e888cbb135334d54a764c005772a2bfd"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-17e1d06e70884b868c508e248feb5f91" source="id-e888cbb135334d54a764c005772a2bfd" target="id-ee5c690d322c4a76998c28792cce7bf7"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-8a10069e79ec455383900beb3165899e" source="id-e888cbb135334d54a764c005772a2bfd" target="id-0079e7e6483846a09b2c0ba5a48fa36f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-df4b76ea9345403e907d699263c554cd" source="id-e888cbb135334d54a764c005772a2bfd" target="id-9f2dd7bccd834bfebb965af45eeb1bf1"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-6acd82f17e5143ee9c1e4d6db0563933" source="id-e888cbb135334d54a764c005772a2bfd" target="id-0b1f2a96f48d42c4b1f200349868ef8c"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d33ea70c262347e9967d7073a159d5e6" source="id-e888cbb135334d54a764c005772a2bfd" target="id-2fa39529cdb846599cabc7a597591457"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-5f5561a230e6419fa1c8d8c5496f4dbd" source="id-7880e1876bcf4814904eb6d087f3b0d0" target="id-aa38d84aeee648fa96e1b5ec1dc38a0f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-c6bd34966ddb420ea9d345bd04c49d4a" source="id-aa38d84aeee648fa96e1b5ec1dc38a0f" target="id-62d06082aa664ec491ecef6992be63bb"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-18149d14ae214b7ea7cd5d7cf0d9477e" source="id-aa38d84aeee648fa96e1b5ec1dc38a0f" target="id-6271a261ca774babbd842611d2f9bbe2"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-e0a7ace785204a5b81d28d5a5631d5d1" source="id-78b2814212bf41faa05fb11ea69f511d" target="id-8c1e8be2a8554c24801a253e7efe1836"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-ff46a207b5524fde9e9cca3ecbbdd51a" source="id-8c1e8be2a8554c24801a253e7efe1836" target="id-e1c548020e38452d88e4a3250a949308"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-698854534e2547a794e019d5ef11b1d2" source="id-8c1e8be2a8554c24801a253e7efe1836" target="id-9134f5f20cae4724ab87effa439012a7"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-c1718e6c85fe48fab4762048f7f92994" source="id-8c1e8be2a8554c24801a253e7efe1836" target="id-efc030baa8ad40af886e0003dacb4398"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-5db16c41d36d4fe98b173197f1f470e9" source="id-8c1e8be2a8554c24801a253e7efe1836" target="id-60643e28038947f6b51e50c84f1b4ffd"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-b9b137772c3f418a970e6adb74597693" source="id-8c1e8be2a8554c24801a253e7efe1836" target="id-9b3b3ca0459348e099de73ca4f619660"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-83e72aa769cc4069b7d3fcf99ea704f0" source="id-78b2814212bf41faa05fb11ea69f511d" target="id-24f4578ca117450fbe39d3c3800367dc"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-c49a7499ba9e467cb8c7ac501b2b34ed" source="id-24f4578ca117450fbe39d3c3800367dc" target="id-69f4881528d1491dbd2c8fee3aa08aa0"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-6c8b522915d042dda3b219e1e4258f52" source="id-24f4578ca117450fbe39d3c3800367dc" target="id-eb5a341f3b7641ec8d8012ac3aa7ff97"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a95fad8447b943b9b6e4e50c0a814145" source="id-24f4578ca117450fbe39d3c3800367dc" target="id-c1661a4d469e4ecc9a01e5914f790eb5"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-fd1f04cfe5434371bd6df380aa8c76eb" source="id-24f4578ca117450fbe39d3c3800367dc" target="id-870e1b79b8574fcb8bcd1c750ae2debe"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-b8bcf52c645344e897ba6b61d20a1899" source="id-24f4578ca117450fbe39d3c3800367dc" target="id-b842ed96feae4f0a8a064c79be98cc87"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-ab5654c6ac414c4d8038985823d5d6ca" source="id-78b2814212bf41faa05fb11ea69f511d" target="id-371ffff991b948429677219e7cb2fc84"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-95ecaed12d2142b29044a737cd67b2bd" source="id-371ffff991b948429677219e7cb2fc84" target="id-f69af13e76584f57946f113cd4b53533"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-dd205ff40f4e488e924d831104c455f1" source="id-371ffff991b948429677219e7cb2fc84" target="id-35ecfbd9215842b9b4e74c3c20aad3de"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-86b969ebbd5e4e009ae056c30206d271" source="id-371ffff991b948429677219e7cb2fc84" target="id-906eff48883e4e4c88c38c95ac147d89"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-784681fe8ce34bb2bb72baa32729d4cf" source="id-371ffff991b948429677219e7cb2fc84" target="id-81a6b45a549b4f4093cc4d85cff850b0"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-b437d37a20f24958bbafbea9daf14feb" source="id-371ffff991b948429677219e7cb2fc84" target="id-01f70ab409fd42f5b34f572f4905c4dd"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-4a907d78054e48dcaaec2143ab439967" source="id-78b2814212bf41faa05fb11ea69f511d" target="id-2f9f9f11f1d04fbdbec53fa3fc531d7c"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-8e3e1d767c4c4d64856c0e2a2d3c2823" source="id-2f9f9f11f1d04fbdbec53fa3fc531d7c" target="id-5ff5059d71db44d4aef444fa20fdb50f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-48bad2a792b9459ea552ada6907a97ee" source="id-2f9f9f11f1d04fbdbec53fa3fc531d7c" target="id-4e02371d9bd64edf98558be6af678d51"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-e880e08c84c24e928e649d279ed9fe40" source="id-2f9f9f11f1d04fbdbec53fa3fc531d7c" target="id-6fb4ddc6ba4241fbaebdb8d09d8dcf94"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-82a4ea6075a54b828c9422bffcbb3115" source="id-2f9f9f11f1d04fbdbec53fa3fc531d7c" target="id-89b1aab1551c42f7bc60c19e629d31ae"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-2373491a13c54da48d03f527ed15bfe2" source="id-78b2814212bf41faa05fb11ea69f511d" target="id-8c0c52dec524421d87ed33f8e6f0e74f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-998ea54be06d4ab78b7fcdb62b85d5e2" source="id-8c0c52dec524421d87ed33f8e6f0e74f" target="id-91911583fe834bbfb6bf1149780c1955"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-1637c91085184149b30e125ad243044d" source="id-8c0c52dec524421d87ed33f8e6f0e74f" target="id-4ed280cde38e4318b9a14eae6c6286b6"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-3626fa840159472eadb35c564cff9eb4" source="id-8c0c52dec524421d87ed33f8e6f0e74f" target="id-51e9875707d94016bd27b11a274164cd"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-acccf530518946e0be15e2548d28c9b4" source="id-8c0c52dec524421d87ed33f8e6f0e74f" target="id-a29fc407605b44a489a02977a94f9040"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-331dc5b1b36f48c38034fd7649ca7c70" source="id-78b2814212bf41faa05fb11ea69f511d" target="id-ef9826f878054091a133b5cced33a0ed"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a72dd8bbe1cc4a1d9445a2be7e5e2c0d" source="id-ef9826f878054091a133b5cced33a0ed" target="id-7337f89df1584b278ec957eda03b5fa1"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-e51f743eb08c4c87a0a620ee5e80be69" source="id-ef9826f878054091a133b5cced33a0ed" target="id-ed6c7ef82e9c43b7a648a1ea206e1abb"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-16ae3dae421f41bcb7ea41dd38b2d3a2" source="id-ef9826f878054091a133b5cced33a0ed" target="id-925cd31b486a4a0589976f6729f60f1a"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-c490c3441fd44ab48e66b61a80fe2795" source="id-ef9826f878054091a133b5cced33a0ed" target="id-72d654a302554c00998de9f8fe833875"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f9cde6a0a76c418183f6d0eb93aa8f46" source="id-78b2814212bf41faa05fb11ea69f511d" target="id-7b87678b98524f6aa69f7bda26fa3819"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d4de7ae6720e4254a29ffc291fe2eb2d" source="id-7b87678b98524f6aa69f7bda26fa3819" target="id-8e2a97fb0067473ba8789ed8fd225e4a"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-81720f4a11d2443188f400bc50f675f1" source="id-7b87678b98524f6aa69f7bda26fa3819" target="id-9447b8a4aae9449f9880009d98ffa427"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d0c851542f104db9b493dfd4fb615de0" source="id-7b87678b98524f6aa69f7bda26fa3819" target="id-31ff79b618904886ad6a8b6e175a0017"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-db7dfd89154846aaaa33b20e8ffa1dd7" source="id-7b87678b98524f6aa69f7bda26fa3819" target="id-536884521d2240d88348c025fcba288d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-1106394c0b174f789eb508b4240c94a7" source="id-78b2814212bf41faa05fb11ea69f511d" target="id-8ab67106ef534ee7bb385db3e805b2c6"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a3e38fa8fc8a46cbad890f0702fee13b" source="id-8ab67106ef534ee7bb385db3e805b2c6" target="id-ce7c58c0660243fab315642d63c45601"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-be44cc72d7a14396a2b123ee9862bf22" source="id-8ab67106ef534ee7bb385db3e805b2c6" target="id-58f548dea24b4b1b90638a66dea4da35"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-e87cd538a2214ffda500ce2349ec11cd" source="id-8ab67106ef534ee7bb385db3e805b2c6" target="id-0eac560d57e44167ac9c3b7291dda005"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-086c82a9e3294dcdb6498dab67fd2764" source="id-8ab67106ef534ee7bb385db3e805b2c6" target="id-3557a01c818d49f6ab9eede39df99f2b"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-0b4ad319ff4a4b67a67e35a9a7b4b9de" source="id-8ab67106ef534ee7bb385db3e805b2c6" target="id-c14fad7e91124b4cbb204bedd722b31b"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d7dcc2e9fc924e9e9f0451d6852e5882" source="id-93ed1effb5924c9ca0ef7983dae0797f" target="id-f40d03b6801d47e38c2a3ddc0edeb001"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-58c3f054342c483e95ba00e6ab9eb492" source="id-f40d03b6801d47e38c2a3ddc0edeb001" target="id-1485b7221c724d8889cc3c9b971f0b00"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f32304ddb2574105be8cb7decda0a027" source="id-f40d03b6801d47e38c2a3ddc0edeb001" target="id-46b0eb7438164779aeecd3888a8c1fcd"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-80123ae072a24b79ae96f06ba05c9260" source="id-f40d03b6801d47e38c2a3ddc0edeb001" target="id-282d44a55fac4d03ad21c2b3a28c69e7"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f00dce5bc14041ec9f1df15afec3a8e2" source="id-f40d03b6801d47e38c2a3ddc0edeb001" target="id-f6299b1f32b34031b04ed493eb7eba69"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-7a5f023caca640adb0f39722db847c56" source="id-f40d03b6801d47e38c2a3ddc0edeb001" target="id-c82351fa1f48454991fe8bedb96a2e18"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-afd80626ba9e4f1288758e54f6bdb311" source="id-f40d03b6801d47e38c2a3ddc0edeb001" target="id-39b66a6f625449309314aeb97ac0852a"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-faa516ae28bf4c0c8c4ba33bb51df9b6" source="id-93ed1effb5924c9ca0ef7983dae0797f" target="id-57a7720a1fca41aeb6b8f8947354915d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a81731ba543e41c3a093855d0912fd05" source="id-57a7720a1fca41aeb6b8f8947354915d" target="id-2230d93656cb4e6c84f5e39b4f22bab7"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-4d32931e738b41eb8e2f611b8d0694f1" source="id-57a7720a1fca41aeb6b8f8947354915d" target="id-843c4a4d19064d328e3c2940968d73ea"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d2bb92265985478e916941fd6f557fda" source="id-57a7720a1fca41aeb6b8f8947354915d" target="id-7b17caa5c3d945ebafacfeb31ce1cdc1"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-3d111a1db216481d8ac66e4ea2a57055" source="id-57a7720a1fca41aeb6b8f8947354915d" target="id-f4d8c8e34bd749aba003777e46bf8837"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-b5645ccb304a489b9a98a696497e4a5d" source="id-93ed1effb5924c9ca0ef7983dae0797f" target="id-3d3e53043d0545b591cd8eadafc41f8e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-1223ae36f77f4ea382da5db107b96475" source="id-3d3e53043d0545b591cd8eadafc41f8e" target="id-be966bd3536e4153b428c9982e24e54f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-92f931d1dc364524b67f42404a0a7ed8" source="id-3d3e53043d0545b591cd8eadafc41f8e" target="id-47bbd781de8644a287756dd3e92fdd13"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-aef11a6ccdc3443ab26616d431b3b784" source="id-3d3e53043d0545b591cd8eadafc41f8e" target="id-149ae365aa8b4460bc535d276f89e5ed"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-bbe30dea946e4867af3e392beb094342" source="id-93ed1effb5924c9ca0ef7983dae0797f" target="id-78602df56ac549a98d3e44904f844d3e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-1628684114704651a1eba9a195a68b57" source="id-78602df56ac549a98d3e44904f844d3e" target="id-d3bc76ea90bb463a93e07417cd21dd0d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f9de0edcaa144820963b47516d477ca5" source="id-78602df56ac549a98d3e44904f844d3e" target="id-aaf1b1a29e8c4415ba8d2f082f3481ea"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-83b3c335274c4f75bb9748725704e3f2" source="id-78602df56ac549a98d3e44904f844d3e" target="id-fd32c7e516624f8d8ce9a8097e075e2d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-469a7f5bad5b4749b9a015b35329cfb1" source="id-93ed1effb5924c9ca0ef7983dae0797f" target="id-a49065ba2b4d4f90b3ad13d3b3dc6998"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-dc1887cfdbe541e681150c15ce1e8d8d" source="id-a49065ba2b4d4f90b3ad13d3b3dc6998" target="id-f95d2012e5a54a3c8ab82954b2622113"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d26961dc779447c2aa19586226fb1d03" source="id-a49065ba2b4d4f90b3ad13d3b3dc6998" target="id-dd9f72d6b6304952a9b1309228d9ef37"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-ad5f8fd3f3fb427884dc2faf8d4284f7" source="id-a49065ba2b4d4f90b3ad13d3b3dc6998" target="id-e2e9f897cef644278bc1dfa874e4e639"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-48fced40997449a0b54886c3bcd5ae20" source="id-a49065ba2b4d4f90b3ad13d3b3dc6998" target="id-b1187a5c8aa94c98aebb585ed4d43151"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-87b933ba1bef45388c54971198e418f0" source="id-93ed1effb5924c9ca0ef7983dae0797f" target="id-6b9951df46654a8ca91f28cbb90883e3"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-c5f3738154974a4abe54a0d744ae400a" source="id-6b9951df46654a8ca91f28cbb90883e3" target="id-610d585b789a4972a9c74a95e4b1772e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-435c85df0ccd4f91ae99423dba469edc" source="id-6b9951df46654a8ca91f28cbb90883e3" target="id-52125bb1db284e958d297ae3b46619e7"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-81a26b302d06447cba3758f842bee08f" source="id-6b9951df46654a8ca91f28cbb90883e3" target="id-efc630f367fd48b6b8bfea2d31ed34d9"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-5da786b15d1e42ac9679d8f7ae2235f6" source="id-6b9951df46654a8ca91f28cbb90883e3" target="id-a4a135e035de43e9b80c7744acbc02fa"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-149ef31634ff4ed3ad4365977832caa6" source="id-6b9951df46654a8ca91f28cbb90883e3" target="id-69e32ba3f05149b283ad3b5b2418e8d4"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-469aa25ac7084d4aa2c8cb4029ffcc25" source="id-6b9951df46654a8ca91f28cbb90883e3" target="id-015b6a973bae4a3faec8e8e38f89c742"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-3b6dc280eae34b2f82080adaa45f6f9e" source="id-93ed1effb5924c9ca0ef7983dae0797f" target="id-c887c058535d48ba916f97658e9ad095"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-77bc670be39a42989a27c8743b3475c1" source="id-c887c058535d48ba916f97658e9ad095" target="id-d27ddd0dc8444bb68b344cf06e142710"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-00dad3fb40674d13b029ab119dca2127" source="id-c887c058535d48ba916f97658e9ad095" target="id-ca67244f0627452ab49686875c36dc8c"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-edf079009b3d4f4ca05b5cfc2dbd5fad" source="id-c887c058535d48ba916f97658e9ad095" target="id-6d030fcc488e41359e8e6776f48eaca1"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-a0ca8edc986a43c98d21f98ca1e32d75" source="id-5d945328c1e143c296739847065e5821" target="id-85c575b995c04760ae9e30647514bc1c"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-ea28756242fe45aca2f1d15860c05efb" source="id-85c575b995c04760ae9e30647514bc1c" target="id-30d7c8e90a0246469d8af50621d713c0"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f9073a60d54140e499cf1899a436468c" source="id-85c575b995c04760ae9e30647514bc1c" target="id-eac533b30f2148c0bc5e690ba05cb4f8"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-aa31d99ebc424f819f23d3273ad4f7c3" source="id-85c575b995c04760ae9e30647514bc1c" target="id-4a595513c34c49b3ac3d2cea88be73ba"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-791a24b36cf74e8b8d11a3a85a0de48c" source="id-5d945328c1e143c296739847065e5821" target="id-9d71673dc61541b591ff3ba1ab5f7a3d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-ece51d45b6754dfbacd773c057425dc7" source="id-9d71673dc61541b591ff3ba1ab5f7a3d" target="id-4dbfc6b532904dfa997069449de4dd57"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-59974b0f5b764847a5cf08b6861eb6f1" source="id-9d71673dc61541b591ff3ba1ab5f7a3d" target="id-5139dbeb2c154085aa7896a0fd34ca85"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-c1f5b2ee312b4446b2e634a5dc475e45" source="id-9d71673dc61541b591ff3ba1ab5f7a3d" target="id-ddc3781b28d84331949ecd755046e084"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-6824eb12dbdc493b95be6298301d5620" source="id-9d71673dc61541b591ff3ba1ab5f7a3d" target="id-6fab15d3693649a0bda1b07e831bc628"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-5ccb4ce88a964e6cae314b842f0a40e0" source="id-9d71673dc61541b591ff3ba1ab5f7a3d" target="id-2e6a1f1443d14e32a16111ebc682eebf"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-938a08009be34ec08e32cb664c89c00e" source="id-5d945328c1e143c296739847065e5821" target="id-05a07b3b2cf44eb3bd86d113539cd69e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-73cc29dfa4544b72bfc8d00ec38ed442" source="id-05a07b3b2cf44eb3bd86d113539cd69e" target="id-89f40454aa884bde979ecf5c801ca819"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-645f8f772f6746a18a7561f854831baa" source="id-05a07b3b2cf44eb3bd86d113539cd69e" target="id-e6f2a0e8e1954512a861590e7c290f4c"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-4b0f0bc23872401b9e8a13bc4f942c02" source="id-05a07b3b2cf44eb3bd86d113539cd69e" target="id-6dd494c5cf3f4122ae83a9f727205243"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-c05b62c046dc45cfb5e640d43d0addba" source="id-05a07b3b2cf44eb3bd86d113539cd69e" target="id-136a7c81048b4339a7915fb5997f8e77"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-1c0a63bc13b64994bb42a194758d3431" source="id-05a07b3b2cf44eb3bd86d113539cd69e" target="id-e03f92f0d51c4ce6acb37e300e4a56c1"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-4ec0c35a3b3e4ff29aa5e3144aff8423" source="id-5d945328c1e143c296739847065e5821" target="id-caa37b811df6472580c99f3fdf2111d8"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-7c0f3b692db14e0689b5da725e0b08b8" source="id-caa37b811df6472580c99f3fdf2111d8" target="id-d5cd514015d54388af64fa4b70e31571"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-1865af0073b54cc4b9bc6c7ddb290098" source="id-caa37b811df6472580c99f3fdf2111d8" target="id-01298a0c786041658e520bbb6b790461"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-74aa8b3ca0544b0d917ce66350c6aa3d" source="id-caa37b811df6472580c99f3fdf2111d8" target="id-b25faece5d934ac4b84bac752c62d3ce"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f2952c70748944ee8c77b227a0804db2" source="id-caa37b811df6472580c99f3fdf2111d8" target="id-10ecc15eea774391ba220a4c291f0022"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-d2efdaff3d0f433ba3a7536e81fc605f" source="id-caa37b811df6472580c99f3fdf2111d8" target="id-2e827e6d1280422fbb597c59c99c1229"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-e1f95a364f2d4e608be99576239366f7" source="id-5d945328c1e143c296739847065e5821" target="id-018b76e0586141d18525b4d0ff0e751d"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-02d2933c56c9453b9e710697b362c445" source="id-018b76e0586141d18525b4d0ff0e751d" target="id-06c1488a30ef417483c4cf49b792e7e2"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-e24705fc711c47dbb9b493e498bb788e" source="id-018b76e0586141d18525b4d0ff0e751d" target="id-d6a82235bd1b46699ccafde124bdafc7"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-938cc912858241bb81d2a6a3c3eba62f" source="id-018b76e0586141d18525b4d0ff0e751d" target="id-e5d60ff426a84c57ad86292a98450ec8"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-ecca3d164dde460a8d927b4073e4f7c1" source="id-018b76e0586141d18525b4d0ff0e751d" target="id-66029e15912441ac979706b8f80cffe1"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-475846a6451b4f438b316d459a360cee" source="id-018b76e0586141d18525b4d0ff0e751d" target="id-51eef367dd8b4b81874aeded6da0a8f5"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-8c45671673a54d42b40a0122fa70f9a7" source="id-018b76e0586141d18525b4d0ff0e751d" target="id-38235141de844c24891ce3e3001f3b74"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-4882de1136b648a897d8f4d5076cb94e" source="id-5d945328c1e143c296739847065e5821" target="id-c55abfa35abd4d07968d44f53d8119ef"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-51e4dac8684c4469a82f1cb6a5717a3c" source="id-c55abfa35abd4d07968d44f53d8119ef" target="id-6dfac876334744a2951a2adb27d6dc21"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-19a741256dc14e2ba16ebd3d3440e4bf" source="id-c55abfa35abd4d07968d44f53d8119ef" target="id-a830bbd77395410c9cd1f74fad506a5f"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-68390dcdfcc84f31aa7b898e0c3c93f8" source="id-c55abfa35abd4d07968d44f53d8119ef" target="id-0e4b5877059f4c9dbbb1cb9d58200b84"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-ce9b9fd7acaa47babe97faed98877ace" source="id-5d945328c1e143c296739847065e5821" target="id-9fe74a128015438a894d052a57468a93"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-cf3dda67b0554df981223bed76bc4998" source="id-9fe74a128015438a894d052a57468a93" target="id-3ac2603d14bf450e9dc453dbbb7bf34b"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-625c732aeab547ce84b504abb0e9ef5a" source="id-9fe74a128015438a894d052a57468a93" target="id-370adfeffe8143c48f8be0b1d50f17ca"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-08672a33dcac48a8ad0d37915a79376d" source="id-9fe74a128015438a894d052a57468a93" target="id-fe134083792f4e049025afcc6cb9a68e"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-50afc85435954cd68caff2b611a798da" source="id-5d945328c1e143c296739847065e5821" target="id-92a014e03a9348459c52e21489d0f84b"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-b88f74b5968c4602ad53d863cf0b8ffe" source="id-92a014e03a9348459c52e21489d0f84b" target="id-da5a1d95f7b54f418035527f7d6cb6a1"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-fb03ed0798f147b7b2c37963d1ace938" source="id-92a014e03a9348459c52e21489d0f84b" target="id-cf5887da32284665b23600290d137308"/>
+      <element xsi:type="archimate:CompositionRelationship" id="id-f1d460eb428f49888fb76e9a6c655c5e" source="id-92a014e03a9348459c52e21489d0f84b" target="id-dddf90a5f6474235b83e94ab25c1f20a"/>
+    </folder>
+  </folder>
   <folder name="Views" id="id-bb251366dc3a498fa9b110b1d2320499" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-4fec9ffecf81456f98daa47c16b94d12"/>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="New ArchiMate View" id="id-5eb30e427cb545189307c04e621e4b95" viewpoint="strategy"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Business Capabilities Map" id="id-5eb30e427cb545189307c04e621e4b95" viewpoint="strategy"/>
   </folder>
 </archimate:model>
