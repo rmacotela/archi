@@ -326,23 +326,626 @@
         <element xsi:type="archimate:Capability" name="bc-1.1 / Business Direction Management" id="id-dd15b385cc784d12a6ed4fbf80d9201c">
           <documentation>The ability to provide analysis functionality to enable strategic direction settings and business development including planning, analytics, reporting and monitoring of execution of bank strategy against strategic objectives. </documentation>
         </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.1 / Business Direction Formulation" id="id-a1b2c3d4e5f678901234567890123456">
+          <documentation>Capability to develop and communicate business vision, mission, and strategic direction</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.1.1 / Vision Development" id="id-b2c3d4e5f67890123456789012345678">
+          <documentation>Capability to create and maintain organizational vision statements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.1.2 / Mission Development" id="id-c3d4e5f6789012345678901234567890">
+          <documentation>Capability to define and communicate organizational mission</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.1.3 / Business Direction Communication" id="id-d4e5f678901234567890123456789012">
+          <documentation>Capability to effectively communicate strategic direction across the organization</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.2 / Business Direction Implementation" id="id-e5f67890123456789012345678901234">
+          <documentation>Capability to translate strategic direction into actionable plans and objectives</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.2.1 / Strategy Development" id="id-f6789012345678901234567890123456">
+          <documentation>Capability to develop comprehensive business strategies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.2.2 / Goal Setting" id="id-78901234567890123456789012345678">
+          <documentation>Capability to establish strategic goals and targets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.2.3 / Objective Setting" id="id-89012345678901234567890123456789">
+          <documentation>Capability to define specific objectives aligned with strategic goals</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.3 / Business Direction Performance Management" id="id-90123456789012345678901234567890">
+          <documentation>Capability to monitor and measure strategic performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.3.1 / Objective Achievement Determination" id="id-01234567890123456789012345678901">
+          <documentation>Capability to assess progress toward strategic objectives</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.3.2 / Goal Achievement Determination" id="id-12345678901234567890123456789012">
+          <documentation>Capability to evaluate strategic goal attainment</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.4 / Business Direction Association Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage relationships between business direction and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.4.1 / Business Direction to Information Association" id="id-34567890123456789012345678901234">
+          <documentation>Capability to link strategic direction with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.1.4.2 / Business Direction to Risk Association" id="id-45678901234567890123456789012345">
+          <documentation>Capability to align strategic direction with risk management</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-1.2 / Business Entity Management" id="id-25db69b7004940f08cceb39d3fada5a6"/>
+        <element xsi:type="archimate:Capability" name="bc-1.2.1 / Business Entity Definition" id="id-56789012345678901234567890123456">
+          <documentation>Capability to define and establish business entities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.2.2 / Business Entity Structuring" id="id-67890123456789012345678901234567">
+          <documentation>Capability to organize and structure business entities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.2.2.1 / Business Entity Organizational Structuring" id="id-78901234567890123456789012345678">
+          <documentation>Capability to establish organizational structure for business entities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.2.2.2 / Business Entity Financial Structuring" id="id-89012345678901234567890123456789">
+          <documentation>Capability to establish financial structure for business entities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.2.3 / Business Entity Performance Management" id="id-90123456789012345678901234567890">
+          <documentation>Capability to manage and monitor business entity performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.2.3.1 / Business Entity Target Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to set and manage performance targets for business entities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.2.3.2 / Business Entity Performance Determination" id="id-12345678901234567890123456789012">
+          <documentation>Capability to measure and evaluate business entity performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.2.4 / Business Entity Association Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage relationships between business entities and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.2.4.1 / Business Entity to Business Direction Association" id="id-34567890123456789012345678901234">
+          <documentation>Capability to align business entities with strategic direction</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.2.4.2 / Business Entity to Risk Association" id="id-45678901234567890123456789012345">
+          <documentation>Capability to link business entities with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.2.4.3 / Business Entity to Information Association" id="id-56789012345678901234567890123456">
+          <documentation>Capability to connect business entities with information assets</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-1.3 / Finance Management" id="id-1dbcc673b0944ad18e233971054ade01"/>
+        <element xsi:type="archimate:Capability" name="bc-1.3.1 / Financial Account Management" id="id-67890123456789012345678901234567">
+          <documentation>Capability to manage financial accounts and transactions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.1.1 / Financial Account Definition" id="id-78901234567890123456789012345678">
+          <documentation>Capability to define and establish financial accounts</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.1.2 / Financial Account Control" id="id-89012345678901234567890123456789">
+          <documentation>Capability to control and monitor financial account activities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.1.3 / Financial Account Reconciliation" id="id-90123456789012345678901234567890">
+          <documentation>Capability to reconcile financial account balances and transactions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.1.4 / Financial Account Posting" id="id-01234567890123456789012345678901">
+          <documentation>Capability to post transactions to financial accounts</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.1.5 / Financial Account Access Management" id="id-12345678901234567890123456789012">
+          <documentation>Capability to manage access to financial accounts</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.2 / Financial Position Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage financial positions and balances</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.2.1 / Financial Position Determination" id="id-34567890123456789012345678901234">
+          <documentation>Capability to determine current financial positions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.2.2 / Financial Position Establishment" id="id-45678901234567890123456789012345">
+          <documentation>Capability to establish financial positions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.2.3 / Financial Position Forecasting" id="id-56789012345678901234567890123456">
+          <documentation>Capability to forecast future financial positions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.2.4 / Financial Position Validation" id="id-67890123456789012345678901234567">
+          <documentation>Capability to validate financial position accuracy</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.2.5 / Financial Position Access Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage access to financial position information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.3 / Tax Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage tax-related activities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.3.1 / Tax Applicability Determination" id="id-90123456789012345678901234567890">
+          <documentation>Capability to determine tax applicability for transactions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.3.2 / Tax Calculation" id="id-01234567890123456789012345678901">
+          <documentation>Capability to calculate tax amounts</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.4 / Finance Association Management" id="id-12345678901234567890123456789012">
+          <documentation>Capability to manage relationships between finance and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.4.1 / Finance to Information Association" id="id-23456789012345678901234567890123">
+          <documentation>Capability to link finance with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.3.4.2 / Finance to Business Direction Association" id="id-34567890123456789012345678901234">
+          <documentation>Capability to align finance with strategic direction</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-1.7 / Fraud Management" id="id-c3901991e8f940e7be68180b6956bc19"/>
+        <element xsi:type="archimate:Capability" name="bc-1.7.1 / Fraud Incident Prevention Management" id="id-90123456789012345678901234567890">
+          <documentation>Capability to prevent fraud incidents</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.1.1 / Fraud Awareness Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to manage fraud awareness programs</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.1.2 / Fraud Prediction Management" id="id-12345678901234567890123456789012">
+          <documentation>Capability to predict potential fraud incidents</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.1.3 / Fraud Prevention Measurement" id="id-23456789012345678901234567890123">
+          <documentation>Capability to measure fraud prevention effectiveness</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.1.4 / Fraud Prevention Techniques Management" id="id-34567890123456789012345678901234">
+          <documentation>Capability to manage fraud prevention techniques</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.2 / Fraud Incident Detection" id="id-45678901234567890123456789012345">
+          <documentation>Capability to detect fraud incidents</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.2.1 / Fraudulent Transaction Incident Detection" id="id-56789012345678901234567890123456">
+          <documentation>Capability to detect fraudulent transaction incidents</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.2.2 / Fraudulent Access Incident Detection" id="id-67890123456789012345678901234567">
+          <documentation>Capability to detect fraudulent access incidents</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.2.3 / Fraudulent Application Incident Detection" id="id-78901234567890123456789012345678">
+          <documentation>Capability to detect fraudulent application incidents</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.3 / Fraud Claim Handling" id="id-89012345678901234567890123456789">
+          <documentation>Capability to handle fraud claims</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.3.1 / Fraud Estimation" id="id-90123456789012345678901234567890">
+          <documentation>Capability to estimate fraud losses</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.3.2 / Liability Determination" id="id-01234567890123456789012345678901">
+          <documentation>Capability to determine fraud liability</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.3.3 / Fraud Claim Validation" id="id-12345678901234567890123456789012">
+          <documentation>Capability to validate fraud claims</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.3.4 / Fraud Claim Resolution" id="id-23456789012345678901234567890123">
+          <documentation>Capability to resolve fraud claims</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.4 / Fraud Incident Association Management" id="id-34567890123456789012345678901234">
+          <documentation>Capability to manage relationships between fraud incidents and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.4.1 / Fraud Incident to Information Association" id="id-45678901234567890123456789012345">
+          <documentation>Capability to link fraud incidents with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.4.2 / Fraud to Risk Association" id="id-56789012345678901234567890123456">
+          <documentation>Capability to connect fraud with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.7.4.3 / Fraud to Risk Event Association" id="id-67890123456789012345678901234567">
+          <documentation>Capability to link fraud with risk events</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-1.6 / Investor Management" id="id-b4aed81d085349a892e3b7640bed9356">
           <documentation>Capabilities to manage events related to shareholders and investors e.g. corporate events, dividend payout... </documentation>
         </element>
+        <element xsi:type="archimate:Capability" name="bc-1.6.1 / Investor Sourcing" id="id-89012345678901234567890123456789">
+          <documentation>Capability to source and identify potential investors</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.6.1.1 / Investor Identification" id="id-90123456789012345678901234567890">
+          <documentation>Capability to identify potential investors</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.6.1.2 / Investor Validation" id="id-01234567890123456789012345678901">
+          <documentation>Capability to validate investor credentials and suitability</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.6.1.3 / Investor Criteria Definition" id="id-12345678901234567890123456789012">
+          <documentation>Capability to define investor selection criteria</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.6.2 / Investor Establishment" id="id-23456789012345678901234567890123">
+          <documentation>Capability to establish investor relationships</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.6.3 / Investor Earnings Distribution Management" id="id-34567890123456789012345678901234">
+          <documentation>Capability to manage investor earnings distributions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.6.4 / Investor Communication" id="id-45678901234567890123456789012345">
+          <documentation>Capability to communicate with investors</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.6.5 / Investor Share Position Management" id="id-56789012345678901234567890123456">
+          <documentation>Capability to manage investor share positions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.6.6 / Investor Association Management" id="id-67890123456789012345678901234567">
+          <documentation>Capability to manage relationships between investors and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.6.6.1 / Investor to Risk Association" id="id-78901234567890123456789012345678">
+          <documentation>Capability to link investors with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.6.6.2 / Investor to Information Association" id="id-89012345678901234567890123456789">
+          <documentation>Capability to connect investors with information assets</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-1.5 / Policy Management" id="id-411219a7abe44ad584f97a294296a3b1"/>
+        <element xsi:type="archimate:Capability" name="bc-1.5.1 / External Policy Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage external policies and regulations</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.1.1 / External Policy Applicability Determination" id="id-34567890123456789012345678901234">
+          <documentation>Capability to determine applicability of external policies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.1.2 / External Policy Interpretation" id="id-45678901234567890123456789012345">
+          <documentation>Capability to interpret external policies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.2 / Policy Establishment" id="id-56789012345678901234567890123456">
+          <documentation>Capability to establish internal policies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.2.1 / Policy Validation" id="id-67890123456789012345678901234567">
+          <documentation>Capability to validate policy effectiveness</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.2.2 / Policy Formalization" id="id-78901234567890123456789012345678">
+          <documentation>Capability to formalize policies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.2.3 / Policy Drafting" id="id-89012345678901234567890123456789">
+          <documentation>Capability to draft policy documents</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.2.4 / Policy Activation" id="id-90123456789012345678901234567890">
+          <documentation>Capability to activate policies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.3 / Policy Compliance Determination" id="id-01234567890123456789012345678901">
+          <documentation>Capability to determine policy compliance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.3.1 / Policy Compliance Measurement Determination" id="id-12345678901234567890123456789012">
+          <documentation>Capability to determine policy compliance measurements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.3.2 / Policy Compliance Level Determination" id="id-23456789012345678901234567890123">
+          <documentation>Capability to determine policy compliance levels</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.4 / Policy Retirement" id="id-34567890123456789012345678901234">
+          <documentation>Capability to retire obsolete policies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.5 / Policy Association Management" id="id-45678901234567890123456789012345">
+          <documentation>Capability to manage relationships between policies and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.5.1 / Policy to Business Direction Association" id="id-56789012345678901234567890123456">
+          <documentation>Capability to align policies with strategic direction</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.5.2 / Policy to Risk Association" id="id-67890123456789012345678901234567">
+          <documentation>Capability to link policies with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.5.5.3 / Policy to Information Association" id="id-78901234567890123456789012345678">
+          <documentation>Capability to connect policies with information assets</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-1.4 / Risk Management" id="id-dc36e97fbf234a93b3072c4077ec5f33"/>
+        <element xsi:type="archimate:Capability" name="bc-1.4.1 / Risk Definition" id="id-45678901234567890123456789012345">
+          <documentation>Capability to define and identify risks</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.1.1 / Risk Identification" id="id-56789012345678901234567890123456">
+          <documentation>Capability to identify potential risks</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.1.2 / Risk Categorization" id="id-67890123456789012345678901234567">
+          <documentation>Capability to categorize and classify risks</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.1.3 / Risk Aggregation" id="id-78901234567890123456789012345678">
+          <documentation>Capability to aggregate and consolidate risk information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.2 / Risk Assessment" id="id-89012345678901234567890123456789">
+          <documentation>Capability to assess and evaluate risks</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.2.1 / Risk Probability Determination" id="id-90123456789012345678901234567890">
+          <documentation>Capability to determine risk probability</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.2.2 / Risk Impact Determination" id="id-01234567890123456789012345678901">
+          <documentation>Capability to determine risk impact</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.2.3 / Risk Impact Threshold Determination" id="id-12345678901234567890123456789012">
+          <documentation>Capability to determine risk impact thresholds</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.3 / Risk Control Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage risk controls</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.3.1 / Risk Control Determination" id="id-34567890123456789012345678901234">
+          <documentation>Capability to determine appropriate risk controls</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.3.2 / Risk Control Development" id="id-45678901234567890123456789012345">
+          <documentation>Capability to develop risk control mechanisms</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.3.3 / Risk Control Validation" id="id-56789012345678901234567890123456">
+          <documentation>Capability to validate risk control effectiveness</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.4 / Risk Transference" id="id-67890123456789012345678901234567">
+          <documentation>Capability to transfer risk to third parties</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.5 / Risk Event Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage risk events</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.5.1 / Risk Event Detection" id="id-89012345678901234567890123456789">
+          <documentation>Capability to detect risk events</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.5.2 / Risk Event Definition" id="id-90123456789012345678901234567890">
+          <documentation>Capability to define risk events</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.5.3 / Risk Event Response Prioritization" id="id-01234567890123456789012345678901">
+          <documentation>Capability to prioritize risk event responses</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.5.4 / Risk Event Information Dissemination" id="id-12345678901234567890123456789012">
+          <documentation>Capability to disseminate risk event information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.5.5 / Risk Event Termination" id="id-23456789012345678901234567890123">
+          <documentation>Capability to terminate risk events</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.5.6 / Risk Event Response Performance Management" id="id-34567890123456789012345678901234">
+          <documentation>Capability to manage risk event response performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.5.7 / Risk Event Root Cause Determination" id="id-45678901234567890123456789012345">
+          <documentation>Capability to determine risk event root causes</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.6 / Risk Governance Management" id="id-56789012345678901234567890123456">
+          <documentation>Capability to manage risk governance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.6.1 / Risk Governance Structure Design" id="id-67890123456789012345678901234567">
+          <documentation>Capability to design risk governance structures</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.6.2 / Risk Governance Structure Development" id="id-78901234567890123456789012345678">
+          <documentation>Capability to develop risk governance structures</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.7 / Risk Association Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage relationships between risks and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.7.1 / Risk to Business Direction Association" id="id-90123456789012345678901234567890">
+          <documentation>Capability to align risks with strategic direction</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.7.2 / Risk to Information Association" id="id-01234567890123456789012345678901">
+          <documentation>Capability to link risks with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.7.3 / Risk to Policy Association" id="id-12345678901234567890123456789012">
+          <documentation>Capability to connect risks with policy frameworks</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.5.4 / Risk Event Information Dissemination" id="id-12345678901234567890123456789012">
+          <documentation>Capability to disseminate risk event information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.5.5 / Risk Event Termination" id="id-23456789012345678901234567890123">
+          <documentation>Capability to terminate risk events</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.5.6 / Risk Event Response Performance Management" id="id-34567890123456789012345678901234">
+          <documentation>Capability to manage risk event response performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.5.7 / Risk Event Root Cause Determination" id="id-45678901234567890123456789012345">
+          <documentation>Capability to determine risk event root causes</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.6 / Risk Governance Management" id="id-56789012345678901234567890123456">
+          <documentation>Capability to manage risk governance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.6.1 / Risk Governance Structure Design" id="id-67890123456789012345678901234567">
+          <documentation>Capability to design risk governance structures</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.6.2 / Risk Governance Structure Development" id="id-78901234567890123456789012345678">
+          <documentation>Capability to develop risk governance structures</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.7 / Risk Association Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage relationships between risk and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.7.1 / Risk to Business Direction Association" id="id-90123456789012345678901234567890">
+          <documentation>Capability to align risk with strategic direction</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.7.2 / Risk to Information Association" id="id-01234567890123456789012345678901">
+          <documentation>Capability to link risk with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-1.4.7.3 / Risk to Policy Association" id="id-12345678901234567890123456789012">
+          <documentation>Capability to connect risk with policy frameworks</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-1.8 / Initiative Management" id="id-38a0deea84244da6b93416e0c0d1e97c"/>
       </folder>
       <folder name="bc-2 / Product and Service Enabling" id="id-7212f3432f4c424d98feadc769a3316c">
         <element xsi:type="archimate:Capability" name="bc-2 / Product and Service Enabling" id="id-5c57367bf7c44e628fa97334ca872cec"/>
         <element xsi:type="archimate:Capability" name="bc-2.1 / Agreement Management" id="id-0b42930325d1459aa75047136f99894d"/>
+        <element xsi:type="archimate:Capability" name="bc-2.1.1 / Agreement Definition" id="id-78901234567890123456789012345678">
+          <documentation>Capability to define and establish agreements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.2 / Agreement Lifecycle Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage agreement lifecycle</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.2.1 / Agreement Termination" id="id-90123456789012345678901234567890">
+          <documentation>Capability to terminate agreements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.2.2 / Agreement Activation" id="id-01234567890123456789012345678901">
+          <documentation>Capability to activate agreements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.2.3 / Agreement Valuation" id="id-12345678901234567890123456789012">
+          <documentation>Capability to value agreements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.3 / Agreement Terms and Conditions Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage agreement terms and conditions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.3.1 / Agreement Standard Terms Inclusion" id="id-34567890123456789012345678901234">
+          <documentation>Capability to include standard terms in agreements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.3.2 / Agreement Custom Terms Inclusion" id="id-45678901234567890123456789012345">
+          <documentation>Capability to include custom terms in agreements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.3.3 / Agreement Validation" id="id-56789012345678901234567890123456">
+          <documentation>Capability to validate agreements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.3.4 / Agreement Price Determination" id="id-67890123456789012345678901234567">
+          <documentation>Capability to determine agreement pricing</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.4 / Agreement Access Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage agreement access</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.4.1 / Agreement Access Control" id="id-89012345678901234567890123456789">
+          <documentation>Capability to control agreement access</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.4.2 / Agreement Access Definition" id="id-90123456789012345678901234567890">
+          <documentation>Capability to define agreement access rights</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.5 / Agreement Association Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to manage relationships between agreements and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.5.1 / Agreement to Channel Association" id="id-12345678901234567890123456789012">
+          <documentation>Capability to link agreements with channels</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.5.2 / Agreement to Customer Association" id="id-23456789012345678901234567890123">
+          <documentation>Capability to link agreements with customers</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.5.3 / Agreement to Product Association" id="id-34567890123456789012345678901234">
+          <documentation>Capability to link agreements with products</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.5.4 / Agreement to Risk Association" id="id-45678901234567890123456789012345">
+          <documentation>Capability to link agreements with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.5.5 / Agreement to Financial Account Association" id="id-56789012345678901234567890123456">
+          <documentation>Capability to link agreements with financial accounts</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.1.5.6 / Agreement to Information Association" id="id-67890123456789012345678901234567">
+          <documentation>Capability to link agreements with information assets</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-2.2 / Collateral Management" id="id-15386f5f298b4f49b35b1f5254faea92"/>
         <element xsi:type="archimate:Capability" name="bc-2.3 / Financial Instrument Management" id="id-07ee376119584b1291d0854b31a6370f"/>
         <element xsi:type="archimate:Capability" name="bc-2.4 / Financial Plan Management" id="id-0d9f2915e43c4b79bf05cc85697c8a17"/>
+        <element xsi:type="archimate:Capability" name="bc-2.4.1 / Goal Management" id="id-67890123456789012345678901234567">
+          <documentation>Capability to manage financial goals</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.1.1 / Goal Establishment" id="id-78901234567890123456789012345678">
+          <documentation>Capability to establish financial goals</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.1.2 / Goal Performance Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage goal performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.1.3 / Goal Monitoring" id="id-90123456789012345678901234567890">
+          <documentation>Capability to monitor goal progress</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.2 / End of Life Planning" id="id-01234567890123456789012345678901">
+          <documentation>Capability to plan for end of life financial needs</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.2.1 / Medical Care Planning" id="id-12345678901234567890123456789012">
+          <documentation>Capability to plan for medical care expenses</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.2.2 / Wealth Transfer Planning" id="id-23456789012345678901234567890123">
+          <documentation>Capability to plan for wealth transfer</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.3 / Tax Management" id="id-34567890123456789012345678901234">
+          <documentation>Capability to manage tax planning</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.3.1 / Tax Optimization" id="id-45678901234567890123456789012345">
+          <documentation>Capability to optimize tax strategies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.3.2 / Tax Determination" id="id-56789012345678901234567890123456">
+          <documentation>Capability to determine tax obligations</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.4 / Financial Plan Performance Management" id="id-67890123456789012345678901234567">
+          <documentation>Capability to manage financial plan performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.4.1 / Financial Plan Performance Threshold Setting" id="id-78901234567890123456789012345678">
+          <documentation>Capability to set performance thresholds</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.4.2 / Financial Plan Performance Determination" id="id-89012345678901234567890123456789">
+          <documentation>Capability to determine plan performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.5 / Financial Plan Association Management" id="id-90123456789012345678901234567890">
+          <documentation>Capability to manage relationships between financial plans and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.5.1 / Financial Plan to Customer Association" id="id-01234567890123456789012345678901">
+          <documentation>Capability to link financial plans with customers</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.5.2 / Financial Plan to Information Association" id="id-12345678901234567890123456789012">
+          <documentation>Capability to link financial plans with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.5.3 / Financial Plan to Policy Association" id="id-23456789012345678901234567890123">
+          <documentation>Capability to link financial plans with policy frameworks</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.4.5.4 / Financial Plan to Risk Association" id="id-34567890123456789012345678901234">
+          <documentation>Capability to link financial plans with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.1 / Financial Instrument Establishment" id="id-45678901234567890123456789012345">
+          <documentation>Capability to establish financial instruments</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.2 / Financial Instrument Position Balance Management" id="id-56789012345678901234567890123456">
+          <documentation>Capability to manage financial instrument positions and balances</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.3 / Financial Instrument Valuation" id="id-67890123456789012345678901234567">
+          <documentation>Capability to value financial instruments</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.3.1 / Financial Instrument Projected Valuation" id="id-78901234567890123456789012345678">
+          <documentation>Capability to project future valuations</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.3.2 / Financial Instrument Historical Valuation" id="id-89012345678901234567890123456789">
+          <documentation>Capability to track historical valuations</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.3.3 / Financial Instrument Current Valuation" id="id-90123456789012345678901234567890">
+          <documentation>Capability to determine current valuations</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.4 / Financial Instrument Corporate Action Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to manage corporate actions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.4.1 / Corporate Action Monitoring" id="id-12345678901234567890123456789012">
+          <documentation>Capability to monitor corporate actions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.4.2 / Corporate Action Notification" id="id-23456789012345678901234567890123">
+          <documentation>Capability to notify about corporate actions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.4.3 / Corporate Action Calculation" id="id-34567890123456789012345678901234">
+          <documentation>Capability to calculate corporate action impacts</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.5 / Financial Instrument Custodial Management" id="id-45678901234567890123456789012345">
+          <documentation>Capability to manage custodial services</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.5.1 / Financial Instrument Delivery" id="id-56789012345678901234567890123456">
+          <documentation>Capability to deliver financial instruments</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.5.2 / Financial Instrument Receipt" id="id-67890123456789012345678901234567">
+          <documentation>Capability to receive financial instruments</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.5.3 / Financial Instrument Inventory Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage instrument inventory</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.6 / Financial Instrument Association Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage relationships between financial instruments and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.6.1 / Financial Instrument to Market Association" id="id-90123456789012345678901234567890">
+          <documentation>Capability to link instruments with markets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.3.6.2 / Financial Instrument to Information Association" id="id-01234567890123456789012345678901">
+          <documentation>Capability to link instruments with information assets</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-2.5 / Investment Portfolio Management" id="id-ef006944d59140aba39ec8f9db20f280"/>
+        <element xsi:type="archimate:Capability" name="bc-2.5.1 / Investment Portfolio Definition" id="id-23456789012345678901234567890123">
+          <documentation>Capability to define investment portfolios</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.2 / Investment Portfolio Market Research" id="id-34567890123456789012345678901234">
+          <documentation>Capability to research market opportunities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.3 / Investment Portfolio Performance Management" id="id-45678901234567890123456789012345">
+          <documentation>Capability to manage portfolio performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.4 / Investment Portfolio Rate of Return Determination" id="id-56789012345678901234567890123456">
+          <documentation>Capability to determine rate of return</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.5 / Investment Portfolio Expected Desired Return Management" id="id-67890123456789012345678901234567">
+          <documentation>Capability to manage expected returns</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.6 / Investment Portfolio Allocation Variance Assessment" id="id-78901234567890123456789012345678">
+          <documentation>Capability to assess allocation variances</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.7 / Investment Portfolio Valuation" id="id-89012345678901234567890123456789">
+          <documentation>Capability to value investment portfolios</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.7.1 / Investment Portfolio Projected Valuation" id="id-90123456789012345678901234567890">
+          <documentation>Capability to project portfolio valuations</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.7.2 / Investment Portfolio Historical Valuation" id="id-01234567890123456789012345678901">
+          <documentation>Capability to track historical valuations</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.7.3 / Investment Portfolio Current Valuation" id="id-12345678901234567890123456789012">
+          <documentation>Capability to determine current valuations</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.8 / Investment Portfolio Allocation Determination" id="id-23456789012345678901234567890123">
+          <documentation>Capability to determine portfolio allocations</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.8.1 / Standard Reference Investment Portfolio Model Management" id="id-34567890123456789012345678901234">
+          <documentation>Capability to manage standard portfolio models</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.8.2 / Investment Portfolio Model Determination" id="id-45678901234567890123456789012345">
+          <documentation>Capability to determine portfolio models</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.8.3 / Investment Constraint Management" id="id-56789012345678901234567890123456">
+          <documentation>Capability to manage investment constraints</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.9 / Investment Portfolio Association Management" id="id-67890123456789012345678901234567">
+          <documentation>Capability to manage relationships between investment portfolios and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.9.1 / Investment Portfolio to Information Association" id="id-78901234567890123456789012345678">
+          <documentation>Capability to link portfolios with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.9.2 / Investment Portfolio to Agreement Association" id="id-89012345678901234567890123456789">
+          <documentation>Capability to link portfolios with agreements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.9.3 / Investment Portfolio to Policy Association" id="id-90123456789012345678901234567890">
+          <documentation>Capability to link portfolios with policy frameworks</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-2.5.9.4 / Investment Portfolio to Risk Association" id="id-01234567890123456789012345678901">
+          <documentation>Capability to link portfolios with risk management</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-2.6 / Issue Device Management" id="id-f7281d9a38614da4af8cf76816736d2f"/>
         <element xsi:type="archimate:Capability" name="bc-2.7 / Money Movement Management" id="id-f25240ccc1e44d23b3ee023f5d286fb3"/>
         <element xsi:type="archimate:Capability" name="bc-2.8 / Order Management" id="id-d7a21a45594e4eb3ad6a87f6ab3ab94e"/>
@@ -350,62 +953,706 @@
         <element xsi:type="archimate:Capability" name="bc-2.9 / Product Management" id="id-52634719e13c493eb826e1d5a118a5a7"/>
         <element xsi:type="archimate:Capability" name="bc-2.11 / Trade Finance Management" id="id-1b43918ed5c147e389f53356b8dd1c76"/>
         <element xsi:type="archimate:Capability" name="bc-2.12 / Trust Management" id="id-19c48d03d53f4ccfbc6f6d738de0bfbe"/>
-        <element xsi:type="archimate:Capability" name="bc3-10 / Inquiry Management" id="id-271d1ba8203e48c0a4b1a0a740313e0f"/>
-        <element xsi:type="archimate:Capability" name="bc-3-11 / Content Management" id="id-259e02ff7a204cb39afcd6b6501780a1"/>
         <element xsi:type="archimate:Capability" name="bc-2.13 / Intellectual Property Management" id="id-a18ba07946d344f4b266a9968c9f2de6"/>
       </folder>
       <folder name="bc-3 / Enterprise Enabling" id="id-26b0ca1c22b248ef9bb00796036f8c13">
         <element xsi:type="archimate:Capability" name="bc-3 / Enterprise Enabling" id="id-40401ee2b3894c12b4b118ae3cb135ef"/>
         <element xsi:type="archimate:Capability" name="bc-3.1 / Facility and Equipment Management" id="id-1830f723d3d241a29a00a23c601fe113"/>
+        <element xsi:type="archimate:Capability" name="bc-3.1.1 / Facilities And Equipment Acquisition" id="id-56789012345678901234567890123456">
+          <documentation>Capability to acquire facilities and equipment</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.1.1 / Facility And Equipment Purchase And Leasing Management" id="id-67890123456789012345678901234567">
+          <documentation>Capability to manage facility and equipment purchases and leasing</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.1.2 / Facility And Equipment Construction" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage facility and equipment construction</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.2 / Facilities And Equipment Utilization Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage facility and equipment utilization</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.2.1 / Facility And Equipment Schedule Management" id="id-90123456789012345678901234567890">
+          <documentation>Capability to manage facility and equipment schedules</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.2.2 / Facility And Equipment Guest Services" id="id-01234567890123456789012345678901">
+          <documentation>Capability to provide guest services for facilities and equipment</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.3 / Facility And Equipment Association Management" id="id-12345678901234567890123456789012">
+          <documentation>Capability to manage relationships between facilities/equipment and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.3.1 / Facilities And Equipment Information Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage facility and equipment information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.3.2 / Facility And Equipment to Risk Association" id="id-34567890123456789012345678901234">
+          <documentation>Capability to link facilities/equipment with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.3.3 / Facility And Equipment to Business Entity Association" id="id-45678901234567890123456789012345">
+          <documentation>Capability to link facilities/equipment with business entities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.4 / Facilities And Equipment Relinquishment" id="id-56789012345678901234567890123456">
+          <documentation>Capability to manage facility and equipment relinquishment</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.4.1 / Facility And Equipment Disposal" id="id-67890123456789012345678901234567">
+          <documentation>Capability to dispose of facilities and equipment</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.4.2 / Facility And Equipment Sales" id="id-78901234567890123456789012345678">
+          <documentation>Capability to sell facilities and equipment</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.5 / Facilities And Equipment Maintenance Upkeep" id="id-89012345678901234567890123456789">
+          <documentation>Capability to maintain and upkeep facilities and equipment</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.5.1 / Facility And Equipment Utilities Management" id="id-90123456789012345678901234567890">
+          <documentation>Capability to manage facility and equipment utilities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.5.2 / Facility And Equipment Improvement" id="id-01234567890123456789012345678901">
+          <documentation>Capability to improve facilities and equipment</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.1.5.3 / Facility And Equipment Condition Monitoring" id="id-12345678901234567890123456789012">
+          <documentation>Capability to monitor facility and equipment conditions</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-3.2 / Human Capital Management" id="id-d57f610040224518998b38bdf8caa9df"/>
+        <element xsi:type="archimate:Capability" name="bc-3.2.1 / Human Capital Acquisition" id="id-67890123456789012345678901234567">
+          <documentation>Capability to acquire human capital</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.1.1 / Human Resource Onboarding" id="id-78901234567890123456789012345678">
+          <documentation>Capability to onboard human resources</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.1.2 / Candidate Sourcing Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage candidate sourcing</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.1.3 / Candidate Suitability Determination" id="id-90123456789012345678901234567890">
+          <documentation>Capability to determine candidate suitability</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.2 / Human Capital Compensation And Benefits Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to manage compensation and benefits</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.2.1 / Commission Management" id="id-12345678901234567890123456789012">
+          <documentation>Capability to manage commission structures</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.2.2 / Salary Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage salary structures</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.2.3 / Compensation and Benefits Competitive Alignment" id="id-34567890123456789012345678901234">
+          <documentation>Capability to align compensation with competitive standards</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.2.4 / Recognition Management" id="id-45678901234567890123456789012345">
+          <documentation>Capability to manage employee recognition programs</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.2.5 / Benefit Management" id="id-56789012345678901234567890123456">
+          <documentation>Capability to manage employee benefits</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.2.6 / Post Employment Compensation Management" id="id-67890123456789012345678901234567">
+          <documentation>Capability to manage post-employment compensation</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.3 / Human Capital Performance Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage human capital performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.3.1 / Human Capital Role Alignment" id="id-89012345678901234567890123456789">
+          <documentation>Capability to align human capital with roles</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.3.2 / Human Capital Goal Management" id="id-90123456789012345678901234567890">
+          <documentation>Capability to manage human capital goals</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.3.3 / Human Capital Performance Determination" id="id-01234567890123456789012345678901">
+          <documentation>Capability to determine human capital performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.3.4 / Human Capital Knowledge and Skills Development" id="id-12345678901234567890123456789012">
+          <documentation>Capability to develop human capital knowledge and skills</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.3.5 / Time and Attendance Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage time and attendance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.4 / Human Capital Termination" id="id-34567890123456789012345678901234">
+          <documentation>Capability to manage human capital termination</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.4.1 / Human Capital Off-boarding" id="id-45678901234567890123456789012345">
+          <documentation>Capability to manage human capital off-boarding</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.4.2 / Succession Planning" id="id-56789012345678901234567890123456">
+          <documentation>Capability to plan for succession</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.5 / Human Capital to Policy Association" id="id-67890123456789012345678901234567">
+          <documentation>Capability to manage relationships between human capital and policies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.5.1 / Termination Policy Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage termination policies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.5.2 / Benefit Policy Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage benefit policies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.5.3 / Human Capital Equal Opportunity Policy" id="id-90123456789012345678901234567890">
+          <documentation>Capability to manage equal opportunity policies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.5.4 / Employee Policy Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to manage employee policies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.6 / Human Capital Association Management" id="id-12345678901234567890123456789012">
+          <documentation>Capability to manage relationships between human capital and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.6.1 / Human Capital to Business Direction Association" id="id-23456789012345678901234567890123">
+          <documentation>Capability to align human capital with strategic direction</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.6.2 / Human Capital to Business Entity Association" id="id-34567890123456789012345678901234">
+          <documentation>Capability to link human capital with business entities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.2.6.3 / Human Capital to Information Association" id="id-45678901234567890123456789012345">
+          <documentation>Capability to connect human capital with information assets</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-3.3 / Identity Management" id="id-7fdd06be035941f2a4b46ac6c1794ed0"/>
         <element xsi:type="archimate:Capability" name="bc-3.4 / Information Management" id="id-fac8d4ba11eb4a06ba75275c248d6509"/>
+        <element xsi:type="archimate:Capability" name="bc-3.4.1 / Information Collection" id="id-78901234567890123456789012345678">
+          <documentation>Capability to collect information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.1.1 / Information Sourcing" id="id-89012345678901234567890123456789">
+          <documentation>Capability to source information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.2 / Information Retention Persistence" id="id-90123456789012345678901234567890">
+          <documentation>Capability to retain and persist information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.3 / Information Versioning History Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to manage information versioning and history</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.4 / Information Transformation" id="id-12345678901234567890123456789012">
+          <documentation>Capability to transform information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.5 / Information Artifact Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage information artifacts</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.6 / Information Organization" id="id-34567890123456789012345678901234">
+          <documentation>Capability to organize information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.6.1 / Information Type Management" id="id-45678901234567890123456789012345">
+          <documentation>Capability to manage information types</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.6.2 / Information Aggregation" id="id-56789012345678901234567890123456">
+          <documentation>Capability to aggregate information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.7 / Information Security Protection" id="id-67890123456789012345678901234567">
+          <documentation>Capability to secure and protect information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.7.1 / Information Access Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage information access</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.8 / Information Validation" id="id-89012345678901234567890123456789">
+          <documentation>Capability to validate information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.9 / Information Interpretation Comprehension" id="id-90123456789012345678901234567890">
+          <documentation>Capability to interpret and comprehend information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.10 / Information Dissemination" id="id-01234567890123456789012345678901">
+          <documentation>Capability to disseminate information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.10.1 / Information Visualization" id="id-12345678901234567890123456789012">
+          <documentation>Capability to visualize information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.10.2 / Information Packaging" id="id-23456789012345678901234567890123">
+          <documentation>Capability to package information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.10.3 / Information Presentation" id="id-34567890123456789012345678901234">
+          <documentation>Capability to present information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.11 / Information Association Management" id="id-45678901234567890123456789012345">
+          <documentation>Capability to manage relationships between information and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.11.1 / Information to Policy Association" id="id-56789012345678901234567890123456">
+          <documentation>Capability to link information with policy frameworks</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.11.2 / Information to Business Direction Association" id="id-67890123456789012345678901234567">
+          <documentation>Capability to link information with strategic direction</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.4.12 / Information Analytics" id="id-78901234567890123456789012345678">
+          <documentation>Capability to analyze information</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-3.6 / Legal Support Management" id="id-3925fc8b78714e37a59dc32d0262759b"/>
+        <element xsi:type="archimate:Capability" name="bc-3.6.1 / Regulatory Compliance Advisement" id="id-34567890123456789012345678901234">
+          <documentation>Capability to provide regulatory compliance advice</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.6.1.1 / Due Diligence" id="id-45678901234567890123456789012345">
+          <documentation>Capability to conduct due diligence activities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.6.1.2 / Regulatory Compliance Implementation Support" id="id-56789012345678901234567890123456">
+          <documentation>Capability to support regulatory compliance implementation</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.6.2 / Arbitration And Proceedings Management" id="id-67890123456789012345678901234567">
+          <documentation>Capability to manage arbitration and legal proceedings</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.6.2.1 / Litigation Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage litigation processes</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.6.3 / Contract Support Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage contract support activities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.6.3.1 / Partnership Contract Support" id="id-90123456789012345678901234567890">
+          <documentation>Capability to support partnership contracts</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.6.3.2 / Employment Contract Support" id="id-01234567890123456789012345678901">
+          <documentation>Capability to support employment contracts</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.6.3.3 / Procurement Contract Support" id="id-12345678901234567890123456789012">
+          <documentation>Capability to support procurement contracts</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.6.3.4 / Mergers And Acquisition Support" id="id-23456789012345678901234567890123">
+          <documentation>Capability to support mergers and acquisitions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.6.3.5 / Intellectual Property Contract Support" id="id-34567890123456789012345678901234">
+          <documentation>Capability to support intellectual property contracts</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.6.3.6 / Financing Agreement Support" id="id-45678901234567890123456789012345">
+          <documentation>Capability to support financing agreements</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-3.7 / Task Management" id="id-9d41cea314b046099a7010b317797963"/>
+        <element xsi:type="archimate:Capability" name="bc-3.7.1 / Task Definition" id="id-45678901234567890123456789012345">
+          <documentation>Capability to define tasks and their requirements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.7.2 / Task Aggregation" id="id-56789012345678901234567890123456">
+          <documentation>Capability to aggregate and group related tasks</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.7.3 / Task Scheduling" id="id-67890123456789012345678901234567">
+          <documentation>Capability to schedule and plan task execution</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.7.4 / Task Assignment" id="id-78901234567890123456789012345678">
+          <documentation>Capability to assign tasks to appropriate resources</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.7.5 / Task Priority Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage task priorities and urgency</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-3.8 / Vendor &amp; Supplier Management" id="id-ce910d6ca38540eebfa044ec19ec8eb4"/>
+        <element xsi:type="archimate:Capability" name="bc-3.8.1 / Vendor And Supplier Sourcing Management" id="id-56789012345678901234567890123456">
+          <documentation>Capability to manage vendor and supplier sourcing</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.1.1 / Vendor Candidate Identification" id="id-67890123456789012345678901234567">
+          <documentation>Capability to identify vendor candidates</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.1.2 / Vendor Validation" id="id-78901234567890123456789012345678">
+          <documentation>Capability to validate vendors</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.1.3 / Vendor Agreement Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage vendor agreements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.2 / Vendor And Supplier Performance Management" id="id-90123456789012345678901234567890">
+          <documentation>Capability to manage vendor and supplier performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.2.1 / Vendor Target Determination" id="id-01234567890123456789012345678901">
+          <documentation>Capability to determine vendor targets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.2.2 / Vendor Measurement Determination" id="id-12345678901234567890123456789012">
+          <documentation>Capability to determine vendor measurements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.2.3 / Vendor Measurement" id="id-23456789012345678901234567890123">
+          <documentation>Capability to measure vendor performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.3 / Purchase And Requisition Management" id="id-34567890123456789012345678901234">
+          <documentation>Capability to manage purchases and requisitions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.3.1 / Purchase Request Creation" id="id-45678901234567890123456789012345">
+          <documentation>Capability to create purchase requests</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.3.2 / Purchase Request Validation" id="id-56789012345678901234567890123456">
+          <documentation>Capability to validate purchase requests</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.3.3 / Purchase Request Submission" id="id-67890123456789012345678901234567">
+          <documentation>Capability to submit purchase requests</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.4 / Vendor And Supplier Association Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage relationships between vendors/suppliers and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.4.1 / Vendor And Supplier to Risk Association" id="id-89012345678901234567890123456789">
+          <documentation>Capability to link vendors/suppliers with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.4.2 / Vendor And Supplier to Information Association" id="id-90123456789012345678901234567890">
+          <documentation>Capability to link vendors/suppliers with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.8.4.3 / Vendor And Supplier to Policy Association" id="id-01234567890123456789012345678901">
+          <documentation>Capability to link vendors/suppliers with policy frameworks</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-3.5 / Competency Management" id="id-dae380f19f7e4159bd69a2aa91ea4a3c"/>
+        <element xsi:type="archimate:Capability" name="bc-3.5.1 / Competency Definition" id="id-23456789012345678901234567890123">
+          <documentation>Capability to define competencies and skills</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.5.2 / Competency Establishment" id="id-34567890123456789012345678901234">
+          <documentation>Capability to establish competency frameworks</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.5.3 / Competency Identification" id="id-45678901234567890123456789012345">
+          <documentation>Capability to identify required competencies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3.5.4 / Competency Articulation" id="id-56789012345678901234567890123456">
+          <documentation>Capability to articulate and communicate competencies</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-3.9 / Incident Managment" id="id-5d28640d7f9049fdbbb76328e9c28f43"/>
         <element xsi:type="archimate:Capability" name="bc-3.12 / Location Management" id="id-bcebec2be335419a9ea586d781ab8024"/>
         <element xsi:type="archimate:Capability" name="bc-3.13 / Time Management" id="id-5e7fbb0e75924a29936b029e1a93ae27"/>
         <element xsi:type="archimate:Capability" name="bc-3.14 / Language Management" id="id-6c85b83025d04e9581f0373ef1ebf43e"/>
         <element xsi:type="archimate:Capability" name="bc-3.15 / Legal Support Management" id="id-abe6491ee8664421a03671d2edf0f14f"/>
+        <element xsi:type="archimate:Capability" name="bc3-10 / Inquiry Management" id="id-271d1ba8203e48c0a4b1a0a740313e0f"/>
+        <element xsi:type="archimate:Capability" name="bc-3-11 / Content Management" id="id-259e02ff7a204cb39afcd6b6501780a1"/>
+        <element xsi:type="archimate:Capability" name="bc-3-11.1 / Content Establishment" id="id-90123456789012345678901234567890">
+          <documentation>Capability to establish and create content</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3-11.2 / Content Access Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to manage access to content</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3-11.3 / Content Discovery Management" id="id-12345678901234567890123456789012">
+          <documentation>Capability to manage content discovery and search</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-3-11.4 / Content Development" id="id-23456789012345678901234567890123">
+          <documentation>Capability to develop and enhance content</documentation>
+        </element>
       </folder>
       <folder name="bc-4 / Marketing and Sales" id="id-59866e3aa207445fa0f110feb3739f18">
         <element xsi:type="archimate:Capability" name="bc-4 / Marketing and Sales" id="id-73cb936a4f18441880612d3e176932bb"/>
         <element xsi:type="archimate:Capability" name="bc-4.1 / Brand Management" id="id-068279a4bbae4751981346cdf95bffa5">
           <documentation>Ability to establish, develop, analyze, administer, and report on all aspects of a market’s perception of the business (or part), its  products, services, experience and culture often represented by unique names, symbols, marks, colours or logo.</documentation>
         </element>
+        <element xsi:type="archimate:Capability" name="bc-4.1.1 / Brand Establishment" id="id-90123456789012345678901234567890">
+          <documentation>Capability to establish and create brand identity</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.1.2 / Brand Performance Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to manage and monitor brand performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.1.3 / Brand Awareness Assessment" id="id-12345678901234567890123456789012">
+          <documentation>Capability to assess brand awareness and recognition</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.1.4 / Brand Association Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage relationships between brand and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.1.4.1 / Brand to Policy Association" id="id-34567890123456789012345678901234">
+          <documentation>Capability to align brand with policy frameworks</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.1.4.2 / Brand to Business Direction Association" id="id-45678901234567890123456789012345">
+          <documentation>Capability to align brand with strategic direction</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.1.4.3 / Brand to Information Association" id="id-56789012345678901234567890123456">
+          <documentation>Capability to link brand with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.1.4.4 / Brand to Market Association" id="id-67890123456789012345678901234567">
+          <documentation>Capability to connect brand with market segments</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-4.2 / Campaign Management" id="id-a3ca7a9de7cd4161995c9cb3e25890bb">
           <documentation>Ability to identify the need for, plan, design, execute, and measure the effectiveness of an outreach activity that targets one or more markets.</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.2.1 / Direct Campaign Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage direct campaign activities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.2.1.1 / Campaign Establishment" id="id-89012345678901234567890123456789">
+          <documentation>Capability to establish and create campaigns</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.2.1.2 / Campaign Design" id="id-90123456789012345678901234567890">
+          <documentation>Capability to design campaign strategies and materials</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.2.1.3 / Campaign Performance Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to manage and monitor campaign performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.2.1.4 / Campaign Market Targeting" id="id-12345678901234567890123456789012">
+          <documentation>Capability to target specific market segments with campaigns</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.2.2 / Campaign Association Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage relationships between campaigns and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.2.2.1 / Campaign to Business Direction Association" id="id-34567890123456789012345678901234">
+          <documentation>Capability to align campaigns with strategic direction</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.2.2.2 / Campaign to Brand Association" id="id-45678901234567890123456789012345">
+          <documentation>Capability to link campaigns with brand elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.2.2.3 / Campaign to Information Association" id="id-56789012345678901234567890123456">
+          <documentation>Capability to connect campaigns with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.2.2.4 / Campaign to Risk Association" id="id-67890123456789012345678901234567">
+          <documentation>Capability to link campaigns with risk management</documentation>
         </element>
         <element xsi:type="archimate:Capability" name="bc-4.3 / Event Management" id="id-1f17b19ebcf64ef7b08d33d254c18dce">
           <documentation>Ability to establish, use, sustain, disseminate, and analyze an occurrence or happening at defined time(s) and place(s), including physical and virtual meetings, conferences, or similar.</documentation>
         </element>
+        <element xsi:type="archimate:Capability" name="bc-4.3.1 / Event Establishment" id="id-78901234567890123456789012345678">
+          <documentation>Capability to establish and create events</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.3.2 / Event Performance Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage and monitor event performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.3.3 / Event Market Targeting" id="id-90123456789012345678901234567890">
+          <documentation>Capability to target specific market segments with events</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.3.4 / Event Association Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to manage relationships between events and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.3.4.1 / Event to Information Association" id="id-12345678901234567890123456789012">
+          <documentation>Capability to link events with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.3.4.2 / Event to Risk Association" id="id-23456789012345678901234567890123">
+          <documentation>Capability to connect events with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.3.4.3 / Event to Brand Association" id="id-34567890123456789012345678901234">
+          <documentation>Capability to link events with brand elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.3.4.4 / Event to Business Direction Association" id="id-45678901234567890123456789012345">
+          <documentation>Capability to align events with strategic direction</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-4.4 / Lead Management" id="id-88429dd8dbe24ae0bc6ef5a9cbabdd1c">
           <documentation>Ability to track, monitor, … active sales opportunities </documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.4.1 / Lead Validation" id="id-56789012345678901234567890123456">
+          <documentation>Capability to validate and verify lead information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.4.2 / Lead State Assessment" id="id-67890123456789012345678901234567">
+          <documentation>Capability to assess and track lead status and progression</documentation>
         </element>
         <element xsi:type="archimate:Capability" name="bc-4.5 / Loyalty Management" id="id-f0e722c603f9448c9c7db282fac38ed0">
           <documentation>Ability to explore, design and develop methods which encourage, promote and enhance customer engagement, fidelity, retention and relationship. </documentation>
         </element>
+        <element xsi:type="archimate:Capability" name="bc-4.5.1 / Loyalty Market Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage loyalty programs across different markets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.5.2 / Loyalty Program Performance Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage and monitor loyalty program performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.5.3 / Loyalty Association Management" id="id-90123456789012345678901234567890">
+          <documentation>Capability to manage relationships between loyalty programs and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.5.3.1 / Loyalty to Information Association" id="id-01234567890123456789012345678901">
+          <documentation>Capability to link loyalty programs with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.5.3.2 / Loyalty to Business Direction Association" id="id-12345678901234567890123456789012">
+          <documentation>Capability to align loyalty programs with strategic direction</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.5.3.3 / Loyalty to Brand Association" id="id-23456789012345678901234567890123">
+          <documentation>Capability to link loyalty programs with brand elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.5.3.4 / Loyalty to Channel Association" id="id-34567890123456789012345678901234">
+          <documentation>Capability to connect loyalty programs with channel strategies</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-4.6 / Market Management" id="id-24f1e221c8c24393b2662787663272c4">
           <documentation>Ability to define, identify, quantify, qualify, analyze, segment, address, and create a nominal, physical or virtual place where demand and supply operate and buyers and sellers interact.</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.6.1 / Market Establishment" id="id-45678901234567890123456789012345">
+          <documentation>Capability to establish and create market segments</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.6.2 / Market Forecasting" id="id-56789012345678901234567890123456">
+          <documentation>Capability to forecast market trends and opportunities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.6.3 / Market Segmentation" id="id-67890123456789012345678901234567">
+          <documentation>Capability to segment markets into target groups</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.6.4 / Market Association Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage relationships between markets and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.6.4.1 / Market to Business Direction Association" id="id-89012345678901234567890123456789">
+          <documentation>Capability to align markets with strategic direction</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.6.4.2 / Market to Risk Association" id="id-90123456789012345678901234567890">
+          <documentation>Capability to link markets with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.6.4.3 / Market to Information Association" id="id-01234567890123456789012345678901">
+          <documentation>Capability to connect markets with information assets</documentation>
         </element>
         <element xsi:type="archimate:Capability" name="bc-4.7 / Message Management" id="id-85657dad0dd24deb8eaadea12787c1a2">
           <documentation>Ability to define, craft, frame, vet, disseminate, and track some information, news, advice, request, or the like that is to be communicated internally or externally as a missives, notifications,  or alerts about the organization's mission, products, plans, activities, and the like.</documentation>
         </element>
+        <element xsi:type="archimate:Capability" name="bc-4.7.1 / Message Creation" id="id-12345678901234567890123456789012">
+          <documentation>Capability to create and develop messages</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.7.1.1 / Message Purpose Determination" id="id-23456789012345678901234567890123">
+          <documentation>Capability to determine the purpose and objectives of messages</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.7.1.2 / Message Scope Definition" id="id-34567890123456789012345678901234">
+          <documentation>Capability to define the scope and boundaries of messages</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.7.1.3 / Message Design" id="id-45678901234567890123456789012345">
+          <documentation>Capability to design and structure messages</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.7.1.4 / Message Validation" id="id-56789012345678901234567890123456">
+          <documentation>Capability to validate and verify message content</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.7.1.5 / Message Finalization" id="id-67890123456789012345678901234567">
+          <documentation>Capability to finalize and approve messages</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.7.2 / Message Association Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage relationships between messages and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.7.2.1 / Message Risk Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage risks associated with messages</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.7.2.2 / Message to Policy Association" id="id-90123456789012345678901234567890">
+          <documentation>Capability to align messages with policy frameworks</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-4.8 / Offer Management" id="id-7f87efdb421e4fa0acda251ba0cfbf67">
           <documentation>Ability to create, present, and deliver a targeted personalized opportunity intended to create a purposeful engagement,  that are delivered to a particular group of customers or prospects, using one or more channels. </documentation>
         </element>
+        <element xsi:type="archimate:Capability" name="bc-4.8.1 / Offer Validation" id="id-01234567890123456789012345678901">
+          <documentation>Capability to validate and verify offer content and eligibility</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.8.2 / Offer Creation" id="id-12345678901234567890123456789012">
+          <documentation>Capability to create and develop offers</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-4.9 / Sales Plan Management" id="id-d16673a0c9d1403eb95eb2e527c23ca3">
           <documentation>Ability to organize, schedule, direct and otherwise administer the sales activities of the business.</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.9.1 / Sales Performance Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage and monitor sales performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.9.1.1 / Sales Target Management" id="id-34567890123456789012345678901234">
+          <documentation>Capability to set and manage sales targets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.9.1.2 / Sales Variance Assessment" id="id-45678901234567890123456789012345">
+          <documentation>Capability to assess sales performance variances</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.9.1.3 / Sales Determination" id="id-56789012345678901234567890123456">
+          <documentation>Capability to determine sales outcomes and results</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.9.2 / Sales Association Management" id="id-67890123456789012345678901234567">
+          <documentation>Capability to manage relationships between sales activities and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.9.2.1 / Sales to Risk Association" id="id-78901234567890123456789012345678">
+          <documentation>Capability to link sales activities with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.9.2.2 / Sales to Business Direction Association" id="id-89012345678901234567890123456789">
+          <documentation>Capability to align sales activities with strategic direction</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.9.2.3 / Sales to Information Association" id="id-90123456789012345678901234567890">
+          <documentation>Capability to connect sales activities with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.9.3 / Sales Resource Targeting" id="id-01234567890123456789012345678901">
+          <documentation>Capability to target and allocate sales resources</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-4.9.4 / Sales Forecasting" id="id-12345678901234567890123456789012">
+          <documentation>Capability to forecast sales trends and opportunities</documentation>
         </element>
       </folder>
       <folder name="bc-5 / Customer and Distribution" id="id-6c071447237742ca9dc0cee16706c612">
         <element xsi:type="archimate:Capability" name="bc-5 / Customer and Distribution" id="id-2b0191040a04479aa7cbc1150f230620"/>
         <element xsi:type="archimate:Capability" name="bc-5.1 / Channel Management" id="id-826975539e4c4215a57bfedb3598e41c"/>
+        <element xsi:type="archimate:Capability" name="bc-5.1.1 / Channel Development" id="id-23456789012345678901234567890123">
+          <documentation>Capability to develop and enhance channel capabilities</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.1.1 / Channel Needs Determination" id="id-34567890123456789012345678901234">
+          <documentation>Capability to determine channel requirements and needs</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.1.2 / Channel Conceptualization" id="id-45678901234567890123456789012345">
+          <documentation>Capability to conceptualize channel strategies</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.1.3 / Channel Design" id="id-56789012345678901234567890123456">
+          <documentation>Capability to design channel structures and processes</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.1.4 / Channel Modeling" id="id-67890123456789012345678901234567">
+          <documentation>Capability to model channel performance and behavior</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.1.5 / Channel Prototyping" id="id-78901234567890123456789012345678">
+          <documentation>Capability to prototype and test channel concepts</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.1.6 / Channel Packaging" id="id-89012345678901234567890123456789">
+          <documentation>Capability to package channel offerings</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.2 / Channel Access Management" id="id-90123456789012345678901234567890">
+          <documentation>Capability to manage channel access and permissions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.3 / Channel Performance Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to manage and monitor channel performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.3.1 / Channel Performance Target Management" id="id-12345678901234567890123456789012">
+          <documentation>Capability to set and manage channel performance targets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.3.2 / Channel Profitability Determination" id="id-23456789012345678901234567890123">
+          <documentation>Capability to determine channel profitability</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.3.3 / Channel Recognition Determination" id="id-34567890123456789012345678901234">
+          <documentation>Capability to determine channel recognition and rewards</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.4 / Channel Association Management" id="id-45678901234567890123456789012345">
+          <documentation>Capability to manage relationships between channels and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.4.1 / Channel to Risk Association" id="id-56789012345678901234567890123456">
+          <documentation>Capability to link channels with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.1.4.2 / Channel to Information Association" id="id-67890123456789012345678901234567">
+          <documentation>Capability to connect channels with information assets</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-5.2 / Customer Management" id="id-581c6e2991044a0e96010eeb0fc8d767"/>
+        <element xsi:type="archimate:Capability" name="bc-5.2.1 / Customer Access Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage customer access and permissions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.2.2 / Customer Authentication Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage customer authentication and security</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.2.3 / Customer Establishment" id="id-90123456789012345678901234567890">
+          <documentation>Capability to establish and create customer relationships</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.2.4 / Customer Association Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to manage relationships between customers and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.2.4.1 / Customer to Risk Association" id="id-12345678901234567890123456789012">
+          <documentation>Capability to link customers with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.2.4.2 / Customer to Information Association" id="id-23456789012345678901234567890123">
+          <documentation>Capability to connect customers with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.2.5 / Customer Needs Assessment" id="id-34567890123456789012345678901234">
+          <documentation>Capability to assess customer needs and requirements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.2.6 / Financial Planning" id="id-45678901234567890123456789012345">
+          <documentation>Capability to provide financial planning services to customers</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.2.7 / Goal Determination" id="id-56789012345678901234567890123456">
+          <documentation>Capability to determine customer goals and objectives</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.2.8 / Customer Performance Management" id="id-67890123456789012345678901234567">
+          <documentation>Capability to manage and monitor customer performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.2.9 / Customer Preference Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage customer preferences and settings</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.2.10 / Customer Profitability Management" id="id-89012345678901234567890123456789">
+          <documentation>Capability to manage customer profitability and value</documentation>
+        </element>
         <element xsi:type="archimate:Capability" name="bc-5.3 / Partner Management" id="id-4c5593bdcde543fca76bd8411f352eca"/>
-        <element xsi:type="archimate:Capability" name="bc-5.4 / Interaction Management" id="id-89b47ef6e47543df911be27f6194c008"/>
+        <element xsi:type="archimate:Capability" name="bc-5.3.1 / Partner Establishment" id="id-90123456789012345678901234567890">
+          <documentation>Capability to establish and create partner relationships</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.3.1.1 / Partner Sourcing" id="id-01234567890123456789012345678901">
+          <documentation>Capability to source and identify potential partners</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.3.1.2 / Partner Eligibility Validation" id="id-12345678901234567890123456789012">
+          <documentation>Capability to validate partner eligibility and qualifications</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.3.1.3 / Partner Agreement Management" id="id-23456789012345678901234567890123">
+          <documentation>Capability to manage partner agreements and contracts</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.3.1.4 / Partner Cost/Price Determination" id="id-34567890123456789012345678901234">
+          <documentation>Capability to determine partner costs and pricing</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.3.2 / Partner Performance Management" id="id-45678901234567890123456789012345">
+          <documentation>Capability to manage and monitor partner performance</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.3.2.1 / Partner Performance Target Determination" id="id-56789012345678901234567890123456">
+          <documentation>Capability to set and manage partner performance targets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.3.2.2 / Partner Performance Determination" id="id-67890123456789012345678901234567">
+          <documentation>Capability to determine partner performance outcomes</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.3.3 / Partner Association Management" id="id-78901234567890123456789012345678">
+          <documentation>Capability to manage relationships between partners and other organizational elements</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.3.3.1 / Partner to Information Association" id="id-89012345678901234567890123456789">
+          <documentation>Capability to link partners with information assets</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.3.3.2 / Partner to Risk Association" id="id-90123456789012345678901234567890">
+          <documentation>Capability to connect partners with risk management</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.4.1 / Interaction Experience Management" id="id-01234567890123456789012345678901">
+          <documentation>Capability to manage customer interaction experiences</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.4.2 / Interaction Analysis" id="id-12345678901234567890123456789012">
+          <documentation>Capability to analyze interaction patterns and behaviors</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.4.3 / Interaction Design" id="id-23456789012345678901234567890123">
+          <documentation>Capability to design interaction processes and interfaces</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.4.4 / Interaction Information Management" id="id-34567890123456789012345678901234">
+          <documentation>Capability to manage interaction-related information</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.4.5 / Interaction Monitoring" id="id-45678901234567890123456789012345">
+          <documentation>Capability to monitor and track interactions</documentation>
+        </element>
+        <element xsi:type="archimate:Capability" name="bc-5.4.6 / Interaction Establishment" id="id-56789012345678901234567890123456">
+          <documentation>Capability to establish and initiate interactions</documentation>
+        </element>
       </folder>
     </folder>
   </folder>
@@ -6980,7 +8227,6 @@
       <element xsi:type="archimate:CompositionRelationship" id="id-2b01937e922e4a5a857107b47e12718e" source="id-40401ee2b3894c12b4b118ae3cb135ef" target="id-5e7fbb0e75924a29936b029e1a93ae27"/>
       <element xsi:type="archimate:CompositionRelationship" id="id-ab2c911a8dfb43ff9e75b7ff0238b848" source="id-40401ee2b3894c12b4b118ae3cb135ef" target="id-6c85b83025d04e9581f0373ef1ebf43e"/>
       <element xsi:type="archimate:CompositionRelationship" id="id-29e937e56f144a91b4115f7f871c1826" source="id-40401ee2b3894c12b4b118ae3cb135ef" target="id-abe6491ee8664421a03671d2edf0f14f"/>
-      <element xsi:type="archimate:CompositionRelationship" id="id-3982f4c948a44a1c80679704d6bbb92f" source="id-2b0191040a04479aa7cbc1150f230620" target="id-89b47ef6e47543df911be27f6194c008"/>
     </folder>
     <folder name="SCOR" id="id-707c7baea6ea4451925f51e635fa96ad">
       <element xsi:type="archimate:CompositionRelationship" id="id-823f3826cfd9427685efaf246053e2c8" source="id-a1b2c3d4e5f678901234567890123456" target="id-74a1d4b991924533960e99f13bf76efe"/>
@@ -11879,7 +13125,6 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-e0dc6bc54bf445c995e1b9f66a5cba79" source="id-efb6e3b3364b4c4689a4feee2395af40" target="id-ff96e179989849fdb45f9d04958b5936" archimateRelationship="id-0fba71e2f0034bf0ac8102384f286002"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-5546dbe3ff8645a88e478f3a8f567b1d" source="id-efb6e3b3364b4c4689a4feee2395af40" target="id-b7c024c6ef054ca285280e580b2f498e" archimateRelationship="id-e01b3a189b494d7c9acd9d7d860d0b30"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-1bbff57c6f254dc88672075c6a82b3ef" source="id-efb6e3b3364b4c4689a4feee2395af40" target="id-ec7388f13902434c8466e3bd862a30ee" archimateRelationship="id-ab0cd220d5d3405a8dd368b185f2b189"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-42ad023a1521446aa302bd2bac03d713" source="id-efb6e3b3364b4c4689a4feee2395af40" target="id-b8919079964545fdb5268494d99655c5" archimateRelationship="id-3982f4c948a44a1c80679704d6bbb92f"/>
         <child xsi:type="archimate:DiagramObject" id="id-b7c024c6ef054ca285280e580b2f498e" targetConnections="id-5546dbe3ff8645a88e478f3a8f567b1d" archimateElement="id-826975539e4c4215a57bfedb3598e41c">
           <bounds x="24" y="72" width="120" height="55"/>
         </child>
@@ -11888,10 +13133,6 @@
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-ff96e179989849fdb45f9d04958b5936" targetConnections="id-e0dc6bc54bf445c995e1b9f66a5cba79" archimateElement="id-581c6e2991044a0e96010eeb0fc8d767">
           <bounds x="24" y="144" width="120" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-b8919079964545fdb5268494d99655c5" targetConnections="id-42ad023a1521446aa302bd2bac03d713" archimateElement="id-89b47ef6e47543df911be27f6194c008">
-          <bounds x="24" y="288" width="120" height="55"/>
-          <feature name="deriveElementLineColor" value="false"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-78dfca4ff0ed4886818d791d494930ea" archimateElement="id-40401ee2b3894c12b4b118ae3cb135ef">
